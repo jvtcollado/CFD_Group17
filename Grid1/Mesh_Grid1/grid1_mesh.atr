@@ -1,0 +1,64 @@
+# Written by ICEM CFD 24.2, user helen, Sun Oct 11 22:41:47 W. Europe Summer Time 2026
+
+begin family PNTS
+    begin solver "Ansys Fluent"
+        begin bctype color
+            active 1
+            color 14693300 1
+        end bctype color
+    end solver "Ansys Fluent"
+end family PNTS
+
+begin family INLET
+    begin solver "Ansys Fluent"
+        begin bctype color
+            active 1
+            color 14693300 1
+        end bctype color
+    end solver "Ansys Fluent"
+end family INLET
+
+begin family BLADE.1
+    begin solver "Ansys Fluent"
+        begin bctype color
+            active 1
+            color 3374570 1
+        end bctype color
+    end solver "Ansys Fluent"
+end family BLADE.1
+
+begin family WALLS
+    begin solver "Ansys Fluent"
+        begin bctype color
+            active 1
+            color 14693300 1
+        end bctype color
+    end solver "Ansys Fluent"
+end family WALLS
+
+begin family OUTLET
+    begin solver "Ansys Fluent"
+        begin bctype color
+            active 1
+            color 14693300 1
+        end bctype color
+    end solver "Ansys Fluent"
+end family OUTLET
+
+begin family PER_UPP
+    begin solver "Ansys Fluent"
+        begin bctype color
+            active 1
+            color 14693300 1
+        end bctype color
+    end solver "Ansys Fluent"
+end family PER_UPP
+
+begin family PER_LOW
+    begin solver "Ansys Fluent"
+        begin bctype color
+            active 1
+            color 14693300 1
+        end bctype color
+    end solver "Ansys Fluent"
+end family PER_LOW

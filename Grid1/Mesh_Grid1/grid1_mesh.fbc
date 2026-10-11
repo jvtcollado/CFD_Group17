@@ -1,0 +1,17 @@
+# family_boco file written by ICEM CFD by helen on Sun Oct 11 22:41:47 W. Europe Summer Time 2026
+## solver Ansys Fluent
+"PNTS"
+"PNTS" "color" 14693271
+"INLET"
+"INLET" "color" 14693271
+"BLADE.1"
+"BLADE.1" "color" 3374574
+"WALLS"
+"WALLS" "color" 14693271
+"OUTLET"
+"OUTLET" "color" 14693271
+"PER_UPP"
+"PER_UPP" "color" 14693271
+"PER_LOW"
+"PER_LOW" "color" 14693271
+
