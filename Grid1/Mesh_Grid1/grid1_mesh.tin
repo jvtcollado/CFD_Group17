@@ -1,6 +1,6 @@
 // tetin file version 1.1
 // written by undo_logger - version 24.2 on Sun Oct 11 21:11:07 2026
-// written by ICEM CFD - version 24.2 on Sun Oct 11 22:41:47 2026
+// written by ICEM CFD - version 24.2 on Sun Oct 11 22:44:34 2026
 
 set_triangulation_tolerance 9.9999997e-10
 # In ICEM CFD 4.2 the family_boco file is no longer tied to tetin
