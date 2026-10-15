@@ -1,0 +1,3712 @@
+// tetin file version 1.1
+// written by undo_logger - version 24.2 on Sun Oct 11 21:11:07 2026
+// written by ICEM CFD - version 24.2 on Sun Oct 11 22:44:34 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 15:09:15 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 15:10:20 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 15:41:51 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 16:14:21 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 18:43:38 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 20:38:07 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 21:26:44 2026
+// written by ICEM CFD - version 24.2 on Thu Oct 15 22:02:02 2026
+
+set_triangulation_tolerance 9.9999997e-10
+define_family PNTS color 14693271
+define_family INLET color 16663101
+define_family BLADE.1 color 1174259
+define_family OUTLET color 3387852
+define_family PER_UPP color 982788
+define_family PER_LOW color 255
+define_family SOLID color 3403389
+
+prescribed_point 36.97708138 -51.59547631 0 family PNTS name pnt0
+prescribed_point 36.97676343 -51.63123452 0 family PNTS name pnt1
+prescribed_point 36.97468667 -51.66691154 0 family PNTS name pnt2
+prescribed_point 36.97084432 -51.70235857 0 family PNTS name pnt3
+prescribed_point 36.96527697 -51.73745383 0 family PNTS name pnt4
+prescribed_point 36.95799816 -51.7722041 0 family PNTS name pnt5
+prescribed_point 36.94902816 -51.80648083 0 family PNTS name pnt6
+prescribed_point 36.93842788 -51.84016227 0 family PNTS name pnt7
+prescribed_point 36.92620407 -51.87324166 0 family PNTS name pnt8
+prescribed_point 36.91239731 -51.90563781 0 family PNTS name pnt9
+prescribed_point 36.8970888 -51.93720866 0 family PNTS name pnt10
+prescribed_point 36.88028528 -51.96794746 0 family PNTS name pnt11
+prescribed_point 36.86202059 -51.99780684 0 family PNTS name pnt12
+prescribed_point 36.84241649 -52.02663799 0 family PNTS name pnt13
+prescribed_point 36.82147975 -52.05442738 0 family PNTS name pnt14
+prescribed_point 36.79923065 -52.08116148 0 family PNTS name pnt15
+prescribed_point 36.77581126 -52.10669822 0 family PNTS name pnt16
+prescribed_point 36.75124863 -52.13101732 0 family PNTS name pnt17
+prescribed_point 36.72556983 -52.15412553 0 family PNTS name pnt18
+prescribed_point 36.69888985 -52.17590786 0 family PNTS name pnt19
+prescribed_point 36.67128988 -52.19633049 0 family PNTS name pnt20
+prescribed_point 36.64276314 -52.21540018 0 family PNTS name pnt21
+prescribed_point 36.61343816 -52.23305605 0 family PNTS name pnt22
+prescribed_point 36.58340966 -52.24923721 0 family PNTS name pnt23
+prescribed_point 36.55267763 -52.26397073 0 family PNTS name pnt24
+prescribed_point 36.5213503 -52.27720925 0 family PNTS name pnt25
+prescribed_point 36.48953592 -52.28891894 0 family PNTS name pnt26
+prescribed_point 36.457248 -52.29909982 0 family PNTS name pnt27
+prescribed_point 36.42451362 -52.3077654 0 family PNTS name pnt28
+prescribed_point 36.39127188 -52.31490216 0 family PNTS name pnt29
+prescribed_point 36.35751603 -52.32049656 0 family PNTS name pnt30
+prescribed_point 36.32334753 -52.3244945 0 family PNTS name pnt31
+prescribed_point 36.28889492 -52.32686891 0 family PNTS name pnt32
+prescribed_point 36.25414465 -52.32758597 0 family PNTS name pnt33
+prescribed_point 36.21921174 -52.32661185 0 family PNTS name pnt34
+prescribed_point 36.18423824 -52.3239398 0 family PNTS name pnt35
+prescribed_point 36.14921062 -52.31953598 0 family PNTS name pnt36
+prescribed_point 36.11424389 -52.31337333 0 family PNTS name pnt37
+prescribed_point 36.07950039 -52.30547216 0 family PNTS name pnt38
+prescribed_point 36.04498689 -52.29579864 0 family PNTS name pnt39
+prescribed_point 36.01079133 -52.28433924 0 family PNTS name pnt40
+prescribed_point 35.9770896 -52.27113455 0 family PNTS name pnt41
+prescribed_point 35.94390874 -52.25617103 0 family PNTS name pnt42
+prescribed_point 35.91131642 -52.23943516 0 family PNTS name pnt43
+prescribed_point 35.87951557 -52.22099459 0 family PNTS name pnt44
+prescribed_point 35.84852647 -52.20084931 0 family PNTS name pnt45
+prescribed_point 35.81841679 -52.1789858 0 family PNTS name pnt46
+prescribed_point 35.7893827 -52.15551906 0 family PNTS name pnt47
+prescribed_point 35.76145126 -52.13043555 0 family PNTS name pnt48
+prescribed_point 35.73469687 -52.10375557 0 family PNTS name pnt49
+prescribed_point 35.70929542 -52.07561442 0 family PNTS name pnt50
+prescribed_point 35.68527397 -52.04600533 0 family PNTS name pnt51
+prescribed_point 35.66272722 -52.01497565 0 family PNTS name pnt52
+prescribed_point 35.64179048 -51.98267421 0 family PNTS name pnt53
+prescribed_point 35.62249079 -51.94908071 0 family PNTS name pnt54
+prescribed_point 35.60494992 -51.91434397 0 family PNTS name pnt55
+prescribed_point 35.58924229 -51.87853842 0 family PNTS name pnt56
+prescribed_point 35.57518524 -51.84181963 0 family PNTS name pnt57
+prescribed_point 35.56132437 -51.80483701 0 family PNTS name pnt58
+prescribed_point 35.54739585 -51.76767175 0 family PNTS name pnt59
+prescribed_point 35.53339969 -51.73031031 0 family PNTS name pnt60
+prescribed_point 35.51932911 -51.69275946 0 family PNTS name pnt61
+prescribed_point 35.50519766 -51.6550192 0 family PNTS name pnt62
+prescribed_point 35.49099179 -51.61708276 0 family PNTS name pnt63
+prescribed_point 35.47671827 -51.57895015 0 family PNTS name pnt64
+prescribed_point 35.46237034 -51.54062812 0 family PNTS name pnt65
+prescribed_point 35.44796153 -51.50210316 0 family PNTS name pnt66
+prescribed_point 35.43347154 -51.46338878 0 family PNTS name pnt67
+prescribed_point 35.41891391 -51.42447146 0 family PNTS name pnt68
+prescribed_point 35.40428863 -51.38535796 0 family PNTS name pnt69
+prescribed_point 35.38958893 -51.34604829 0 family PNTS name pnt70
+prescribed_point 35.37482159 -51.30652892 0 family PNTS name pnt71
+prescribed_point 35.35997984 -51.26682013 0 family PNTS name pnt72
+prescribed_point 35.34507044 -51.2269084 0 family PNTS name pnt73
+prescribed_point 35.33008663 -51.18678696 0 family PNTS name pnt74
+prescribed_point 35.31502841 -51.14646935 0 family PNTS name pnt75
+prescribed_point 35.29990254 -51.10594203 0 family PNTS name pnt76
+prescribed_point 35.28469549 -51.06521177 0 family PNTS name pnt77
+prescribed_point 35.2694208 -51.02427857 0 family PNTS name pnt78
+prescribed_point 35.2540717 -50.98313567 0 family PNTS name pnt79
+prescribed_point 35.23864818 -50.94178982 0 family PNTS name pnt80
+prescribed_point 35.22315702 -50.9002275 0 family PNTS name pnt81
+prescribed_point 35.20758468 -50.85846901 0 family PNTS name pnt82
+prescribed_point 35.19194469 -50.81648728 0 family PNTS name pnt83
+prescribed_point 35.17622353 -50.77430261 0 family PNTS name pnt84
+prescribed_point 35.16043472 -50.73190147 0 family PNTS name pnt85
+prescribed_point 35.14456473 -50.68929063 0 family PNTS name pnt86
+prescribed_point 35.12862034 -50.64646331 0 family PNTS name pnt87
+prescribed_point 35.11260153 -50.60341953 0 family PNTS name pnt88
+prescribed_point 35.0965083 -50.56016603 0 family PNTS name pnt89
+prescribed_point 35.08034067 -50.51669607 0 family PNTS name pnt90
+prescribed_point 35.06409863 -50.47300964 0 family PNTS name pnt91
+prescribed_point 35.04777541 -50.42909997 0 family PNTS name pnt92
+prescribed_point 35.03137777 -50.38497383 0 family PNTS name pnt93
+prescribed_point 35.01489896 -50.34063123 0 family PNTS name pnt94
+prescribed_point 34.99835251 -50.29606538 0 family PNTS name pnt95
+prescribed_point 34.98172488 -50.25128307 0 family PNTS name pnt96
+prescribed_point 34.96501607 -50.20627075 0 family PNTS name pnt97
+prescribed_point 34.94823285 -50.16104197 0 family PNTS name pnt98
+prescribed_point 34.93137521 -50.11558319 0 family PNTS name pnt99
+prescribed_point 34.9144364 -50.06990793 0 family PNTS name pnt100
+prescribed_point 34.89741642 -50.02399591 0 family PNTS name pnt101
+prescribed_point 34.88032202 -49.97786742 0 family PNTS name pnt102
+prescribed_point 34.86315321 -49.93150217 0 family PNTS name pnt103
+prescribed_point 34.84589646 -49.88491368 0 family PNTS name pnt104
+prescribed_point 34.8285653 -49.83809519 0 family PNTS name pnt105
+prescribed_point 34.81115296 -49.7910467 0 family PNTS name pnt106
+prescribed_point 34.79365945 -49.74376822 0 family PNTS name pnt107
+prescribed_point 34.77609152 -49.69625973 0 family PNTS name pnt108
+prescribed_point 34.75844242 -49.64851447 0 family PNTS name pnt109
+prescribed_point 34.74071214 -49.60053246 0 family PNTS name pnt110
+prescribed_point 34.72290069 -49.55232044 0 family PNTS name pnt111
+prescribed_point 34.70500129 -49.50387842 0 family PNTS name pnt112
+prescribed_point 34.68702748 -49.45519288 0 family PNTS name pnt113
+prescribed_point 34.6689725 -49.40627057 0 family PNTS name pnt114
+prescribed_point 34.65083634 -49.35711826 0 family PNTS name pnt115
+prescribed_point 34.632619 -49.30772242 0 family PNTS name pnt116
+prescribed_point 34.61431372 -49.25808981 0 family PNTS name pnt117
+prescribed_point 34.59592727 -49.20821368 0 family PNTS name pnt118
+prescribed_point 34.57745287 -49.15809402 0 family PNTS name pnt119
+prescribed_point 34.55890407 -49.10773759 0 family PNTS name pnt120
+prescribed_point 34.54026055 -49.05713087 0 family PNTS name pnt121
+prescribed_point 34.52154263 -49.00628739 0 family PNTS name pnt122
+prescribed_point 34.50273676 -48.95520037 0 family PNTS name pnt123
+prescribed_point 34.48384296 -48.90386306 0 family PNTS name pnt124
+prescribed_point 34.46486797 -48.85228223 0 family PNTS name pnt125
+prescribed_point 34.44580505 -48.80045786 0 family PNTS name pnt126
+prescribed_point 34.42666095 -48.74837643 0 family PNTS name pnt127
+prescribed_point 34.40742214 -48.69605148 0 family PNTS name pnt128
+prescribed_point 34.38810216 -48.64347623 0 family PNTS name pnt129
+prescribed_point 34.36869423 -48.59065069 0 family PNTS name pnt130
+prescribed_point 34.34919837 -48.53758162 0 family PNTS name pnt131
+prescribed_point 34.32962132 -48.48424872 0 family PNTS name pnt132
+prescribed_point 34.30994281 -48.4306723 0 family PNTS name pnt133
+prescribed_point 34.29018989 -48.37683882 0 family PNTS name pnt134
+prescribed_point 34.27034226 -48.32274827 0 family PNTS name pnt135
+prescribed_point 34.25040669 -48.26840067 0 family PNTS name pnt136
+prescribed_point 34.23038318 -48.21380278 0 family PNTS name pnt137
+prescribed_point 34.21026496 -48.15894106 0 family PNTS name pnt138
+prescribed_point 34.1900588 -48.10382905 0 family PNTS name pnt139
+prescribed_point 34.1697647 -48.04845322 0 family PNTS name pnt140
+prescribed_point 34.14938266 -47.99282033 0 family PNTS name pnt141
+prescribed_point 34.12890591 -47.93693037 0 family PNTS name pnt142
+prescribed_point 34.10834122 -47.8807766 0 family PNTS name pnt143
+prescribed_point 34.08767506 -47.824359 0 family PNTS name pnt144
+prescribed_point 34.06692773 -47.76767758 0 family PNTS name pnt145
+prescribed_point 34.04608569 -47.7107391 0 family PNTS name pnt146
+prescribed_point 34.02514894 -47.65353003 0 family PNTS name pnt147
+prescribed_point 34.00411749 -47.59606391 0 family PNTS name pnt148
+prescribed_point 33.9829981 -47.53832043 0 family PNTS name pnt149
+prescribed_point 33.96177723 -47.48031989 0 family PNTS name pnt150
+prescribed_point 33.94046843 -47.422042 0 family PNTS name pnt151
+prescribed_point 33.91906492 -47.36350705 0 family PNTS name pnt152
+prescribed_point 33.8975667 -47.30469475 0 family PNTS name pnt153
+prescribed_point 33.87596701 -47.24561862 0 family PNTS name pnt154
+prescribed_point 33.85427938 -47.18627191 0 family PNTS name pnt155
+prescribed_point 33.83249029 -47.12664784 0 family PNTS name pnt156
+prescribed_point 33.81060648 -47.06675319 0 family PNTS name pnt157
+prescribed_point 33.78862797 -47.00658795 0 family PNTS name pnt158
+prescribed_point 33.76654799 -46.94615212 0 family PNTS name pnt159
+prescribed_point 33.7443733 -46.88543894 0 family PNTS name pnt160
+prescribed_point 33.72210391 -46.8244484 0 family PNTS name pnt161
+prescribed_point 33.69973305 -46.76318728 0 family PNTS name pnt162
+prescribed_point 33.67726072 -46.70164204 0 family PNTS name pnt163
+prescribed_point 33.65469368 -46.63981944 0 family PNTS name pnt164
+prescribed_point 33.63202517 -46.57772626 0 family PNTS name pnt165
+prescribed_point 33.60924842 -46.51535573 0 family PNTS name pnt166
+prescribed_point 33.58637697 -46.45270108 0 family PNTS name pnt167
+prescribed_point 33.56340405 -46.38976231 0 family PNTS name pnt168
+prescribed_point 33.54032966 -46.32655295 0 family PNTS name pnt169
+prescribed_point 33.51714703 -46.26305271 0 family PNTS name pnt170
+prescribed_point 33.49386293 -46.19927512 0 family PNTS name pnt171
+prescribed_point 33.47047737 -46.13521341 0 family PNTS name pnt172
+prescribed_point 33.44698356 -46.07087435 0 family PNTS name pnt173
+prescribed_point 33.42338829 -46.00624441 0 family PNTS name pnt174
+prescribed_point 33.39967802 -45.94133711 0 family PNTS name pnt175
+prescribed_point 33.37586627 -45.87613217 0 family PNTS name pnt176
+prescribed_point 33.35194629 -45.81065664 0 family PNTS name pnt177
+prescribed_point 33.32791808 -45.74488346 0 family PNTS name pnt178
+prescribed_point 33.30378163 -45.67882616 0 family PNTS name pnt179
+prescribed_point 33.27953694 -45.61247798 0 family PNTS name pnt180
+prescribed_point 33.25517726 -45.54584569 0 family PNTS name pnt181
+prescribed_point 33.23070934 -45.47892251 0 family PNTS name pnt182
+prescribed_point 33.20613318 -45.41171522 0 family PNTS name pnt183
+prescribed_point 33.18143526 -45.34421704 0 family PNTS name pnt184
+prescribed_point 33.15663587 -45.27642798 0 family PNTS name pnt185
+prescribed_point 33.13171472 -45.20834128 0 family PNTS name pnt186
+prescribed_point 33.10667856 -45.13997045 0 family PNTS name pnt187
+prescribed_point 33.08153417 -45.07130198 0 family PNTS name pnt188
+prescribed_point 33.05626802 -45.0023494 0 family PNTS name pnt189
+prescribed_point 33.0308801 -44.93309916 0 family PNTS name pnt190
+prescribed_point 33.00538395 -44.86355805 0 family PNTS name pnt191
+prescribed_point 32.97976603 -44.79371928 0 family PNTS name pnt192
+prescribed_point 32.95402634 -44.72358964 0 family PNTS name pnt193
+prescribed_point 32.92817166 -44.65316235 0 family PNTS name pnt194
+prescribed_point 32.90219521 -44.58243741 0 family PNTS name pnt195
+prescribed_point 32.87609024 -44.51142835 0 family PNTS name pnt196
+prescribed_point 32.84987026 -44.44011489 0 family PNTS name pnt197
+prescribed_point 32.82352852 -44.36850377 0 family PNTS name pnt198
+prescribed_point 32.79705148 -44.29659501 0 family PNTS name pnt199
+prescribed_point 32.77045945 -44.2243886 0 family PNTS name pnt200
+prescribed_point 32.74373888 -44.15189131 0 family PNTS name pnt201
+prescribed_point 32.71688979 -44.07908961 0 family PNTS name pnt202
+prescribed_point 32.68991893 -44.00599703 0 family PNTS name pnt203
+prescribed_point 32.66281277 -43.93260003 0 family PNTS name pnt204
+prescribed_point 32.63557809 -43.85889863 0 family PNTS name pnt205
+prescribed_point 32.60821488 -43.78490634 0 family PNTS name pnt206
+prescribed_point 32.58071637 -43.71060964 0 family PNTS name pnt207
+prescribed_point 32.55308934 -43.63600853 0 family PNTS name pnt208
+prescribed_point 32.52532701 -43.56111653 0 family PNTS name pnt209
+prescribed_point 32.49742939 -43.48592013 0 family PNTS name pnt210
+prescribed_point 32.46939647 -43.41041931 0 family PNTS name pnt211
+prescribed_point 32.44122826 -43.33462085 0 family PNTS name pnt212
+prescribed_point 32.41291799 -43.25851797 0 family PNTS name pnt213
+prescribed_point 32.38447919 -43.18211069 0 family PNTS name pnt214
+prescribed_point 32.35589157 -43.10539899 0 family PNTS name pnt215
+prescribed_point 32.32716865 -43.02839641 0 family PNTS name pnt216
+prescribed_point 32.29829691 -42.95108265 0 family PNTS name pnt217
+prescribed_point 32.26928988 -42.87347125 0 family PNTS name pnt218
+prescribed_point 32.24013402 -42.79554867 0 family PNTS name pnt219
+prescribed_point 32.21083611 -42.71732844 0 family PNTS name pnt220
+prescribed_point 32.18139613 -42.63880381 0 family PNTS name pnt221
+prescribed_point 32.15180057 -42.55997476 0 family PNTS name pnt222
+prescribed_point 32.12205619 -42.4808413 0 family PNTS name pnt223
+prescribed_point 32.09216974 -42.40140342 0 family PNTS name pnt224
+prescribed_point 32.06212771 -42.32166114 0 family PNTS name pnt225
+prescribed_point 32.03193685 -42.24162121 0 family PNTS name pnt226
+prescribed_point 32.00158364 -42.1612701 0 family PNTS name pnt227
+prescribed_point 31.97108161 -42.08061458 0 family PNTS name pnt228
+prescribed_point 31.94042399 -41.99965466 0 family PNTS name pnt229
+prescribed_point 31.90961078 -41.91839708 0 family PNTS name pnt230
+prescribed_point 31.87863522 -41.83682833 0 family PNTS name pnt231
+prescribed_point 31.84750407 -41.75495516 0 family PNTS name pnt232
+prescribed_point 31.81621057 -41.67278435 0 family PNTS name pnt233
+prescribed_point 31.78475471 -41.59030236 0 family PNTS name pnt234
+prescribed_point 31.75313651 -41.50751597 0 family PNTS name pnt235
+prescribed_point 31.72134918 -41.42442516 0 family PNTS name pnt236
+prescribed_point 31.6893995 -41.34102993 0 family PNTS name pnt237
+prescribed_point 31.65728071 -41.2573303 0 family PNTS name pnt238
+prescribed_point 31.62499279 -41.17332626 0 family PNTS name pnt239
+prescribed_point 31.59253576 -41.08902456 0 family PNTS name pnt240
+prescribed_point 31.55990285 -41.0044117 0 family PNTS name pnt241
+prescribed_point 31.52710082 -40.91949442 0 family PNTS name pnt242
+prescribed_point 31.49411614 -40.83427949 0 family PNTS name pnt243
+prescribed_point 31.46096235 -40.74875339 0 family PNTS name pnt244
+prescribed_point 31.42762591 -40.66292964 0 family PNTS name pnt245
+prescribed_point 31.39411358 -40.57680148 0 family PNTS name pnt246
+prescribed_point 31.36041861 -40.49036891 0 family PNTS name pnt247
+prescribed_point 31.32654099 -40.40363869 0 family PNTS name pnt248
+prescribed_point 31.29248073 -40.31661082 0 family PNTS name pnt249
+prescribed_point 31.25823782 -40.22928531 0 family PNTS name pnt250
+prescribed_point 31.2238055 -40.14164862 0 family PNTS name pnt251
+prescribed_point 31.18919053 -40.05372105 0 family PNTS name pnt252
+prescribed_point 31.15438614 -39.96548231 0 family PNTS name pnt253
+prescribed_point 31.11938559 -39.87695268 0 family PNTS name pnt254
+prescribed_point 31.08419562 -39.78811187 0 family PNTS name pnt255
+prescribed_point 31.04880271 -39.69895313 0 family PNTS name pnt256
+prescribed_point 31.01322038 -39.60948997 0 family PNTS name pnt257
+prescribed_point 30.97744189 -39.51973593 0 family PNTS name pnt258
+prescribed_point 30.94146721 -39.42968424 0 family PNTS name pnt259
+prescribed_point 30.90529636 -39.33934167 0 family PNTS name pnt260
+prescribed_point 30.86892933 -39.24868793 0 family PNTS name pnt261
+prescribed_point 30.8323526 -39.1577433 0 family PNTS name pnt262
+prescribed_point 30.79557969 -39.06650779 0 family PNTS name pnt263
+prescribed_point 30.75860384 -38.97497464 0 family PNTS name pnt264
+prescribed_point 30.72142505 -38.88314384 0 family PNTS name pnt265
+prescribed_point 30.68404332 -38.79101539 0 family PNTS name pnt266
+prescribed_point 30.64644512 -38.69859605 0 family PNTS name pnt267
+prescribed_point 30.60864397 -38.60587908 0 family PNTS name pnt268
+prescribed_point 30.57063312 -38.51287122 0 family PNTS name pnt269
+prescribed_point 30.53241257 -38.41957247 0 family PNTS name pnt270
+prescribed_point 30.49397554 -38.32597608 0 family PNTS name pnt271
+prescribed_point 30.45532205 -38.23209558 0 family PNTS name pnt272
+prescribed_point 30.41645885 -38.13791742 0 family PNTS name pnt273
+prescribed_point 30.37737241 -38.04344839 0 family PNTS name pnt274
+prescribed_point 30.3380695 -37.94869524 0 family PNTS name pnt275
+prescribed_point 30.29855012 -37.85364444 0 family PNTS name pnt276
+prescribed_point 30.25880075 -37.75830275 0 family PNTS name pnt277
+prescribed_point 30.2188349 -37.66268372 0 family PNTS name pnt278
+prescribed_point 30.17863905 -37.56676704 0 family PNTS name pnt279
+prescribed_point 30.1382132 -37.47056624 0 family PNTS name pnt280
+prescribed_point 30.09756412 -37.37408809 0 family PNTS name pnt281
+prescribed_point 30.05668504 -37.27731229 0 family PNTS name pnt282
+prescribed_point 30.01557596 -37.18025238 0 family PNTS name pnt283
+prescribed_point 29.97423011 -37.08291511 0 family PNTS name pnt284
+prescribed_point 29.9326475 -36.98529372 0 family PNTS name pnt285
+prescribed_point 29.89083489 -36.88738822 0 family PNTS name pnt286
+prescribed_point 29.84877875 -36.7891986 0 family PNTS name pnt287
+prescribed_point 29.80648585 -36.69073162 0 family PNTS name pnt288
+prescribed_point 29.76394941 -36.5919873 0 family PNTS name pnt289
+prescribed_point 29.72116945 -36.49295886 0 family PNTS name pnt290
+prescribed_point 29.67814596 -36.39365306 0 family PNTS name pnt291
+prescribed_point 29.63487217 -36.29407668 0 family PNTS name pnt292
+prescribed_point 29.59135486 -36.19421617 0 family PNTS name pnt293
+prescribed_point 29.54758725 -36.09408508 0 family PNTS name pnt294
+prescribed_point 29.50356258 -35.99366988 0 family PNTS name pnt295
+prescribed_point 29.45928762 -35.89299085 0 family PNTS name pnt296
+prescribed_point 29.4147556 -35.79204123 0 family PNTS name pnt297
+prescribed_point 29.36996652 -35.69081426 0 family PNTS name pnt298
+prescribed_point 29.32492038 -35.5893167 0 family PNTS name pnt299
+prescribed_point 29.27961042 -35.48755532 0 family PNTS name pnt300
+prescribed_point 29.2340434 -35.38552335 0 family PNTS name pnt301
+prescribed_point 29.1882058 -35.28322755 0 family PNTS name pnt302
+prescribed_point 29.14210436 -35.18066117 0 family PNTS name pnt303
+prescribed_point 29.09573235 -35.07783773 0 family PNTS name pnt304
+prescribed_point 29.04908974 -34.9747437 0 family PNTS name pnt305
+prescribed_point 29.00216978 -34.87139262 0 family PNTS name pnt306
+prescribed_point 28.954986 -34.76777771 0 family PNTS name pnt307
+prescribed_point 28.90753163 -34.66392603 0 family PNTS name pnt308
+prescribed_point 28.85980667 -34.55983083 0 family PNTS name pnt309
+prescribed_point 28.81180436 -34.4554921 0 family PNTS name pnt310
+prescribed_point 28.76352469 -34.35089631 0 family PNTS name pnt311
+prescribed_point 28.71496768 -34.24605022 0 family PNTS name pnt312
+prescribed_point 28.66612654 -34.14096061 0 family PNTS name pnt313
+prescribed_point 28.61700129 -34.03561393 0 family PNTS name pnt314
+prescribed_point 28.56758516 -33.9300305 0 family PNTS name pnt315
+prescribed_point 28.51786461 -33.82413588 0 family PNTS name pnt316
+prescribed_point 28.46784642 -33.7180045 0 family PNTS name pnt317
+prescribed_point 28.41755088 -33.61163636 0 family PNTS name pnt318
+prescribed_point 28.36695769 -33.50503145 0 family PNTS name pnt319
+prescribed_point 28.31608038 -33.39818978 0 family PNTS name pnt320
+prescribed_point 28.26490542 -33.29111811 0 family PNTS name pnt321
+prescribed_point 28.21343958 -33.18381644 0 family PNTS name pnt322
+prescribed_point 28.1616761 -33.07628477 0 family PNTS name pnt323
+prescribed_point 28.10962173 -32.9685231 0 family PNTS name pnt324
+prescribed_point 28.05726296 -32.86053819 0 family PNTS name pnt325
+prescribed_point 28.00460653 -32.75233005 0 family PNTS name pnt326
+prescribed_point 27.95164569 -32.64389191 0 family PNTS name pnt327
+prescribed_point 27.89838045 -32.53523053 0 family PNTS name pnt328
+prescribed_point 27.84481079 -32.42635945 0 family PNTS name pnt329
+prescribed_point 27.79093672 -32.31726513 0 family PNTS name pnt330
+prescribed_point 27.73675147 -32.20794758 0 family PNTS name pnt331
+prescribed_point 27.68225505 -32.09842032 0 family PNTS name pnt332
+prescribed_point 27.62745421 -31.9886766 0 family PNTS name pnt333
+prescribed_point 27.57233544 -31.87872993 0 family PNTS name pnt334
+prescribed_point 27.51689872 -31.76856679 0 family PNTS name pnt335
+prescribed_point 27.46115083 -31.65819394 0 family PNTS name pnt336
+prescribed_point 27.40508499 -31.54761816 0 family PNTS name pnt337
+prescribed_point 27.34869445 -31.43683266 0 family PNTS name pnt338
+prescribed_point 27.29198597 -31.325851 0 family PNTS name pnt339
+prescribed_point 27.23495279 -31.21466639 0 family PNTS name pnt340
+prescribed_point 27.1775949 -31.1032856 0 family PNTS name pnt341
+prescribed_point 27.1199123 -30.99170187 0 family PNTS name pnt342
+prescribed_point 27.06189823 -30.87992874 0 family PNTS name pnt343
+prescribed_point 27.00355946 -30.76795942 0 family PNTS name pnt344
+prescribed_point 26.94488245 -30.65579393 0 family PNTS name pnt345
+prescribed_point 26.88588074 -30.54344579 0 family PNTS name pnt346
+prescribed_point 26.82653403 -30.43090824 0 family PNTS name pnt347
+prescribed_point 26.76686261 -30.31818805 0 family PNTS name pnt348
+prescribed_point 26.70684619 -30.20527844 0 family PNTS name pnt349
+prescribed_point 26.64649153 -30.09219295 0 family PNTS name pnt350
+prescribed_point 26.58579188 -29.97892481 0 family PNTS name pnt351
+prescribed_point 26.52474723 -29.86548079 0 family PNTS name pnt352
+prescribed_point 26.46336434 -29.75186089 0 family PNTS name pnt353
+prescribed_point 26.40162969 -29.63807187 0 family PNTS name pnt354
+prescribed_point 26.33955004 -29.52410697 0 family PNTS name pnt355
+prescribed_point 26.27711862 -29.40997972 0 family PNTS name pnt356
+prescribed_point 26.21433544 -29.29568335 0 family PNTS name pnt357
+prescribed_point 26.1512005 -29.18121786 0 family PNTS name pnt358
+prescribed_point 26.08770702 -29.06659678 0 family PNTS name pnt359
+prescribed_point 26.02386178 -28.95181335 0 family PNTS name pnt360
+prescribed_point 25.95965801 -28.8368811 0 family PNTS name pnt361
+prescribed_point 25.89513631 -28.72186767 0 family PNTS name pnt362
+prescribed_point 25.83025607 -28.60671218 0 family PNTS name pnt363
+prescribed_point 25.7650173 -28.49141464 0 family PNTS name pnt364
+prescribed_point 25.69942001 -28.37597503 0 family PNTS name pnt365
+prescribed_point 25.63346418 -28.26040013 0 family PNTS name pnt366
+prescribed_point 25.56709571 -28.14462229 0 family PNTS name pnt367
+prescribed_point 25.50034165 -28.0286821 0 family PNTS name pnt368
+prescribed_point 25.4332223 -27.9126269 0 family PNTS name pnt369
+prescribed_point 25.36574441 -27.79645671 0 family PNTS name pnt370
+prescribed_point 25.29790124 -27.68017152 0 family PNTS name pnt371
+prescribed_point 25.229686 -27.56377809 0 family PNTS name pnt372
+prescribed_point 25.16109871 -27.44728319 0 family PNTS name pnt373
+prescribed_point 25.09214612 -27.33068006 0 family PNTS name pnt374
+prescribed_point 25.02281471 -27.21398222 0 family PNTS name pnt375
+prescribed_point 24.95310448 -27.09718291 0 family PNTS name pnt376
+prescribed_point 24.88302219 -26.98028889 0 family PNTS name pnt377
+prescribed_point 24.81256107 -26.86330693 0 family PNTS name pnt378
+prescribed_point 24.74171437 -26.74623704 0 family PNTS name pnt379
+prescribed_point 24.67048884 -26.62908596 0 family PNTS name pnt380
+prescribed_point 24.59887773 -26.51184695 0 family PNTS name pnt381
+prescribed_point 24.52687426 -26.39452675 0 family PNTS name pnt382
+prescribed_point 24.45449197 -26.27713891 0 family PNTS name pnt383
+prescribed_point 24.38171056 -26.1596699 0 family PNTS name pnt384
+prescribed_point 24.3085368 -26.04214 0 family PNTS name pnt385
+prescribed_point 24.23497746 -25.92453569 0 family PNTS name pnt386
+prescribed_point 24.16101223 -25.8068705 0 family PNTS name pnt387
+prescribed_point 24.08665464 -25.68914443 0 family PNTS name pnt388
+prescribed_point 24.01189118 -25.57136423 0 family PNTS name pnt389
+prescribed_point 23.93673536 -25.45352316 0 family PNTS name pnt390
+prescribed_point 23.8611669 -25.3356415 0 family PNTS name pnt391
+prescribed_point 23.78519932 -25.21770572 0 family PNTS name pnt392
+prescribed_point 23.70881909 -25.09972935 0 family PNTS name pnt393
+prescribed_point 23.63203298 -24.98171239 0 family PNTS name pnt394
+prescribed_point 23.55482746 -24.86365485 0 family PNTS name pnt395
+prescribed_point 23.47721606 -24.74556348 0 family PNTS name pnt396
+prescribed_point 23.39919201 -24.62743829 0 family PNTS name pnt397
+prescribed_point 23.32074854 -24.50929281 0 family PNTS name pnt398
+prescribed_point 23.24188567 -24.3911135 0 family PNTS name pnt399
+prescribed_point 23.16259662 -24.27292066 0 family PNTS name pnt400
+prescribed_point 23.08288816 -24.15471429 0 family PNTS name pnt401
+prescribed_point 23.00275353 -24.03648763 0 family PNTS name pnt402
+prescribed_point 22.92219948 -23.9182542 0 family PNTS name pnt403
+prescribed_point 22.84121249 -23.80000725 0 family PNTS name pnt404
+prescribed_point 22.75979256 -23.68176705 0 family PNTS name pnt405
+prescribed_point 22.67793969 -23.5635201 0 family PNTS name pnt406
+prescribed_point 22.59565388 -23.44527991 0 family PNTS name pnt407
+prescribed_point 22.51293513 -23.32704648 0 family PNTS name pnt408
+prescribed_point 22.4297902 -23.20884688 0 family PNTS name pnt409
+prescribed_point 22.34629351 -23.09078257 0 family PNTS name pnt410
+prescribed_point 22.26237741 -22.97275208 0 family PNTS name pnt411
+prescribed_point 22.17803513 -22.85475542 0 family PNTS name pnt412
+prescribed_point 22.09321255 -22.73670464 0 family PNTS name pnt413
+prescribed_point 22.00794351 -22.61866063 0 family PNTS name pnt414
+prescribed_point 21.92226182 -22.50067073 0 family PNTS name pnt415
+prescribed_point 21.83618101 -22.38272818 0 family PNTS name pnt416
+prescribed_point 21.74968756 -22.26483976 0 family PNTS name pnt417
+prescribed_point 21.66280175 -22.14700545 0 family PNTS name pnt418
+prescribed_point 21.57551006 -22.02923202 0 family PNTS name pnt419
+prescribed_point 21.48781926 -21.91150595 0 family PNTS name pnt420
+prescribed_point 21.39972933 -21.79384752 0 family PNTS name pnt421
+prescribed_point 21.31125382 -21.67623645 0 family PNTS name pnt422
+prescribed_point 21.22238596 -21.55869302 0 family PNTS name pnt423
+prescribed_point 21.13312574 -21.44121047 0 family PNTS name pnt424
+prescribed_point 21.04347317 -21.32378881 0 family PNTS name pnt425
+prescribed_point 20.95344178 -21.20642803 0 family PNTS name pnt426
+prescribed_point 20.8630248 -21.0891349 0 family PNTS name pnt427
+prescribed_point 20.772229 -20.97190265 0 family PNTS name pnt428
+prescribed_point 20.68106113 -20.85473804 0 family PNTS name pnt429
+prescribed_point 20.58950768 -20.73764108 0 family PNTS name pnt430
+prescribed_point 20.49758894 -20.62061177 0 family PNTS name pnt431
+prescribed_point 20.40529814 -20.50365011 0 family PNTS name pnt432
+prescribed_point 20.31263528 -20.3867561 0 family PNTS name pnt433
+prescribed_point 20.21960712 -20.26993649 0 family PNTS name pnt434
+prescribed_point 20.12622044 -20.15318453 0 family PNTS name pnt435
+prescribed_point 20.03246846 -20.03650699 0 family PNTS name pnt436
+prescribed_point 19.93836472 -19.91990385 0 family PNTS name pnt437
+prescribed_point 19.84390245 -19.80336837 0 family PNTS name pnt438
+prescribed_point 19.74908842 -19.68691406 0 family PNTS name pnt439
+prescribed_point 19.65392262 -19.57053416 0 family PNTS name pnt440
+prescribed_point 19.55841182 -19.45423544 0 family PNTS name pnt441
+prescribed_point 19.46255602 -19.33801113 0 family PNTS name pnt442
+prescribed_point 19.36635522 -19.22186123 0 family PNTS name pnt443
+prescribed_point 19.26982295 -19.1057925 0 family PNTS name pnt444
+prescribed_point 19.17295245 -18.98981172 0 family PNTS name pnt445
+prescribed_point 19.07574371 -18.87390535 0 family PNTS name pnt446
+prescribed_point 18.97821026 -18.75808016 0 family PNTS name pnt447
+prescribed_point 18.88035211 -18.64233614 0 family PNTS name pnt448
+prescribed_point 18.78216926 -18.52668007 0 family PNTS name pnt449
+prescribed_point 18.68366169 -18.41110517 0 family PNTS name pnt450
+prescribed_point 18.58483619 -18.29561144 0 family PNTS name pnt451
+prescribed_point 18.48569951 -18.18021243 0 family PNTS name pnt452
+prescribed_point 18.38624489 -18.06489459 0 family PNTS name pnt453
+prescribed_point 18.28656028 -17.94974586 0 family PNTS name pnt454
+prescribed_point 18.1865983 -17.83472567 0 family PNTS name pnt455
+prescribed_point 18.0862778 -17.7197393 0 family PNTS name pnt456
+prescribed_point 17.98562583 -17.60482734 0 family PNTS name pnt457
+prescribed_point 17.88468974 -17.49003714 0 family PNTS name pnt458
+prescribed_point 17.78345601 -17.37536871 0 family PNTS name pnt459
+prescribed_point 17.68193815 -17.26082205 0 family PNTS name pnt460
+prescribed_point 17.58012942 -17.14641068 0 family PNTS name pnt461
+prescribed_point 17.4780298 -17.0321346 0 family PNTS name pnt462
+prescribed_point 17.3756393 -16.91798705 0 family PNTS name pnt463
+prescribed_point 17.27295792 -16.80398833 0 family PNTS name pnt464
+prescribed_point 17.16998566 -16.69013166 0 family PNTS name pnt465
+prescribed_point 17.06672928 -16.57641706 0 family PNTS name pnt466
+prescribed_point 16.96318201 -16.46285804 0 family PNTS name pnt467
+prescribed_point 16.85935063 -16.34944784 0 family PNTS name pnt468
+prescribed_point 16.75522837 -16.23619323 0 family PNTS name pnt469
+prescribed_point 16.65081523 -16.12310774 0 family PNTS name pnt470
+prescribed_point 16.54611797 -16.01017784 0 family PNTS name pnt471
+prescribed_point 16.44112982 -15.89741706 0 family PNTS name pnt472
+prescribed_point 16.33585756 -15.78482539 0 family PNTS name pnt473
+prescribed_point 16.23029442 -15.67240961 0 family PNTS name pnt474
+prescribed_point 16.12444716 -15.5601697 0 family PNTS name pnt475
+prescribed_point 16.01831578 -15.44811245 0 family PNTS name pnt476
+prescribed_point 15.91189352 -15.33623784 0 family PNTS name pnt477
+prescribed_point 15.8051939 -15.22454588 0 family PNTS name pnt478
+prescribed_point 15.69820341 -15.11305009 0 family PNTS name pnt479
+prescribed_point 15.5909288 -15.00174372 0 family PNTS name pnt480
+prescribed_point 15.48337007 -14.89064029 0 family PNTS name pnt481
+prescribed_point 15.37552722 -14.77973303 0 family PNTS name pnt482
+prescribed_point 15.26740025 -14.66902871 0 family PNTS name pnt483
+prescribed_point 15.15898917 -14.55853411 0 family PNTS name pnt484
+prescribed_point 15.05030074 -14.44824244 0 family PNTS name pnt485
+prescribed_point 14.94132142 -14.338174 0 family PNTS name pnt486
+prescribed_point 14.83206475 -14.22831527 0 family PNTS name pnt487
+prescribed_point 14.72253073 -14.11867978 0 family PNTS name pnt488
+prescribed_point 14.61271259 -14.00926752 0 family PNTS name pnt489
+prescribed_point 14.50261709 -13.9000785 0 family PNTS name pnt490
+prescribed_point 14.39223749 -13.79111948 0 family PNTS name pnt491
+prescribed_point 14.28158052 -13.68239722 0 family PNTS name pnt492
+prescribed_point 14.17063944 -13.57391173 0 family PNTS name pnt493
+prescribed_point 14.05942777 -13.465663 0 family PNTS name pnt494
+prescribed_point 13.94793875 -13.35765103 0 family PNTS name pnt495
+prescribed_point 13.83616562 -13.24989613 0 family PNTS name pnt496
+prescribed_point 13.72412189 -13.14238475 0 family PNTS name pnt497
+prescribed_point 13.61190228 -13.03521837 0 family PNTS name pnt498
+prescribed_point 13.49938503 -12.92828199 0 family PNTS name pnt499
+prescribed_point 13.38662424 -12.82162297 0 family PNTS name pnt500
+prescribed_point 13.27362669 -12.715221 0 family PNTS name pnt501
+prescribed_point 13.16039238 -12.60909639 0 family PNTS name pnt502
+prescribed_point 13.0469416 -12.50322883 0 family PNTS name pnt503
+prescribed_point 12.93326758 -12.39761834 0 family PNTS name pnt504
+prescribed_point 12.81938385 -12.29225813 0 family PNTS name pnt505
+prescribed_point 12.70529042 -12.18715499 0 family PNTS name pnt506
+prescribed_point 12.59100758 -12.08230214 0 family PNTS name pnt507
+prescribed_point 12.47652856 -11.97769282 0 family PNTS name pnt508
+prescribed_point 12.3618669 -11.87332026 0 family PNTS name pnt509
+prescribed_point 12.24702259 -11.76919124 0 family PNTS name pnt510
+prescribed_point 12.13201592 -11.66529897 0 family PNTS name pnt511
+prescribed_point 12.01684014 -11.56162995 0 family PNTS name pnt512
+prescribed_point 11.901502 -11.45819092 0 family PNTS name pnt513
+prescribed_point 11.78601505 -11.35498189 0 family PNTS name pnt514
+prescribed_point 11.67038603 -11.25198933 0 family PNTS name pnt515
+prescribed_point 11.55461495 -11.14921325 0 family PNTS name pnt516
+prescribed_point 11.43871535 -11.04665363 0 family PNTS name pnt517
+prescribed_point 11.32268721 -10.94430372 0 family PNTS name pnt518
+prescribed_point 11.20654408 -10.84216351 0 family PNTS name pnt519
+prescribed_point 11.09028594 -10.74021948 0 family PNTS name pnt520
+prescribed_point 10.97392634 -10.6384784 0 family PNTS name pnt521
+prescribed_point 10.85747203 -10.53694025 0 family PNTS name pnt522
+prescribed_point 10.74092301 -10.43559151 0 family PNTS name pnt523
+prescribed_point 10.62428606 -10.33443219 0 family PNTS name pnt524
+prescribed_point 10.50756792 -10.23345551 0 family PNTS name pnt525
+prescribed_point 10.39078214 -10.13266825 0 family PNTS name pnt526
+prescribed_point 10.27393548 -10.03205686 0 family PNTS name pnt527
+prescribed_point 10.15702117 -9.93162136 0 family PNTS name pnt528
+prescribed_point 10.0400595 -9.83136175 0 family PNTS name pnt529
+prescribed_point 9.92305725 -9.73126448 0 family PNTS name pnt530
+prescribed_point 9.80600765 -9.6313431 0 family PNTS name pnt531
+prescribed_point 9.68893099 -9.5315773 0 family PNTS name pnt532
+prescribed_point 9.57182726 -9.43196709 0 family PNTS name pnt533
+prescribed_point 9.45470325 -9.33251924 0 family PNTS name pnt534
+prescribed_point 9.3375657 -9.23321344 0 family PNTS name pnt535
+prescribed_point 9.22042139 -9.13406323 0 family PNTS name pnt536
+prescribed_point 9.10328385 -9.03506185 0 family PNTS name pnt537
+prescribed_point 8.98617336 -8.93622282 0 family PNTS name pnt538
+prescribed_point 8.86908317 -8.83753261 0 family PNTS name pnt539
+prescribed_point 8.75200651 -8.73898446 0 family PNTS name pnt540
+prescribed_point 8.63494337 -8.64057837 0 family PNTS name pnt541
+prescribed_point 8.5179073 -8.54231434 0 family PNTS name pnt542
+prescribed_point 8.40089152 -8.44419913 0 family PNTS name pnt543
+prescribed_point 8.2839028 -8.34623274 0 family PNTS name pnt544
+prescribed_point 8.16694113 -8.24841518 0 family PNTS name pnt545
+prescribed_point 8.05002006 -8.15074644 0 family PNTS name pnt546
+prescribed_point 7.93312604 -8.05322653 0 family PNTS name pnt547
+prescribed_point 7.81627938 -7.95584867 0 family PNTS name pnt548
+prescribed_point 7.69946654 -7.8586264 0 family PNTS name pnt549
+prescribed_point 7.58270105 -7.76155296 0 family PNTS name pnt550
+prescribed_point 7.46598292 -7.66462834 0 family PNTS name pnt551
+prescribed_point 7.34931214 -7.5678593 0 family PNTS name pnt552
+prescribed_point 7.23269548 -7.47123909 0 family PNTS name pnt553
+prescribed_point 7.11613293 -7.37477447 0 family PNTS name pnt554
+prescribed_point 6.99963127 -7.27845867 0 family PNTS name pnt555
+prescribed_point 6.88318372 -7.18229846 0 family PNTS name pnt556
+prescribed_point 6.76680382 -7.08628707 0 family PNTS name pnt557
+prescribed_point 6.65049204 -6.99043127 0 family PNTS name pnt558
+prescribed_point 6.5342473 -6.89473106 0 family PNTS name pnt559
+prescribed_point 6.4180742 -6.79918644 0 family PNTS name pnt560
+prescribed_point 6.30197558 -6.7037991 0 family PNTS name pnt561
+prescribed_point 6.18595461 -6.60856552 0 family PNTS name pnt562
+prescribed_point 6.0700128 -6.51348867 0 family PNTS name pnt563
+prescribed_point 5.95415365 -6.41856809 0 family PNTS name pnt564
+prescribed_point 5.83837966 -6.32380472 0 family PNTS name pnt565
+prescribed_point 5.72269389 -6.22919918 0 family PNTS name pnt566
+prescribed_point 5.60709829 -6.13475186 0 family PNTS name pnt567
+prescribed_point 5.4915955 -6.04046276 0 family PNTS name pnt568
+prescribed_point 5.37618891 -5.94633244 0 family PNTS name pnt569
+prescribed_point 5.2608806 -5.85236142 0 family PNTS name pnt570
+prescribed_point 5.14567364 -5.75855011 0 family PNTS name pnt571
+prescribed_point 5.03056997 -5.66489913 0 family PNTS name pnt572
+prescribed_point 4.9155727 -5.57140841 0 family PNTS name pnt573
+prescribed_point 4.80068375 -5.47807848 0 family PNTS name pnt574
+prescribed_point 4.6859062 -5.3849103 0 family PNTS name pnt575
+prescribed_point 4.57124305 -5.29190338 0 family PNTS name pnt576
+prescribed_point 4.45669577 -5.19905882 0 family PNTS name pnt577
+prescribed_point 4.34226749 -5.10637655 0 family PNTS name pnt578
+prescribed_point 4.22796118 -5.01385703 0 family PNTS name pnt579
+prescribed_point 4.11377838 -4.92150136 0 family PNTS name pnt580
+prescribed_point 3.99972507 -4.82931196 0 family PNTS name pnt581
+prescribed_point 3.88579677 -4.73729397 0 family PNTS name pnt582
+prescribed_point 3.77198813 -4.64545539 0 family PNTS name pnt583
+prescribed_point 3.65829497 -4.55380528 0 family PNTS name pnt584
+prescribed_point 3.54471241 -4.46235276 0 family PNTS name pnt585
+prescribed_point 3.43123619 -4.3711069 0 family PNTS name pnt586
+prescribed_point 3.31786205 -4.28007629 0 family PNTS name pnt587
+prescribed_point 3.20458566 -4.18926912 0 family PNTS name pnt588
+prescribed_point 3.09140255 -4.09869459 0 family PNTS name pnt589
+prescribed_point 2.97830861 -4.00836129 0 family PNTS name pnt590
+prescribed_point 2.86529936 -3.9182774 0 family PNTS name pnt591
+prescribed_point 2.75237101 -3.82845179 0 family PNTS name pnt592
+prescribed_point 2.63953615 -3.73887323 0 family PNTS name pnt593
+prescribed_point 2.5268351 -3.64949267 0 family PNTS name pnt594
+prescribed_point 2.41431223 -3.56025809 0 family PNTS name pnt595
+prescribed_point 2.30201138 -3.47111795 0 family PNTS name pnt596
+prescribed_point 2.18997563 -3.38202097 0 family PNTS name pnt597
+prescribed_point 2.07824762 -3.29291708 0 family PNTS name pnt598
+prescribed_point 1.96686947 -3.20375631 0 family PNTS name pnt599
+prescribed_point 1.85588252 -3.11449047 0 family PNTS name pnt600
+prescribed_point 1.7453273 -3.02507135 0 family PNTS name pnt601
+prescribed_point 1.6352471 -2.93545017 0 family PNTS name pnt602
+prescribed_point 1.5258573 -2.84538016 0 family PNTS name pnt603
+prescribed_point 1.41763712 -2.75426688 0 family PNTS name pnt604
+prescribed_point 1.31113896 -2.66152562 0 family PNTS name pnt605
+prescribed_point 1.20694472 -2.56659415 0 family PNTS name pnt606
+prescribed_point 1.10561722 -2.46888435 0 family PNTS name pnt607
+prescribed_point 1.00790851 -2.3679923 0 family PNTS name pnt608
+prescribed_point 0.91446371 -2.26342925 0 family PNTS name pnt609
+prescribed_point 0.82584351 -2.15502662 0 family PNTS name pnt610
+prescribed_point 0.74215287 -2.04318956 0 family PNTS name pnt611
+prescribed_point 0.66324503 -1.92819906 0 family PNTS name pnt612
+prescribed_point 0.58900249 -1.81036076 0 family PNTS name pnt613
+prescribed_point 0.51941608 -1.69016489 0 family PNTS name pnt614
+prescribed_point 0.45427062 -1.56775244 0 family PNTS name pnt615
+prescribed_point 0.39344396 -1.44339074 0 family PNTS name pnt616
+prescribed_point 0.33686154 -1.3174377 0 family PNTS name pnt617
+prescribed_point 0.28433597 -1.18998203 0 family PNTS name pnt618
+prescribed_point 0.23576895 -1.06127549 0 family PNTS name pnt619
+prescribed_point 0.19104417 -0.9315 0 family PNTS name pnt620
+prescribed_point 0.15008731 -0.80077826 0 family PNTS name pnt621
+prescribed_point 0.11309414 -0.66910042 0 family PNTS name pnt622
+prescribed_point 0.08043298 -0.53664139 0 family PNTS name pnt623
+prescribed_point 0.0524191 -0.40334073 0 family PNTS name pnt624
+prescribed_point 0.02942345 -0.26932178 0 family PNTS name pnt625
+prescribed_point 0.01183765 -0.13488779 0 family PNTS name pnt626
+prescribed_point 0 0 0 family PNTS name pnt627
+prescribed_point -0.00585979 0.13539015 0 family PNTS name pnt628
+prescribed_point -0.00604668 0.27067347 0 family PNTS name pnt629
+prescribed_point -0.00604668 0.27067347 0 family PNTS name pnt630
+prescribed_point -0.00105542 0.40585661 0 family PNTS name pnt631
+prescribed_point 0.00863028 0.54092805 0 family PNTS name pnt632
+prescribed_point 0.02248877 0.67548137 0 family PNTS name pnt633
+prescribed_point 0.04002018 0.80949911 0 family PNTS name pnt634
+prescribed_point 0.06075176 0.94304606 0 family PNTS name pnt635
+prescribed_point 0.08422609 1.076169 0 family PNTS name pnt636
+prescribed_point 0.10997161 1.20877653 0 family PNTS name pnt637
+prescribed_point 0.13756104 1.34096675 0 family PNTS name pnt638
+prescribed_point 0.16657705 1.47282652 0 family PNTS name pnt639
+prescribed_point 0.19661421 1.60443653 0 family PNTS name pnt640
+prescribed_point 0.22750329 1.73580734 0 family PNTS name pnt641
+prescribed_point 0.25940256 1.86689681 0 family PNTS name pnt642
+prescribed_point 0.29249579 1.99765927 0 family PNTS name pnt643
+prescribed_point 0.32698156 2.12809412 0 family PNTS name pnt644
+prescribed_point 0.36306052 2.25818654 0 family PNTS name pnt645
+prescribed_point 0.40086292 2.38766729 0 family PNTS name pnt646
+prescribed_point 0.44057477 2.5164732 0 family PNTS name pnt647
+prescribed_point 0.48238415 2.64454102 0 family PNTS name pnt648
+prescribed_point 0.52648163 2.77180667 0 family PNTS name pnt649
+prescribed_point 0.57306054 2.89820489 0 family PNTS name pnt650
+prescribed_point 0.62231714 3.02366951 0 family PNTS name pnt651
+prescribed_point 0.67438994 3.14799225 0 family PNTS name pnt652
+prescribed_point 0.72932997 3.27080321 0 family PNTS name pnt653
+prescribed_point 0.78739809 3.39231481 0 family PNTS name pnt654
+prescribed_point 0.84831327 3.5122867 0 family PNTS name pnt655
+prescribed_point 0.91177948 3.63080478 0 family PNTS name pnt656
+prescribed_point 0.977535 3.74801342 0 family PNTS name pnt657
+prescribed_point 1.04532359 3.8640538 0 family PNTS name pnt658
+prescribed_point 1.11489406 3.97906473 0 family PNTS name pnt659
+prescribed_point 1.18595142 4.09310668 0 family PNTS name pnt660
+prescribed_point 1.2582041 4.20624669 0 family PNTS name pnt661
+prescribed_point 1.33145295 4.31868947 0 family PNTS name pnt662
+prescribed_point 1.40546871 4.43058457 0 family PNTS name pnt663
+prescribed_point 1.48002429 4.54207901 0 family PNTS name pnt664
+prescribed_point 1.55493726 4.65330786 0 family PNTS name pnt665
+prescribed_point 1.63017351 4.7642605 0 family PNTS name pnt666
+prescribed_point 1.7057628 4.87491273 0 family PNTS name pnt667
+prescribed_point 1.78173593 4.98524343 0 family PNTS name pnt668
+prescribed_point 1.85812347 5.09523035 0 family PNTS name pnt669
+prescribed_point 1.93495558 5.20485191 0 family PNTS name pnt670
+prescribed_point 2.01226304 5.31408538 0 family PNTS name pnt671
+prescribed_point 2.09007596 5.42290958 0 family PNTS name pnt672
+prescribed_point 2.16842445 5.53130233 0 family PNTS name pnt673
+prescribed_point 2.24733894 5.63924205 0 family PNTS name pnt674
+prescribed_point 2.32684926 5.74670742 0 family PNTS name pnt675
+prescribed_point 2.40696177 5.85364563 0 family PNTS name pnt676
+prescribed_point 2.48789005 5.96026576 0 family PNTS name pnt677
+prescribed_point 2.56949499 6.06625697 0 family PNTS name pnt678
+prescribed_point 2.65182842 6.17154952 0 family PNTS name pnt679
+prescribed_point 2.73495272 6.27608917 0 family PNTS name pnt680
+prescribed_point 2.8189295 6.37982084 0 family PNTS name pnt681
+prescribed_point 2.9038206 6.48269068 0 family PNTS name pnt682
+prescribed_point 2.98968636 6.58464472 0 family PNTS name pnt683
+prescribed_point 3.07658847 6.68562911 0 family PNTS name pnt684
+prescribed_point 3.1645872 6.78558939 0 family PNTS name pnt685
+prescribed_point 3.2537425 6.88447578 0 family PNTS name pnt686
+prescribed_point 3.34411463 6.98223246 0 family PNTS name pnt687
+prescribed_point 3.43576319 7.07880532 0 family PNTS name pnt688
+prescribed_point 3.52874717 7.174147 0 family PNTS name pnt689
+prescribed_point 3.6231257 7.26820339 0 family PNTS name pnt690
+prescribed_point 3.71895755 7.36092036 0 family PNTS name pnt691
+prescribed_point 3.81594278 7.45191234 0 family PNTS name pnt692
+prescribed_point 3.91421886 7.54124021 0 family PNTS name pnt693
+prescribed_point 4.01393838 7.6289919 0 family PNTS name pnt694
+prescribed_point 4.11495091 7.71506594 0 family PNTS name pnt695
+prescribed_point 4.21723514 7.79948263 0 family PNTS name pnt696
+prescribed_point 4.32077097 7.88226903 0 family PNTS name pnt697
+prescribed_point 4.42554095 7.96344543 0 family PNTS name pnt698
+prescribed_point 4.53152858 8.04303889 0 family PNTS name pnt699
+prescribed_point 4.63872134 8.12105617 0 family PNTS name pnt700
+prescribed_point 4.74696493 8.19742287 0 family PNTS name pnt701
+prescribed_point 4.85620644 8.27213222 0 family PNTS name pnt702
+prescribed_point 4.96643229 8.34521127 0 family PNTS name pnt703
+prescribed_point 5.07763036 8.4166668 0 family PNTS name pnt704
+prescribed_point 5.18978861 8.48652586 0 family PNTS name pnt705
+prescribed_point 5.3028969 8.55480197 0 family PNTS name pnt706
+prescribed_point 5.41694717 8.62150191 0 family PNTS name pnt707
+prescribed_point 5.53191974 8.68663245 0 family PNTS name pnt708
+prescribed_point 5.64767512 8.75013945 0 family PNTS name pnt709
+prescribed_point 5.76416678 8.81201616 0 family PNTS name pnt710
+prescribed_point 5.8813878 8.87226934 0 family PNTS name pnt711
+prescribed_point 5.99933203 8.93091929 0 family PNTS name pnt712
+prescribed_point 6.11799299 8.98796601 0 family PNTS name pnt713
+prescribed_point 6.23736661 9.04342978 0 family PNTS name pnt714
+prescribed_point 6.35744842 9.09731062 0 family PNTS name pnt715
+prescribed_point 6.47823579 9.14962204 0 family PNTS name pnt716
+prescribed_point 6.59965566 9.20033023 0 family PNTS name pnt717
+prescribed_point 6.72160074 9.24940813 0 family PNTS name pnt718
+prescribed_point 6.84406346 9.29684897 0 family PNTS name pnt719
+prescribed_point 6.96705247 9.34267305 0 family PNTS name pnt720
+prescribed_point 7.09054883 9.38688037 0 family PNTS name pnt721
+prescribed_point 7.21456608 9.42946415 0 family PNTS name pnt722
+prescribed_point 7.33909744 9.47043794 0 family PNTS name pnt723
+prescribed_point 7.46414292 9.50979497 0 family PNTS name pnt724
+prescribed_point 7.58968899 9.54752846 0 family PNTS name pnt725
+prescribed_point 7.71560711 9.58359784 0 family PNTS name pnt726
+prescribed_point 7.84186348 9.61799634 0 family PNTS name pnt727
+prescribed_point 7.96845131 9.65072396 0 family PNTS name pnt728
+prescribed_point 8.09537061 9.68177393 0 family PNTS name pnt729
+prescribed_point 8.22262814 9.7111395 0 family PNTS name pnt730
+prescribed_point 8.35021715 9.73882741 0 family PNTS name pnt731
+prescribed_point 8.47815116 9.76481739 0 family PNTS name pnt732
+prescribed_point 8.60641663 9.78910266 0 family PNTS name pnt733
+prescribed_point 8.73496623 9.8116697 0 family PNTS name pnt734
+prescribed_point 8.86365788 9.83247792 0 family PNTS name pnt735
+prescribed_point 8.99249836 9.85152055 0 family PNTS name pnt736
+prescribed_point 9.12148766 9.86879083 0 family PNTS name pnt737
+prescribed_point 9.25062578 9.88428199 0 family PNTS name pnt738
+prescribed_point 9.37991273 9.89798051 0 family PNTS name pnt739
+prescribed_point 9.5093485 9.90986609 0 family PNTS name pnt740
+prescribed_point 9.63893309 9.9199252 0 family PNTS name pnt741
+prescribed_point 9.76866651 9.92813754 0 family PNTS name pnt742
+prescribed_point 9.89838639 9.93447607 0 family PNTS name pnt743
+prescribed_point 10.02803187 9.938934 0 family PNTS name pnt744
+prescribed_point 10.1576097 9.94147753 0 family PNTS name pnt745
+prescribed_point 10.28711311 9.94209988 0 family PNTS name pnt746
+prescribed_point 10.41654888 9.94078077 0 family PNTS name pnt747
+prescribed_point 10.54591024 9.93749989 0 family PNTS name pnt748
+prescribed_point 10.67519719 9.93223695 0 family PNTS name pnt749
+prescribed_point 10.80440972 9.92495137 0 family PNTS name pnt750
+prescribed_point 10.93345314 9.91564314 0 family PNTS name pnt751
+prescribed_point 11.06215156 9.90428521 0 family PNTS name pnt752
+prescribed_point 11.19049821 9.89086405 0 family PNTS name pnt753
+prescribed_point 11.31849986 9.87535935 0 family PNTS name pnt754
+prescribed_point 11.44614299 9.85773731 0 family PNTS name pnt755
+prescribed_point 11.57342758 9.83798439 0 family PNTS name pnt756
+prescribed_point 11.70034688 9.81606676 0 family PNTS name pnt757
+prescribed_point 11.82690089 9.79194384 0 family PNTS name pnt758
+prescribed_point 11.9529949 9.76561563 0 family PNTS name pnt759
+prescribed_point 12.0784395 9.73711594 0 family PNTS name pnt760
+prescribed_point 12.20320086 9.70647862 0 family PNTS name pnt761
+prescribed_point 12.32729252 9.67373071 0 family PNTS name pnt762
+prescribed_point 12.45072123 9.63890603 0 family PNTS name pnt763
+prescribed_point 12.57349377 9.60202489 0 family PNTS name pnt764
+prescribed_point 12.6956169 9.56310757 0 family PNTS name pnt765
+prescribed_point 12.81709062 9.52219466 0 family PNTS name pnt766
+prescribed_point 12.93789463 9.47930646 0 family PNTS name pnt767
+prescribed_point 13.057826 9.43455797 0 family PNTS name pnt768
+prescribed_point 13.17689148 9.38798978 0 family PNTS name pnt769
+prescribed_point 13.29510462 9.33962217 0 family PNTS name pnt770
+prescribed_point 13.41247216 9.28950251 0 family PNTS name pnt771
+prescribed_point 13.52901441 9.23765785 0 family PNTS name pnt772
+prescribed_point 13.64473814 9.18411525 0 family PNTS name pnt773
+prescribed_point 13.75966362 9.12890853 0 family PNTS name pnt774
+prescribed_point 13.87379088 9.07207152 0 family PNTS name pnt775
+prescribed_point 13.98699137 9.01370569 0 family PNTS name pnt776
+prescribed_point 14.09923803 8.95385839 0 family PNTS name pnt777
+prescribed_point 14.21057147 8.89257021 0 family PNTS name pnt778
+prescribed_point 14.32099166 8.82987497 0 family PNTS name pnt779
+prescribed_point 14.43051892 8.76579297 0 family PNTS name pnt780
+prescribed_point 14.5391803 8.70035802 0 family PNTS name pnt781
+prescribed_point 14.64698256 8.63360396 0 family PNTS name pnt782
+prescribed_point 14.75393923 8.56555108 0 family PNTS name pnt783
+prescribed_point 14.86001649 8.49627379 0 family PNTS name pnt784
+prescribed_point 14.96515346 8.42583973 0 family PNTS name pnt785
+prescribed_point 15.06937043 8.35427597 0 family PNTS name pnt786
+prescribed_point 15.17270122 8.28161633 0 family PNTS name pnt787
+prescribed_point 15.2751526 8.2078811 0 family PNTS name pnt788
+prescribed_point 15.37675163 8.13309057 0 family PNTS name pnt789
+prescribed_point 15.47750507 8.05728535 0 family PNTS name pnt790
+prescribed_point 15.57743322 7.98047218 0 family PNTS name pnt791
+prescribed_point 15.67659696 7.9026443 0 family PNTS name pnt792
+prescribed_point 15.77503011 7.82381526 0 family PNTS name pnt793
+prescribed_point 15.87256355 7.74414738 0 family PNTS name pnt794
+prescribed_point 15.96923111 7.66366098 0 family PNTS name pnt795
+prescribed_point 16.06503956 7.58236958 0 family PNTS name pnt796
+prescribed_point 16.16001595 7.50030701 0 family PNTS name pnt797
+prescribed_point 16.25417381 7.41748679 0 family PNTS name pnt798
+prescribed_point 16.34753343 7.33392921 0 family PNTS name pnt799
+prescribed_point 16.44011512 7.24964781 0 family PNTS name pnt800
+prescribed_point 16.53192562 7.16466965 0 family PNTS name pnt801
+prescribed_point 16.62298525 7.07900826 0 family PNTS name pnt802
+prescribed_point 16.71330753 6.99267715 0 family PNTS name pnt803
+prescribed_point 16.80291274 6.90569664 0 family PNTS name pnt804
+prescribed_point 16.89181443 6.81808025 0 family PNTS name pnt805
+prescribed_point 16.98001935 6.72984833 0 family PNTS name pnt806
+prescribed_point 17.06754104 6.64101213 0 family PNTS name pnt807
+prescribed_point 17.15440655 6.55158679 0 family PNTS name pnt808
+prescribed_point 17.24060913 6.46158631 0 family PNTS name pnt809
+prescribed_point 17.32611493 6.3710985 0 family PNTS name pnt810
+prescribed_point 17.41089692 6.28015902 0 family PNTS name pnt811
+prescribed_point 17.49500243 6.18876048 0 family PNTS name pnt812
+prescribed_point 17.57843824 6.09691533 0 family PNTS name pnt813
+prescribed_point 17.66121788 6.00463522 0 family PNTS name pnt814
+prescribed_point 17.74336163 5.91193231 0 family PNTS name pnt815
+prescribed_point 17.82487626 5.81881757 0 family PNTS name pnt816
+prescribed_point 17.90578208 5.72530263 0 family PNTS name pnt817
+prescribed_point 17.98607907 5.63139811 0 family PNTS name pnt818
+prescribed_point 18.06578753 5.53711456 0 family PNTS name pnt819
+prescribed_point 18.14492099 5.44246213 0 family PNTS name pnt820
+prescribed_point 18.22348621 5.34745077 0 family PNTS name pnt821
+prescribed_point 18.30149673 5.25209069 0 family PNTS name pnt822
+prescribed_point 18.37895931 5.15639088 0 family PNTS name pnt823
+prescribed_point 18.45589425 5.06036096 0 family PNTS name pnt824
+prescribed_point 18.53229477 4.96400999 0 family PNTS name pnt825
+prescribed_point 18.60818794 4.86734756 0 family PNTS name pnt826
+prescribed_point 18.68357375 4.7703812 0 family PNTS name pnt827
+prescribed_point 18.75845898 4.67313208 0 family PNTS name pnt828
+prescribed_point 18.83293833 4.57548627 0 family PNTS name pnt829
+prescribed_point 18.90689003 4.47760918 0 family PNTS name pnt830
+prescribed_point 18.98032085 4.37950324 0 family PNTS name pnt831
+prescribed_point 19.05323078 4.28117251 0 family PNTS name pnt832
+prescribed_point 19.1256266 4.18261847 0 family PNTS name pnt833
+prescribed_point 19.19750831 4.08384499 0 family PNTS name pnt834
+prescribed_point 19.26888942 3.9848545 0 family PNTS name pnt835
+prescribed_point 19.33976318 3.88565011 0 family PNTS name pnt836
+prescribed_point 19.41013636 3.78623499 0 family PNTS name pnt837
+prescribed_point 19.48001571 3.686612 0 family PNTS name pnt838
+prescribed_point 19.549408 3.5867841 0 family PNTS name pnt839
+prescribed_point 19.61830647 3.48675462 0 family PNTS name pnt840
+prescribed_point 19.68672465 3.38652626 0 family PNTS name pnt841
+prescribed_point 19.75466929 3.28610293 0 family PNTS name pnt842
+prescribed_point 19.82213365 3.18548702 0 family PNTS name pnt843
+prescribed_point 19.889138 3.08468182 0 family PNTS name pnt844
+prescribed_point 19.95566882 2.98369121 0 family PNTS name pnt845
+prescribed_point 20.02174641 2.88251761 0 family PNTS name pnt846
+prescribed_point 20.087364 2.78116482 0 family PNTS name pnt847
+prescribed_point 20.15252836 2.67963594 0 family PNTS name pnt848
+prescribed_point 20.21724624 2.57793436 0 family PNTS name pnt849
+prescribed_point 20.28153119 2.47606325 0 family PNTS name pnt850
+prescribed_point 20.34536966 2.37402628 0 family PNTS name pnt851
+prescribed_point 20.40877519 2.27182675 0 family PNTS name pnt852
+prescribed_point 20.47176132 2.16946777 0 family PNTS name pnt853
+prescribed_point 20.5343145 2.06695314 0 family PNTS name pnt854
+prescribed_point 20.59645503 1.96428617 0 family PNTS name pnt855
+prescribed_point 20.65818292 1.86147037 0 family PNTS name pnt856
+prescribed_point 20.71949816 1.75850906 0 family PNTS name pnt857
+prescribed_point 20.78041428 1.65540597 0 family PNTS name pnt858
+prescribed_point 20.84092452 1.55216454 0 family PNTS name pnt859
+prescribed_point 20.90104918 1.44878836 0 family PNTS name pnt860
+prescribed_point 20.96078148 1.3452808 0 family PNTS name pnt861
+prescribed_point 21.02012819 1.24164574 0 family PNTS name pnt862
+prescribed_point 21.07907579 1.13792604 0 family PNTS name pnt863
+prescribed_point 21.13759044 1.03418862 0 family PNTS name pnt864
+prescribed_point 21.19571951 0.93037206 0 family PNTS name pnt865
+prescribed_point 21.25346299 0.82647959 0 family PNTS name pnt866
+prescribed_point 21.31082765 0.7225144 0 family PNTS name pnt867
+prescribed_point 21.36782701 0.61847967 0 family PNTS name pnt868
+prescribed_point 21.42446108 0.5143786 0 family PNTS name pnt869
+prescribed_point 21.48072985 0.41021437 0 family PNTS name pnt870
+prescribed_point 21.53664686 0.30599014 0 family PNTS name pnt871
+prescribed_point 21.59221887 0.20170909 0 family PNTS name pnt872
+prescribed_point 21.64744588 0.09737443 0 family PNTS name pnt873
+prescribed_point 21.70233466 -0.00701072 0 family PNTS name pnt874
+prescribed_point 21.75689873 -0.11144315 0 family PNTS name pnt875
+prescribed_point 21.81113809 -0.2159197 0 family PNTS name pnt876
+prescribed_point 21.86505275 -0.32043722 0 family PNTS name pnt877
+prescribed_point 21.91865623 -0.42499256 0 family PNTS name pnt878
+prescribed_point 21.97194854 -0.52958255 0 family PNTS name pnt879
+prescribed_point 22.0249432 -0.63420407 0 family PNTS name pnt880
+prescribed_point 22.07764021 -0.738854 0 family PNTS name pnt881
+prescribed_point 22.13004634 -0.84352914 0 family PNTS name pnt882
+prescribed_point 22.18216836 -0.94822647 0 family PNTS name pnt883
+prescribed_point 22.23401302 -1.05294281 0 family PNTS name pnt884
+prescribed_point 22.28558033 -1.15767497 0 family PNTS name pnt885
+prescribed_point 22.33688381 -1.26241999 0 family PNTS name pnt886
+prescribed_point 22.38792347 -1.36717469 0 family PNTS name pnt887
+prescribed_point 22.43870608 -1.47193608 0 family PNTS name pnt888
+prescribed_point 22.48923839 -1.57670112 0 family PNTS name pnt889
+prescribed_point 22.53952717 -1.68146657 0 family PNTS name pnt890
+prescribed_point 22.58957242 -1.78622959 0 family PNTS name pnt891
+prescribed_point 22.63938767 -1.89098692 0 family PNTS name pnt892
+prescribed_point 22.68897292 -1.99573573 0 family PNTS name pnt893
+prescribed_point 22.73832817 -2.10047277 0 family PNTS name pnt894
+prescribed_point 22.78747371 -2.20519546 0 family PNTS name pnt895
+prescribed_point 22.83640279 -2.30990037 0 family PNTS name pnt896
+prescribed_point 22.88512892 -2.41458464 0 family PNTS name pnt897
+prescribed_point 22.93365212 -2.51924551 0 family PNTS name pnt898
+prescribed_point 22.9819656 -2.62385389 0 family PNTS name pnt899
+prescribed_point 23.03010321 -2.72845529 0 family PNTS name pnt900
+prescribed_point 23.07805817 -2.83305765 0 family PNTS name pnt901
+prescribed_point 23.12583048 -2.93761616 0 family PNTS name pnt902
+prescribed_point 23.17340661 -3.04213085 0 family PNTS name pnt903
+prescribed_point 23.22078657 -3.14660088 0 family PNTS name pnt904
+prescribed_point 23.26797712 -3.25102559 0 family PNTS name pnt905
+prescribed_point 23.31498502 -3.35540471 0 family PNTS name pnt906
+prescribed_point 23.36179674 -3.45973769 0 family PNTS name pnt907
+prescribed_point 23.40841906 -3.5640238 0 family PNTS name pnt908
+prescribed_point 23.45485872 -3.66826275 0 family PNTS name pnt909
+prescribed_point 23.50110898 -3.77245408 0 family PNTS name pnt910
+prescribed_point 23.54717658 -3.87659731 0 family PNTS name pnt911
+prescribed_point 23.59305478 -3.98069164 0 family PNTS name pnt912
+prescribed_point 23.63875033 -4.08473685 0 family PNTS name pnt913
+prescribed_point 23.68426323 -4.18873234 0 family PNTS name pnt914
+prescribed_point 23.72958672 -4.29267805 0 family PNTS name pnt915
+prescribed_point 23.77473433 -4.39657247 0 family PNTS name pnt916
+prescribed_point 23.81969929 -4.5004161 0 family PNTS name pnt917
+prescribed_point 23.8644816 -4.60420824 0 family PNTS name pnt918
+prescribed_point 23.90908127 -4.70794803 0 family PNTS name pnt919
+prescribed_point 23.95350505 -4.81163532 0 family PNTS name pnt920
+prescribed_point 23.99775296 -4.91526978 0 family PNTS name pnt921
+prescribed_point 24.04181821 -5.01885026 0 family PNTS name pnt922
+prescribed_point 24.08570759 -5.1223773 0 family PNTS name pnt923
+prescribed_point 24.12942108 -5.22584994 0 family PNTS name pnt924
+prescribed_point 24.17295869 -5.32926766 0 family PNTS name pnt925
+prescribed_point 24.21631365 -5.43262991 0 family PNTS name pnt926
+prescribed_point 24.25949949 -5.53593622 0 family PNTS name pnt927
+prescribed_point 24.30251622 -5.63918658 0 family PNTS name pnt928
+prescribed_point 24.3453503 -5.74238052 0 family PNTS name pnt929
+prescribed_point 24.38801526 -5.84551696 0 family PNTS name pnt930
+prescribed_point 24.43051111 -5.94859597 0 family PNTS name pnt931
+prescribed_point 24.47283784 -6.05161748 0 family PNTS name pnt932
+prescribed_point 24.51498868 -6.15458007 0 family PNTS name pnt933
+prescribed_point 24.55697041 -6.25748415 0 family PNTS name pnt934
+prescribed_point 24.59878302 -6.36032883 0 family PNTS name pnt935
+prescribed_point 24.64042651 -6.46311344 0 family PNTS name pnt936
+prescribed_point 24.68190089 -6.56583866 0 family PNTS name pnt937
+prescribed_point 24.72320615 -6.66850285 0 family PNTS name pnt938
+prescribed_point 24.76434905 -6.77110617 0 family PNTS name pnt939
+prescribed_point 24.80532284 -6.87364549 0 family PNTS name pnt940
+prescribed_point 24.84612751 -6.9761307 0 family PNTS name pnt941
+prescribed_point 24.88677659 -7.07854826 0 family PNTS name pnt942
+prescribed_point 24.92725656 -7.18090493 0 family PNTS name pnt943
+prescribed_point 24.96756741 -7.28319396 0 family PNTS name pnt944
+prescribed_point 25.00772267 -7.38542887 0 family PNTS name pnt945
+prescribed_point 25.04770881 -7.48758937 0 family PNTS name pnt946
+prescribed_point 25.08753936 -7.58969575 0 family PNTS name pnt947
+prescribed_point 25.12720756 -7.69172772 0 family PNTS name pnt948
+prescribed_point 25.16670665 -7.79370558 0 family PNTS name pnt949
+prescribed_point 25.20605691 -7.89560902 0 family PNTS name pnt950
+prescribed_point 25.24523805 -7.99745158 0 family PNTS name pnt951
+prescribed_point 25.2842636 -8.09922649 0 family PNTS name pnt952
+prescribed_point 25.32313357 -8.20093375 0 family PNTS name pnt953
+prescribed_point 25.36184118 -8.30258013 0 family PNTS name pnt954
+prescribed_point 25.40039321 -8.4041521 0 family PNTS name pnt955
+prescribed_point 25.43878964 -8.50565643 0 family PNTS name pnt956
+prescribed_point 25.47702373 -8.60709987 0 family PNTS name pnt957
+prescribed_point 25.51510899 -8.7084689 0 family PNTS name pnt958
+prescribed_point 25.5530319 -8.80977028 0 family PNTS name pnt959
+prescribed_point 25.59080598 -8.91100402 0 family PNTS name pnt960
+prescribed_point 25.62842448 -9.0121701 0 family PNTS name pnt961
+prescribed_point 25.66588739 -9.11326178 0 family PNTS name pnt962
+prescribed_point 25.70320147 -9.21428581 0 family PNTS name pnt963
+prescribed_point 25.74035997 -9.31524219 0 family PNTS name pnt964
+prescribed_point 25.77736964 -9.41612416 0 family PNTS name pnt965
+prescribed_point 25.81422373 -9.51693849 0 family PNTS name pnt966
+prescribed_point 25.85092899 -9.6176784 0 family PNTS name pnt967
+prescribed_point 25.88748543 -9.7183439 0 family PNTS name pnt968
+prescribed_point 25.92388628 -9.81894176 0 family PNTS name pnt969
+prescribed_point 25.96014507 -9.9194652 0 family PNTS name pnt970
+prescribed_point 25.99624828 -10.01992099 0 family PNTS name pnt971
+prescribed_point 26.03220266 -10.12029561 0 family PNTS name pnt972
+prescribed_point 26.06801498 -10.22060258 0 family PNTS name pnt973
+prescribed_point 26.10367848 -10.32083514 0 family PNTS name pnt974
+prescribed_point 26.13919315 -10.42099329 0 family PNTS name pnt975
+prescribed_point 26.17453871 -10.52100262 0 family PNTS name pnt976
+prescribed_point 26.20972191 -10.62090371 0 family PNTS name pnt977
+prescribed_point 26.24476306 -10.72073038 0 family PNTS name pnt978
+prescribed_point 26.27965538 -10.82046912 0 family PNTS name pnt979
+prescribed_point 26.31440565 -10.92013345 0 family PNTS name pnt980
+prescribed_point 26.34901385 -11.01973012 0 family PNTS name pnt981
+prescribed_point 26.38348676 -11.11927945 0 family PNTS name pnt982
+prescribed_point 26.41781762 -11.21873407 0 family PNTS name pnt983
+prescribed_point 26.45199965 -11.31810751 0 family PNTS name pnt984
+prescribed_point 26.48603962 -11.41739978 0 family PNTS name pnt985
+prescribed_point 26.51994429 -11.51659734 0 family PNTS name pnt986
+prescribed_point 26.55370691 -11.61571372 0 family PNTS name pnt987
+prescribed_point 26.58732747 -11.71474217 0 family PNTS name pnt988
+prescribed_point 26.62081273 -11.8136759 0 family PNTS name pnt989
+prescribed_point 26.6541627 -11.91252846 0 family PNTS name pnt990
+prescribed_point 26.68737738 -12.01128632 0 family PNTS name pnt991
+prescribed_point 26.72045676 -12.10995623 0 family PNTS name pnt992
+prescribed_point 26.75340085 -12.20853821 0 family PNTS name pnt993
+prescribed_point 26.78621641 -12.30702547 0 family PNTS name pnt994
+prescribed_point 26.81890344 -12.4054248 0 family PNTS name pnt995
+prescribed_point 26.85145518 -12.50373619 0 family PNTS name pnt996
+prescribed_point 26.88388515 -12.60195287 0 family PNTS name pnt997
+prescribed_point 26.91617983 -12.70007484 0 family PNTS name pnt998
+prescribed_point 26.94835274 -12.79810887 0 family PNTS name pnt999
+prescribed_point 26.98040389 -12.89604143 0 family PNTS name pnt1000
+prescribed_point 27.01232651 -12.99388605 0 family PNTS name pnt1001
+prescribed_point 27.04412737 -13.09163597 0 family PNTS name pnt1002
+prescribed_point 27.07580646 -13.18929118 0 family PNTS name pnt1003
+prescribed_point 27.10737055 -13.28685168 0 family PNTS name pnt1004
+prescribed_point 27.13880611 -13.38431748 0 family PNTS name pnt1005
+prescribed_point 27.17013343 -13.48168857 0 family PNTS name pnt1006
+prescribed_point 27.20133899 -13.57896496 0 family PNTS name pnt1007
+prescribed_point 27.23242279 -13.67613987 0 family PNTS name pnt1008
+prescribed_point 27.26339835 -13.77322008 0 family PNTS name pnt1009
+prescribed_point 27.29425215 -13.87019882 0 family PNTS name pnt1010
+prescribed_point 27.32500447 -13.96708285 0 family PNTS name pnt1011
+prescribed_point 27.35563504 -14.06387218 0 family PNTS name pnt1012
+prescribed_point 27.38615736 -14.16056004 0 family PNTS name pnt1013
+prescribed_point 27.41657145 -14.25714643 0 family PNTS name pnt1014
+prescribed_point 27.44687731 -14.35363811 0 family PNTS name pnt1015
+prescribed_point 27.47707493 -14.45002832 0 family PNTS name pnt1016
+prescribed_point 27.50716432 -14.54631706 0 family PNTS name pnt1017
+prescribed_point 27.53714547 -14.64250433 0 family PNTS name pnt1018
+prescribed_point 27.56702515 -14.73859012 0 family PNTS name pnt1019
+prescribed_point 27.59680336 -14.83457445 0 family PNTS name pnt1020
+prescribed_point 27.62647333 -14.93045731 0 family PNTS name pnt1021
+prescribed_point 27.6560486 -15.0262387 0 family PNTS name pnt1022
+prescribed_point 27.68551563 -15.12191862 0 family PNTS name pnt1023
+prescribed_point 27.71488796 -15.21749706 0 family PNTS name pnt1024
+prescribed_point 27.74415882 -15.31296727 0 family PNTS name pnt1025
+prescribed_point 27.77333497 -15.40833601 0 family PNTS name pnt1026
+prescribed_point 27.80240965 -15.50360328 0 family PNTS name pnt1027
+prescribed_point 27.83139639 -15.59876232 0 family PNTS name pnt1028
+prescribed_point 27.86028166 -15.69381988 0 family PNTS name pnt1029
+prescribed_point 27.88907222 -15.78876921 0 family PNTS name pnt1030
+prescribed_point 27.91777484 -15.88361707 0 family PNTS name pnt1031
+prescribed_point 27.94638276 -15.97835669 0 family PNTS name pnt1032
+prescribed_point 27.97489597 -16.07298808 0 family PNTS name pnt1033
+prescribed_point 28.00332124 -16.16751124 0 family PNTS name pnt1034
+prescribed_point 28.03165857 -16.26193292 0 family PNTS name pnt1035
+prescribed_point 28.05990795 -16.35624637 0 family PNTS name pnt1036
+prescribed_point 28.0880694 -16.45045158 0 family PNTS name pnt1037
+prescribed_point 28.11614967 -16.54454855 0 family PNTS name pnt1038
+prescribed_point 28.14413523 -16.6385373 0 family PNTS name pnt1039
+prescribed_point 28.17203962 -16.7324178 0 family PNTS name pnt1040
+prescribed_point 28.19986283 -16.82619007 0 family PNTS name pnt1041
+prescribed_point 28.2275981 -16.91984735 0 family PNTS name pnt1042
+prescribed_point 28.25525896 -17.01340315 0 family PNTS name pnt1043
+prescribed_point 28.28283188 -17.10684395 0 family PNTS name pnt1044
+prescribed_point 28.31032362 -17.20017651 0 family PNTS name pnt1045
+prescribed_point 28.33774095 -17.29339408 0 family PNTS name pnt1046
+prescribed_point 28.3650771 -17.38650341 0 family PNTS name pnt1047
+prescribed_point 28.39233884 -17.47950451 0 family PNTS name pnt1048
+prescribed_point 28.4195194 -17.57239737 0 family PNTS name pnt1049
+prescribed_point 28.44662556 -17.66516846 0 family PNTS name pnt1050
+prescribed_point 28.4736573 -17.75783809 0 family PNTS name pnt1051
+prescribed_point 28.50061463 -17.85038595 0 family PNTS name pnt1052
+prescribed_point 28.52749755 -17.94282557 0 family PNTS name pnt1053
+prescribed_point 28.55430605 -18.0351502 0 family PNTS name pnt1054
+prescribed_point 28.58104691 -18.12736659 0 family PNTS name pnt1055
+prescribed_point 28.60771336 -18.21946798 0 family PNTS name pnt1056
+prescribed_point 28.63431216 -18.31144761 0 family PNTS name pnt1057
+prescribed_point 28.66083655 -18.403319 0 family PNTS name pnt1058
+prescribed_point 28.68730005 -18.49508215 0 family PNTS name pnt1059
+prescribed_point 28.71368238 -18.58671001 0 family PNTS name pnt1060
+prescribed_point 28.74000383 -18.67821611 0 family PNTS name pnt1061
+prescribed_point 28.76625763 -18.76960721 0 family PNTS name pnt1062
+prescribed_point 28.79244379 -18.86088331 0 family PNTS name pnt1063
+prescribed_point 28.81856229 -18.9520444 0 family PNTS name pnt1064
+prescribed_point 28.84461992 -19.0430905 0 family PNTS name pnt1065
+prescribed_point 28.8706099 -19.1340216 0 family PNTS name pnt1066
+prescribed_point 28.89653899 -19.22483769 0 family PNTS name pnt1067
+prescribed_point 28.92239367 -19.31553203 0 family PNTS name pnt1068
+prescribed_point 28.94818747 -19.40611136 0 family PNTS name pnt1069
+prescribed_point 28.97392039 -19.49657569 0 family PNTS name pnt1070
+prescribed_point 28.9995789 -19.58691826 0 family PNTS name pnt1071
+prescribed_point 29.02518329 -19.67714583 0 family PNTS name pnt1072
+prescribed_point 29.05071327 -19.76725163 0 family PNTS name pnt1073
+prescribed_point 29.07618236 -19.8572492 0 family PNTS name pnt1074
+prescribed_point 29.10159058 -19.94712501 0 family PNTS name pnt1075
+prescribed_point 29.12693791 -20.03688581 0 family PNTS name pnt1076
+prescribed_point 29.15221083 -20.12652485 0 family PNTS name pnt1077
+prescribed_point 29.17742286 -20.21604889 0 family PNTS name pnt1078
+prescribed_point 29.20258078 -20.30545117 0 family PNTS name pnt1079
+prescribed_point 29.22766429 -20.39473844 0 family PNTS name pnt1080
+prescribed_point 29.25268692 -20.48391072 0 family PNTS name pnt1081
+prescribed_point 29.27764866 -20.57296799 0 family PNTS name pnt1082
+prescribed_point 29.30254952 -20.66189674 0 family PNTS name pnt1083
+prescribed_point 29.32738273 -20.75071725 0 family PNTS name pnt1084
+prescribed_point 29.35215506 -20.839416 0 family PNTS name pnt1085
+prescribed_point 29.37686651 -20.92799974 0 family PNTS name pnt1086
+prescribed_point 29.40151708 -21.01646172 0 family PNTS name pnt1087
+prescribed_point 29.4261 -21.10480871 0 family PNTS name pnt1088
+prescribed_point 29.4506288 -21.19303392 0 family PNTS name pnt1089
+prescribed_point 29.47508996 -21.28114414 0 family PNTS name pnt1090
+prescribed_point 29.49949023 -21.36913259 0 family PNTS name pnt1091
+prescribed_point 29.52382962 -21.45700605 0 family PNTS name pnt1092
+prescribed_point 29.54810813 -21.5447645 0 family PNTS name pnt1093
+prescribed_point 29.57231899 -21.63240119 0 family PNTS name pnt1094
+prescribed_point 29.59647573 -21.71991611 0 family PNTS name pnt1095
+prescribed_point 29.6205716 -21.80731604 0 family PNTS name pnt1096
+prescribed_point 29.64460658 -21.89460096 0 family PNTS name pnt1097
+prescribed_point 29.66858067 -21.98175736 0 family PNTS name pnt1098
+prescribed_point 29.69249389 -22.06880552 0 family PNTS name pnt1099
+prescribed_point 29.71634622 -22.15573191 0 family PNTS name pnt1100
+prescribed_point 29.74013767 -22.24253654 0 family PNTS name pnt1101
+prescribed_point 29.76386824 -22.32922617 0 family PNTS name pnt1102
+prescribed_point 29.78754469 -22.41579404 0 family PNTS name pnt1103
+prescribed_point 29.81115349 -22.5022469 0 family PNTS name pnt1104
+prescribed_point 29.83470817 -22.588578 0 family PNTS name pnt1105
+prescribed_point 29.85820198 -22.67479411 0 family PNTS name pnt1106
+prescribed_point 29.8816349 -22.76088844 0 family PNTS name pnt1107
+prescribed_point 29.9050137 -22.84686102 0 family PNTS name pnt1108
+prescribed_point 29.92832486 -22.93271859 0 family PNTS name pnt1109
+prescribed_point 29.95158866 -23.01846116 0 family PNTS name pnt1110
+prescribed_point 29.97478482 -23.1040752 0 family PNTS name pnt1111
+prescribed_point 29.99792686 -23.18958101 0 family PNTS name pnt1112
+prescribed_point 30.02100801 -23.27495829 0 family PNTS name pnt1113
+prescribed_point 30.04403505 -23.36022057 0 family PNTS name pnt1114
+prescribed_point 30.06700121 -23.44536785 0 family PNTS name pnt1115
+prescribed_point 30.08990648 -23.5303866 0 family PNTS name pnt1116
+prescribed_point 30.11275764 -23.61529711 0 family PNTS name pnt1117
+prescribed_point 30.13555468 -23.7000791 0 family PNTS name pnt1118
+prescribed_point 30.15829083 -23.78474608 0 family PNTS name pnt1119
+prescribed_point 30.18096611 -23.86929807 0 family PNTS name pnt1120
+prescribed_point 30.20358727 -23.95372829 0 family PNTS name pnt1121
+prescribed_point 30.2261543 -24.03803674 0 family PNTS name pnt1122
+prescribed_point 30.24866046 -24.12222344 0 family PNTS name pnt1123
+prescribed_point 30.2711125 -24.20629513 0 family PNTS name pnt1124
+prescribed_point 30.29350366 -24.29024505 0 family PNTS name pnt1125
+prescribed_point 30.3158407 -24.37407998 0 family PNTS name pnt1126
+prescribed_point 30.33812362 -24.45779314 0 family PNTS name pnt1127
+prescribed_point 30.36034566 -24.54139131 0 family PNTS name pnt1128
+prescribed_point 30.38252035 -24.62486094 0 family PNTS name pnt1129
+prescribed_point 30.40463415 -24.70822234 0 family PNTS name pnt1130
+prescribed_point 30.42668707 -24.79145521 0 family PNTS name pnt1131
+prescribed_point 30.44869264 -24.87457308 0 family PNTS name pnt1132
+prescribed_point 30.47063733 -24.95756918 0 family PNTS name pnt1133
+prescribed_point 30.4925279 -25.04045028 0 family PNTS name pnt1134
+prescribed_point 30.51436435 -25.12320962 0 family PNTS name pnt1135
+prescribed_point 30.53614668 -25.2058472 0 family PNTS name pnt1136
+prescribed_point 30.5578749 -25.28836977 0 family PNTS name pnt1137
+prescribed_point 30.579549 -25.37077059 0 family PNTS name pnt1138
+prescribed_point 30.60116221 -25.45304963 0 family PNTS name pnt1139
+prescribed_point 30.62272808 -25.53520691 0 family PNTS name pnt1140
+prescribed_point 30.64423982 -25.61725596 0 family PNTS name pnt1141
+prescribed_point 30.66569069 -25.69917648 0 family PNTS name pnt1142
+prescribed_point 30.6870942 -25.78098199 0 family PNTS name pnt1143
+prescribed_point 30.70843683 -25.86266575 0 family PNTS name pnt1144
+prescribed_point 30.7297321 -25.94422773 0 family PNTS name pnt1145
+prescribed_point 30.7509665 -26.02567472 0 family PNTS name pnt1146
+prescribed_point 30.77215354 -26.10699995 0 family PNTS name pnt1147
+prescribed_point 30.79328646 -26.18821017 0 family PNTS name pnt1148
+prescribed_point 30.81436526 -26.26929863 0 family PNTS name pnt1149
+prescribed_point 30.83539672 -26.35026532 0 family PNTS name pnt1150
+prescribed_point 30.85636729 -26.43111702 0 family PNTS name pnt1151
+prescribed_point 30.87728374 -26.51184018 0 family PNTS name pnt1152
+prescribed_point 30.89815284 -26.59245511 0 family PNTS name pnt1153
+prescribed_point 30.91896782 -26.67294828 0 family PNTS name pnt1154
+prescribed_point 30.93973545 -26.75331291 0 family PNTS name pnt1155
+prescribed_point 30.9604422 -26.83355578 0 family PNTS name pnt1156
+prescribed_point 30.98110159 -26.91368366 0 family PNTS name pnt1157
+prescribed_point 31.00170687 -26.99368976 0 family PNTS name pnt1158
+prescribed_point 31.02225802 -27.07358087 0 family PNTS name pnt1159
+prescribed_point 31.04276183 -27.15334345 0 family PNTS name pnt1160
+prescribed_point 31.06320475 -27.23299103 0 family PNTS name pnt1161
+prescribed_point 31.08360709 -27.31251684 0 family PNTS name pnt1162
+prescribed_point 31.10394854 -27.39192765 0 family PNTS name pnt1163
+prescribed_point 31.12424941 -27.4712167 0 family PNTS name pnt1164
+prescribed_point 31.14448939 -27.55038398 0 family PNTS name pnt1165
+prescribed_point 31.16468202 -27.62943627 0 family PNTS name pnt1166
+prescribed_point 31.18482729 -27.70836679 0 family PNTS name pnt1167
+prescribed_point 31.20491845 -27.78718231 0 family PNTS name pnt1168
+prescribed_point 31.22496226 -27.86587606 0 family PNTS name pnt1169
+prescribed_point 31.24495871 -27.94444805 0 family PNTS name pnt1170
+prescribed_point 31.26490105 -28.02289828 0 family PNTS name pnt1171
+prescribed_point 31.28478927 -28.10123351 0 family PNTS name pnt1172
+prescribed_point 31.3046369 -28.17944697 0 family PNTS name pnt1173
+prescribed_point 31.32443041 -28.25754543 0 family PNTS name pnt1174
+prescribed_point 31.34417657 -28.33552213 0 family PNTS name pnt1175
+prescribed_point 31.36387537 -28.41337706 0 family PNTS name pnt1176
+prescribed_point 31.38352683 -28.49111023 0 family PNTS name pnt1177
+prescribed_point 31.40313093 -28.56872839 0 family PNTS name pnt1178
+prescribed_point 31.42268091 -28.64621803 0 family PNTS name pnt1179
+prescribed_point 31.44219031 -28.72359943 0 family PNTS name pnt1180
+prescribed_point 31.46165235 -28.80085231 0 family PNTS name pnt1181
+prescribed_point 31.48106027 -28.87799018 0 family PNTS name pnt1182
+prescribed_point 31.50042761 -28.95500629 0 family PNTS name pnt1183
+prescribed_point 31.51974759 -29.0319074 0 family PNTS name pnt1184
+prescribed_point 31.53902022 -29.10867998 0 family PNTS name pnt1185
+prescribed_point 31.55825226 -29.18533756 0 family PNTS name pnt1186
+prescribed_point 31.57743695 -29.26187338 0 family PNTS name pnt1187
+prescribed_point 31.59657429 -29.33829419 0 family PNTS name pnt1188
+prescribed_point 31.61566427 -29.41459325 0 family PNTS name pnt1189
+prescribed_point 31.63471367 -29.49077053 0 family PNTS name pnt1190
+prescribed_point 31.65371571 -29.56683282 0 family PNTS name pnt1191
+prescribed_point 31.67267716 -29.64277334 0 family PNTS name pnt1192
+prescribed_point 31.69159127 -29.7185921 0 family PNTS name pnt1193
+prescribed_point 31.71045801 -29.79428909 0 family PNTS name pnt1194
+prescribed_point 31.72929094 -29.86987108 0 family PNTS name pnt1195
+prescribed_point 31.74806975 -29.94533131 0 family PNTS name pnt1196
+prescribed_point 31.76681473 -30.02066978 0 family PNTS name pnt1197
+prescribed_point 31.78551236 -30.09589324 0 family PNTS name pnt1198
+prescribed_point 31.8041694 -30.17099494 0 family PNTS name pnt1199
+prescribed_point 31.82277909 -30.24597488 0 family PNTS name pnt1200
+prescribed_point 31.84134819 -30.32083305 0 family PNTS name pnt1201
+prescribed_point 31.85987671 -30.39557622 0 family PNTS name pnt1202
+prescribed_point 31.87836463 -30.47019762 0 family PNTS name pnt1203
+prescribed_point 31.89681197 -30.54470403 0 family PNTS name pnt1204
+prescribed_point 31.91521872 -30.61908867 0 family PNTS name pnt1205
+prescribed_point 31.93357811 -30.69335155 0 family PNTS name pnt1206
+prescribed_point 31.95190369 -30.76749942 0 family PNTS name pnt1207
+prescribed_point 31.97018191 -30.84152553 0 family PNTS name pnt1208
+prescribed_point 31.98841954 -30.91542988 0 family PNTS name pnt1209
+prescribed_point 32.00662334 -30.98921246 0 family PNTS name pnt1210
+prescribed_point 32.0247798 -31.06288005 0 family PNTS name pnt1211
+prescribed_point 32.04290243 -31.13642587 0 family PNTS name pnt1212
+prescribed_point 32.06098447 -31.20985668 0 family PNTS name pnt1213
+prescribed_point 32.07902593 -31.28316574 0 family PNTS name pnt1214
+prescribed_point 32.09703356 -31.35635303 0 family PNTS name pnt1215
+prescribed_point 32.11499384 -31.42942532 0 family PNTS name pnt1216
+prescribed_point 32.13292029 -31.50237584 0 family PNTS name pnt1217
+prescribed_point 32.15080616 -31.57521137 0 family PNTS name pnt1218
+prescribed_point 32.16865144 -31.64792513 0 family PNTS name pnt1219
+prescribed_point 32.18646289 -31.72051712 0 family PNTS name pnt1220
+prescribed_point 32.20423376 -31.79299412 0 family PNTS name pnt1221
+prescribed_point 32.2219708 -31.86534935 0 family PNTS name pnt1222
+prescribed_point 32.23966726 -31.93758282 0 family PNTS name pnt1223
+prescribed_point 32.25732313 -32.00970128 0 family PNTS name pnt1224
+prescribed_point 32.27494517 -32.08169799 0 family PNTS name pnt1225
+prescribed_point 32.29253339 -32.15357969 0 family PNTS name pnt1226
+prescribed_point 32.31008102 -32.22533962 0 family PNTS name pnt1227
+prescribed_point 32.32759483 -32.29698456 0 family PNTS name pnt1228
+prescribed_point 32.34506805 -32.36850774 0 family PNTS name pnt1229
+prescribed_point 32.36250745 -32.43990914 0 family PNTS name pnt1230
+prescribed_point 32.37991302 -32.51119555 0 family PNTS name pnt1231
+prescribed_point 32.397278 -32.5823602 0 family PNTS name pnt1232
+prescribed_point 32.41460917 -32.65340984 0 family PNTS name pnt1233
+prescribed_point 32.4319065 -32.72434449 0 family PNTS name pnt1234
+prescribed_point 32.44916325 -32.7951506 0 family PNTS name pnt1235
+prescribed_point 32.46639294 -32.86584848 0 family PNTS name pnt1236
+prescribed_point 32.48358205 -32.93642459 0 family PNTS name pnt1237
+prescribed_point 32.50073733 -33.00687895 0 family PNTS name pnt1238
+prescribed_point 32.51785878 -33.0772183 0 family PNTS name pnt1239
+prescribed_point 32.53494641 -33.14743588 0 family PNTS name pnt1240
+prescribed_point 32.55200022 -33.21753847 0 family PNTS name pnt1241
+prescribed_point 32.56901344 -33.28751929 0 family PNTS name pnt1242
+prescribed_point 32.58599961 -33.35738511 0 family PNTS name pnt1243
+prescribed_point 32.60295194 -33.42713593 0 family PNTS name pnt1244
+prescribed_point 32.61987046 -33.49676499 0 family PNTS name pnt1245
+prescribed_point 32.63674838 -33.56627228 0 family PNTS name pnt1246
+prescribed_point 32.65359925 -33.63566458 0 family PNTS name pnt1247
+prescribed_point 32.6704163 -33.70494187 0 family PNTS name pnt1248
+prescribed_point 32.68720628 -33.7740974 0 family PNTS name pnt1249
+prescribed_point 32.70395568 -33.84313792 0 family PNTS name pnt1250
+prescribed_point 32.72067802 -33.91206345 0 family PNTS name pnt1251
+prescribed_point 32.73735977 -33.98086722 0 family PNTS name pnt1252
+prescribed_point 32.75401446 -34.04955598 0 family PNTS name pnt1253
+prescribed_point 32.77063533 -34.11812298 0 family PNTS name pnt1254
+prescribed_point 32.78722914 -34.18657498 0 family PNTS name pnt1255
+prescribed_point 32.80378912 -34.25491198 0 family PNTS name pnt1256
+prescribed_point 32.82031528 -34.32312721 0 family PNTS name pnt1257
+prescribed_point 32.83680762 -34.39122745 0 family PNTS name pnt1258
+prescribed_point 32.8532729 -34.45921268 0 family PNTS name pnt1259
+prescribed_point 32.86970436 -34.52707615 0 family PNTS name pnt1260
+prescribed_point 32.88610876 -34.59482462 0 family PNTS name pnt1261
+prescribed_point 32.90247933 -34.66245809 0 family PNTS name pnt1262
+prescribed_point 32.91881608 -34.72997656 0 family PNTS name pnt1263
+prescribed_point 32.93512577 -34.79737327 0 family PNTS name pnt1264
+prescribed_point 32.95140841 -34.86465498 0 family PNTS name pnt1265
+prescribed_point 32.96765721 -34.93181492 0 family PNTS name pnt1266
+prescribed_point 32.98387897 -34.99886662 0 family PNTS name pnt1267
+prescribed_point 33.00006689 -35.06579657 0 family PNTS name pnt1268
+prescribed_point 33.016221 -35.13261151 0 family PNTS name pnt1269
+prescribed_point 33.03235481 -35.19931145 0 family PNTS name pnt1270
+prescribed_point 33.04844803 -35.26588963 0 family PNTS name pnt1271
+prescribed_point 33.06452095 -35.33235281 0 family PNTS name pnt1272
+prescribed_point 33.08056006 -35.39870775 0 family PNTS name pnt1273
+prescribed_point 33.0965721 -35.46494093 0 family PNTS name pnt1274
+prescribed_point 33.11255709 -35.53105234 0 family PNTS name pnt1275
+prescribed_point 33.12850825 -35.59705552 0 family PNTS name pnt1276
+prescribed_point 33.14443236 -35.66294369 0 family PNTS name pnt1277
+prescribed_point 33.1603294 -35.72871011 0 family PNTS name pnt1278
+prescribed_point 33.17619262 -35.79436152 0 family PNTS name pnt1279
+prescribed_point 33.19203555 -35.85989794 0 family PNTS name pnt1280
+prescribed_point 33.20784465 -35.92532611 0 family PNTS name pnt1281
+prescribed_point 33.2236267 -35.99063253 0 family PNTS name pnt1282
+prescribed_point 33.23938168 -36.05582394 0 family PNTS name pnt1283
+prescribed_point 33.25510961 -36.12089359 0 family PNTS name pnt1284
+prescribed_point 33.27080372 -36.185855 0 family PNTS name pnt1285
+prescribed_point 33.28647753 -36.25070142 0 family PNTS name pnt1286
+prescribed_point 33.30211751 -36.31543283 0 family PNTS name pnt1287
+prescribed_point 33.31773044 -36.38004925 0 family PNTS name pnt1288
+prescribed_point 33.33331631 -36.44455066 0 family PNTS name pnt1289
+prescribed_point 33.34887512 -36.50893708 0 family PNTS name pnt1290
+prescribed_point 33.36440687 -36.57320849 0 family PNTS name pnt1291
+prescribed_point 33.3799048 -36.63736491 0 family PNTS name pnt1292
+prescribed_point 33.39538243 -36.70141309 0 family PNTS name pnt1293
+prescribed_point 33.41082624 -36.7653395 0 family PNTS name pnt1294
+prescribed_point 33.42624976 -36.82915092 0 family PNTS name pnt1295
+prescribed_point 33.44163945 -36.8928541 0 family PNTS name pnt1296
+prescribed_point 33.45700208 -36.95643551 0 family PNTS name pnt1297
+prescribed_point 33.47233766 -37.01990869 0 family PNTS name pnt1298
+prescribed_point 33.48764617 -37.08327364 0 family PNTS name pnt1299
+prescribed_point 33.50292763 -37.14651682 0 family PNTS name pnt1300
+prescribed_point 33.51818203 -37.20965176 0 family PNTS name pnt1301
+prescribed_point 33.53340937 -37.27266494 0 family PNTS name pnt1302
+prescribed_point 33.54860289 -37.33556989 0 family PNTS name pnt1303
+prescribed_point 33.56377611 -37.3983666 0 family PNTS name pnt1304
+prescribed_point 33.57891551 -37.46104154 0 family PNTS name pnt1305
+prescribed_point 33.59403461 -37.52360825 0 family PNTS name pnt1306
+prescribed_point 33.60911989 -37.58606673 0 family PNTS name pnt1307
+prescribed_point 33.62418488 -37.64840344 0 family PNTS name pnt1308
+prescribed_point 33.63921604 -37.71063191 0 family PNTS name pnt1309
+prescribed_point 33.65422015 -37.77274539 0 family PNTS name pnt1310
+prescribed_point 33.66920396 -37.83475063 0 family PNTS name pnt1311
+prescribed_point 33.68415394 -37.89664087 0 family PNTS name pnt1312
+prescribed_point 33.69908364 -37.95841611 0 family PNTS name pnt1313
+prescribed_point 33.71397951 -38.02008312 0 family PNTS name pnt1314
+prescribed_point 33.72884832 -38.08164189 0 family PNTS name pnt1315
+prescribed_point 33.74369683 -38.14308566 0 family PNTS name pnt1316
+prescribed_point 33.75851153 -38.20441443 0 family PNTS name pnt1317
+prescribed_point 33.77329916 -38.26563496 0 family PNTS name pnt1318
+prescribed_point 33.7880665 -38.3267405 0 family PNTS name pnt1319
+prescribed_point 33.80280002 -38.3877378 0 family PNTS name pnt1320
+prescribed_point 33.81751324 -38.44862686 0 family PNTS name pnt1321
+prescribed_point 33.83219264 -38.50940093 0 family PNTS name pnt1322
+prescribed_point 33.84684498 -38.57005999 0 family PNTS name pnt1323
+prescribed_point 33.86147703 -38.63061082 0 family PNTS name pnt1324
+prescribed_point 33.87607525 -38.69106018 0 family PNTS name pnt1325
+prescribed_point 33.89065318 -38.75138777 0 family PNTS name pnt1326
+prescribed_point 33.90520405 -38.81160713 0 family PNTS name pnt1327
+prescribed_point 33.91972786 -38.87171826 0 family PNTS name pnt1328
+prescribed_point 33.93421784 -38.93171438 0 family PNTS name pnt1329
+prescribed_point 33.94868754 -38.99160227 0 family PNTS name pnt1330
+prescribed_point 33.96313017 -39.05138192 0 family PNTS name pnt1331
+prescribed_point 33.97754575 -39.11105334 0 family PNTS name pnt1332
+prescribed_point 33.99193427 -39.17061653 0 family PNTS name pnt1333
+prescribed_point 34.00629572 -39.23006471 0 family PNTS name pnt1334
+prescribed_point 34.02063689 -39.28940466 0 family PNTS name pnt1335
+prescribed_point 34.03494423 -39.34863637 0 family PNTS name pnt1336
+prescribed_point 34.04922451 -39.40775309 0 family PNTS name pnt1337
+prescribed_point 34.0634845 -39.46676833 0 family PNTS name pnt1338
+prescribed_point 34.07771743 -39.52567534 0 family PNTS name pnt1339
+prescribed_point 34.0919233 -39.58446734 0 family PNTS name pnt1340
+prescribed_point 34.10610211 -39.64315112 0 family PNTS name pnt1341
+prescribed_point 34.12025386 -39.70172665 0 family PNTS name pnt1342
+prescribed_point 34.13437855 -39.76019396 0 family PNTS name pnt1343
+prescribed_point 34.14848295 -39.81855302 0 family PNTS name pnt1344
+prescribed_point 34.16256029 -39.87680385 0 family PNTS name pnt1345
+prescribed_point 34.17660381 -39.93494645 0 family PNTS name pnt1346
+prescribed_point 34.19062703 -39.99298081 0 family PNTS name pnt1347
+prescribed_point 34.2046232 -40.05090694 0 family PNTS name pnt1348
+prescribed_point 34.2185923 -40.10872483 0 family PNTS name pnt1349
+prescribed_point 34.23254111 -40.16643448 0 family PNTS name pnt1350
+prescribed_point 34.2464561 -40.2240359 0 family PNTS name pnt1351
+prescribed_point 34.26034403 -40.28153585 0 family PNTS name pnt1352
+prescribed_point 34.27421843 -40.33892081 0 family PNTS name pnt1353
+prescribed_point 34.28805224 -40.39620428 0 family PNTS name pnt1354
+prescribed_point 34.30187253 -40.45337276 0 family PNTS name pnt1355
+prescribed_point 34.31566575 -40.51043977 0 family PNTS name pnt1356
+prescribed_point 34.32942515 -40.56739855 0 family PNTS name pnt1357
+prescribed_point 34.34316425 -40.62424909 0 family PNTS name pnt1358
+prescribed_point 34.3568763 -40.68099815 0 family PNTS name pnt1359
+prescribed_point 34.37056129 -40.73763899 0 family PNTS name pnt1360
+prescribed_point 34.38422598 -40.79416482 0 family PNTS name pnt1361
+prescribed_point 34.39786362 -40.85059595 0 family PNTS name pnt1362
+prescribed_point 34.41147419 -40.90691884 0 family PNTS name pnt1363
+prescribed_point 34.42506448 -40.96312673 0 family PNTS name pnt1364
+prescribed_point 34.43862094 -41.01923992 0 family PNTS name pnt1365
+prescribed_point 34.45215034 -41.07523811 0 family PNTS name pnt1366
+prescribed_point 34.46566621 -41.13113482 0 family PNTS name pnt1367
+prescribed_point 34.47914825 -41.18693007 0 family PNTS name pnt1368
+prescribed_point 34.49261001 -41.24261031 0 family PNTS name pnt1369
+prescribed_point 34.5060447 -41.29819585 0 family PNTS name pnt1370
+prescribed_point 34.51944557 -41.35366639 0 family PNTS name pnt1371
+prescribed_point 34.53283291 -41.40904223 0 family PNTS name pnt1372
+prescribed_point 34.54618643 -41.46430306 0 family PNTS name pnt1373
+prescribed_point 34.55952642 -41.51946919 0 family PNTS name pnt1374
+prescribed_point 34.57283258 -41.57452032 0 family PNTS name pnt1375
+prescribed_point 34.58611169 -41.62946998 0 family PNTS name pnt1376
+prescribed_point 34.5993705 -41.68431816 0 family PNTS name pnt1377
+prescribed_point 34.61260225 -41.73905812 0 family PNTS name pnt1378
+prescribed_point 34.62581371 -41.7936966 0 family PNTS name pnt1379
+prescribed_point 34.63899811 -41.84823361 0 family PNTS name pnt1380
+prescribed_point 34.65215546 -41.90266239 0 family PNTS name pnt1381
+prescribed_point 34.66528574 -41.95698969 0 family PNTS name pnt1382
+prescribed_point 34.67839573 -42.01120876 0 family PNTS name pnt1383
+prescribed_point 34.69147866 -42.06532636 0 family PNTS name pnt1384
+prescribed_point 34.70454129 -42.11934926 0 family PNTS name pnt1385
+prescribed_point 34.71757687 -42.17325715 0 family PNTS name pnt1386
+prescribed_point 34.73058539 -42.22706357 0 family PNTS name pnt1387
+prescribed_point 34.74357361 -42.28077529 0 family PNTS name pnt1388
+prescribed_point 34.75653478 -42.33437878 0 family PNTS name pnt1389
+prescribed_point 34.76946888 -42.38788079 0 family PNTS name pnt1390
+prescribed_point 34.7823827 -42.44127457 0 family PNTS name pnt1391
+prescribed_point 34.79526945 -42.49457364 0 family PNTS name pnt1392
+prescribed_point 34.80813591 -42.54776447 0 family PNTS name pnt1393
+prescribed_point 34.82096854 -42.60085384 0 family PNTS name pnt1394
+prescribed_point 34.83378765 -42.65384173 0 family PNTS name pnt1395
+prescribed_point 34.84657293 -42.70672816 0 family PNTS name pnt1396
+prescribed_point 34.85933792 -42.75951311 0 family PNTS name pnt1397
+prescribed_point 34.87208262 -42.8121966 0 family PNTS name pnt1398
+prescribed_point 34.88480025 -42.86477861 0 family PNTS name pnt1399
+prescribed_point 34.89749083 -42.91725915 0 family PNTS name pnt1400
+prescribed_point 34.91015435 -42.96963822 0 family PNTS name pnt1401
+prescribed_point 34.92280434 -43.02191582 0 family PNTS name pnt1402
+prescribed_point 34.9354205 -43.07409196 0 family PNTS name pnt1403
+prescribed_point 34.94801638 -43.12616662 0 family PNTS name pnt1404
+prescribed_point 34.96059195 -43.17814657 0 family PNTS name pnt1405
+prescribed_point 34.97314047 -43.23001829 0 family PNTS name pnt1406
+prescribed_point 34.98566193 -43.28178854 0 family PNTS name pnt1407
+prescribed_point 34.9981631 -43.33346408 0 family PNTS name pnt1408
+prescribed_point 35.0106372 -43.38503816 0 family PNTS name pnt1409
+prescribed_point 35.02309102 -43.43651076 0 family PNTS name pnt1410
+prescribed_point 35.03552453 -43.48788189 0 family PNTS name pnt1411
+prescribed_point 35.04792423 -43.53915832 0 family PNTS name pnt1412
+prescribed_point 35.06030363 -43.59032651 0 family PNTS name pnt1413
+prescribed_point 35.07266274 -43.64139999 0 family PNTS name pnt1414
+prescribed_point 35.08499479 -43.69237877 0 family PNTS name pnt1415
+prescribed_point 35.09730654 -43.74324932 0 family PNTS name pnt1416
+prescribed_point 35.10959123 -43.79402515 0 family PNTS name pnt1417
+prescribed_point 35.12185564 -43.84470629 0 family PNTS name pnt1418
+prescribed_point 35.13409298 -43.89527918 0 family PNTS name pnt1419
+prescribed_point 35.14631003 -43.94575737 0 family PNTS name pnt1420
+prescribed_point 35.15850002 -43.99614086 0 family PNTS name pnt1421
+prescribed_point 35.17066971 -44.04642288 0 family PNTS name pnt1422
+prescribed_point 35.18281235 -44.09660342 0 family PNTS name pnt1423
+prescribed_point 35.19493469 -44.14668249 0 family PNTS name pnt1424
+prescribed_point 35.20703674 -44.19667363 0 family PNTS name pnt1425
+prescribed_point 35.21911173 -44.24656329 0 family PNTS name pnt1426
+prescribed_point 35.23115966 -44.29635148 0 family PNTS name pnt1427
+prescribed_point 35.24318729 -44.34604497 0 family PNTS name pnt1428
+prescribed_point 35.25519464 -44.39564375 0 family PNTS name pnt1429
+prescribed_point 35.26717492 -44.44514106 0 family PNTS name pnt1430
+prescribed_point 35.27913491 -44.49454366 0 family PNTS name pnt1431
+prescribed_point 35.29106784 -44.54383803 0 family PNTS name pnt1432
+prescribed_point 35.30298048 -44.59305122 0 family PNTS name pnt1433
+prescribed_point 35.31487282 -44.64215618 0 family PNTS name pnt1434
+prescribed_point 35.3267381 -44.69116643 0 family PNTS name pnt1435
+prescribed_point 35.33858309 -44.74008874 0 family PNTS name pnt1436
+prescribed_point 35.35040103 -44.78890958 0 family PNTS name pnt1437
+prescribed_point 35.36219866 -44.83762895 0 family PNTS name pnt1438
+prescribed_point 35.37396924 -44.88625362 0 family PNTS name pnt1439
+prescribed_point 35.38571952 -44.93479034 0 family PNTS name pnt1440
+prescribed_point 35.39744951 -44.98321883 0 family PNTS name pnt1441
+prescribed_point 35.40915244 -45.03155937 0 family PNTS name pnt1442
+prescribed_point 35.42083508 -45.07979845 0 family PNTS name pnt1443
+prescribed_point 35.43249066 -45.12794958 0 family PNTS name pnt1444
+prescribed_point 35.44412594 -45.17599925 0 family PNTS name pnt1445
+prescribed_point 35.45574093 -45.22396097 0 family PNTS name pnt1446
+prescribed_point 35.46732886 -45.27182122 0 family PNTS name pnt1447
+prescribed_point 35.4788965 -45.31958677 0 family PNTS name pnt1448
+prescribed_point 35.49044384 -45.36725761 0 family PNTS name pnt1449
+prescribed_point 35.50195736 -45.41484051 0 family PNTS name pnt1450
+prescribed_point 35.51345735 -45.46232194 0 family PNTS name pnt1451
+prescribed_point 35.52493705 -45.50970866 0 family PNTS name pnt1452
+prescribed_point 35.53638292 -45.55700068 0 family PNTS name pnt1453
+prescribed_point 35.54781527 -45.60419799 0 family PNTS name pnt1454
+prescribed_point 35.55922055 -45.65130736 0 family PNTS name pnt1455
+prescribed_point 35.57060554 -45.69831526 0 family PNTS name pnt1456
+prescribed_point 35.58197024 -45.74523522 0 family PNTS name pnt1457
+prescribed_point 35.59330787 -45.79206047 0 family PNTS name pnt1458
+prescribed_point 35.60461845 -45.83879102 0 family PNTS name pnt1459
+prescribed_point 35.6159155 -45.88542686 0 family PNTS name pnt1460
+prescribed_point 35.62718549 -45.93197476 0 family PNTS name pnt1461
+prescribed_point 35.63843519 -45.97842796 0 family PNTS name pnt1462
+prescribed_point 35.64965782 -46.02477968 0 family PNTS name pnt1463
+prescribed_point 35.66086017 -46.07105023 0 family PNTS name pnt1464
+prescribed_point 35.67204222 -46.11721931 0 family PNTS name pnt1465
+prescribed_point 35.68319721 -46.16330721 0 family PNTS name pnt1466
+prescribed_point 35.6943319 -46.20928688 0 family PNTS name pnt1467
+prescribed_point 35.7054463 -46.25518537 0 family PNTS name pnt1468
+prescribed_point 35.71653365 -46.30098915 0 family PNTS name pnt1469
+prescribed_point 35.7276007 -46.34670499 0 family PNTS name pnt1470
+prescribed_point 35.73864745 -46.39232613 0 family PNTS name pnt1471
+prescribed_point 35.74967391 -46.43785256 0 family PNTS name pnt1472
+prescribed_point 35.76067332 -46.48329105 0 family PNTS name pnt1473
+prescribed_point 35.77165242 -46.52863483 0 family PNTS name pnt1474
+prescribed_point 35.78260447 -46.57389068 0 family PNTS name pnt1475
+prescribed_point 35.79354299 -46.61905181 0 family PNTS name pnt1476
+prescribed_point 35.80444769 -46.66412501 0 family PNTS name pnt1477
+prescribed_point 35.81533886 -46.7091035 0 family PNTS name pnt1478
+prescribed_point 35.82620296 -46.75400081 0 family PNTS name pnt1479
+prescribed_point 35.83704678 -46.79879666 0 family PNTS name pnt1480
+prescribed_point 35.8478703 -46.84350456 0 family PNTS name pnt1481
+prescribed_point 35.85866676 -46.88813129 0 family PNTS name pnt1482
+prescribed_point 35.86944969 -46.93265654 0 family PNTS name pnt1483
+prescribed_point 35.88020556 -46.97710062 0 family PNTS name pnt1484
+prescribed_point 35.89094114 -47.02144323 0 family PNTS name pnt1485
+prescribed_point 35.90164966 -47.06570466 0 family PNTS name pnt1486
+prescribed_point 35.91233789 -47.10987815 0 family PNTS name pnt1487
+prescribed_point 35.92300582 -47.15395694 0 family PNTS name pnt1488
+prescribed_point 35.93365346 -47.19794778 0 family PNTS name pnt1489
+prescribed_point 35.94427404 -47.24185068 0 family PNTS name pnt1490
+prescribed_point 35.95487432 -47.28566565 0 family PNTS name pnt1491
+prescribed_point 35.96545431 -47.3293859 0 family PNTS name pnt1492
+prescribed_point 35.97601401 -47.37302498 0 family PNTS name pnt1493
+prescribed_point 35.98654665 -47.41657612 0 family PNTS name pnt1494
+prescribed_point 35.99706576 -47.46003255 0 family PNTS name pnt1495
+prescribed_point 36.00755104 -47.50340105 0 family PNTS name pnt1496
+prescribed_point 36.0180228 -47.5466816 0 family PNTS name pnt1497
+prescribed_point 36.02847426 -47.58987421 0 family PNTS name pnt1498
+prescribed_point 36.03889866 -47.63298564 0 family PNTS name pnt1499
+prescribed_point 36.04930277 -47.67600237 0 family PNTS name pnt1500
+prescribed_point 36.05968658 -47.71893115 0 family PNTS name pnt1501
+prescribed_point 36.07005011 -47.76177876 0 family PNTS name pnt1502
+prescribed_point 36.08038657 -47.80453167 0 family PNTS name pnt1503
+prescribed_point 36.09070273 -47.84719663 0 family PNTS name pnt1504
+prescribed_point 36.10099861 -47.88978042 0 family PNTS name pnt1505
+prescribed_point 36.11127419 -47.93227626 0 family PNTS name pnt1506
+prescribed_point 36.12152947 -47.97468417 0 family PNTS name pnt1507
+prescribed_point 36.13176446 -48.01700413 0 family PNTS name pnt1508
+prescribed_point 36.1419724 -48.05923615 0 family PNTS name pnt1509
+prescribed_point 36.15216003 -48.101387 0 family PNTS name pnt1510
+prescribed_point 36.16232738 -48.1434499 0 family PNTS name pnt1511
+prescribed_point 36.17247443 -48.18542486 0 family PNTS name pnt1512
+prescribed_point 36.18260118 -48.22731189 0 family PNTS name pnt1513
+prescribed_point 36.19270088 -48.26911773 0 family PNTS name pnt1514
+prescribed_point 36.20278705 -48.31083564 0 family PNTS name pnt1515
+prescribed_point 36.21284616 -48.3524656 0 family PNTS name pnt1516
+prescribed_point 36.22288497 -48.39401439 0 family PNTS name pnt1517
+prescribed_point 36.23290349 -48.43547524 0 family PNTS name pnt1518
+prescribed_point 36.24290172 -48.47685491 0 family PNTS name pnt1519
+prescribed_point 36.25287965 -48.51814663 0 family PNTS name pnt1520
+prescribed_point 36.26283053 -48.55935042 0 family PNTS name pnt1521
+prescribed_point 36.27276787 -48.60047303 0 family PNTS name pnt1522
+prescribed_point 36.28267816 -48.6415077 0 family PNTS name pnt1523
+prescribed_point 36.29256815 -48.6824612 0 family PNTS name pnt1524
+prescribed_point 36.30243784 -48.72332675 0 family PNTS name pnt1525
+prescribed_point 36.31228725 -48.76411113 0 family PNTS name pnt1526
+prescribed_point 36.32211636 -48.80481433 0 family PNTS name pnt1527
+prescribed_point 36.33192517 -48.84542958 0 family PNTS name pnt1528
+prescribed_point 36.34171369 -48.88596367 0 family PNTS name pnt1529
+prescribed_point 36.35147515 -48.92640981 0 family PNTS name pnt1530
+prescribed_point 36.36122309 -48.96677477 0 family PNTS name pnt1531
+prescribed_point 36.37094396 -49.00705856 0 family PNTS name pnt1532
+prescribed_point 36.38065131 -49.04725441 0 family PNTS name pnt1533
+prescribed_point 36.39033159 -49.08736908 0 family PNTS name pnt1534
+prescribed_point 36.39999158 -49.12740257 0 family PNTS name pnt1535
+prescribed_point 36.40963128 -49.16734813 0 family PNTS name pnt1536
+prescribed_point 36.41925068 -49.20721927 0 family PNTS name pnt1537
+prescribed_point 36.42885656 -49.24700247 0 family PNTS name pnt1538
+prescribed_point 36.43843537 -49.28670449 0 family PNTS name pnt1539
+prescribed_point 36.44799389 -49.32631858 0 family PNTS name pnt1540
+prescribed_point 36.45753212 -49.36585825 0 family PNTS name pnt1541
+prescribed_point 36.46705005 -49.40531674 0 family PNTS name pnt1542
+prescribed_point 36.47654769 -49.4446873 0 family PNTS name pnt1543
+prescribed_point 36.48602504 -49.48397668 0 family PNTS name pnt1544
+prescribed_point 36.49548209 -49.52318488 0 family PNTS name pnt1545
+prescribed_point 36.50491208 -49.5623119 0 family PNTS name pnt1546
+prescribed_point 36.51433531 -49.60136452 0 family PNTS name pnt1547
+prescribed_point 36.52373148 -49.64032242 0 family PNTS name pnt1548
+prescribed_point 36.53310058 -49.67920592 0 family PNTS name pnt1549
+prescribed_point 36.54246293 -49.718015 0 family PNTS name pnt1550
+prescribed_point 36.55179822 -49.75673614 0 family PNTS name pnt1551
+prescribed_point 36.56111321 -49.79537611 0 family PNTS name pnt1552
+prescribed_point 36.57040791 -49.8339349 0 family PNTS name pnt1553
+prescribed_point 36.57968231 -49.87241252 0 family PNTS name pnt1554
+prescribed_point 36.58893642 -49.91081572 0 family PNTS name pnt1555
+prescribed_point 36.598177 -49.94913774 0 family PNTS name pnt1556
+prescribed_point 36.60739729 -49.98737183 0 family PNTS name pnt1557
+prescribed_point 36.61659051 -50.0255315 0 family PNTS name pnt1558
+prescribed_point 36.62577021 -50.06361676 0 family PNTS name pnt1559
+prescribed_point 36.63492285 -50.10161408 0 family PNTS name pnt1560
+prescribed_point 36.64406196 -50.13953699 0 family PNTS name pnt1561
+prescribed_point 36.65318077 -50.17737872 0 family PNTS name pnt1562
+prescribed_point 36.6622793 -50.21513928 0 family PNTS name pnt1563
+prescribed_point 36.67135752 -50.25281865 0 family PNTS name pnt1564
+prescribed_point 36.68042222 -50.29042362 0 family PNTS name pnt1565
+prescribed_point 36.68945986 -50.32794741 0 family PNTS name pnt1566
+prescribed_point 36.69847721 -50.36539003 0 family PNTS name pnt1567
+prescribed_point 36.70748102 -50.40275823 0 family PNTS name pnt1568
+prescribed_point 36.71646454 -50.44005202 0 family PNTS name pnt1569
+prescribed_point 36.72542777 -50.47725787 0 family PNTS name pnt1570
+prescribed_point 36.7343707 -50.51438931 0 family PNTS name pnt1571
+prescribed_point 36.74329334 -50.55144634 0 family PNTS name pnt1572
+prescribed_point 36.75219569 -50.58841542 0 family PNTS name pnt1573
+prescribed_point 36.76107774 -50.62531686 0 family PNTS name pnt1574
+prescribed_point 36.76994626 -50.66213712 0 family PNTS name pnt1575
+prescribed_point 36.77879449 -50.69888297 0 family PNTS name pnt1576
+prescribed_point 36.78762242 -50.73554765 0 family PNTS name pnt1577
+prescribed_point 36.79643683 -50.77213114 0 family PNTS name pnt1578
+prescribed_point 36.80522417 -50.80864023 0 family PNTS name pnt1579
+prescribed_point 36.81399799 -50.8450749 0 family PNTS name pnt1580
+prescribed_point 36.82275151 -50.88143517 0 family PNTS name pnt1581
+prescribed_point 36.83148474 -50.91771425 0 family PNTS name pnt1582
+prescribed_point 36.84019767 -50.95391893 0 family PNTS name pnt1583
+prescribed_point 36.84889708 -50.99004243 0 family PNTS name pnt1584
+prescribed_point 36.85757619 -51.02609151 0 family PNTS name pnt1585
+prescribed_point 36.866235 -51.06206619 0 family PNTS name pnt1586
+prescribed_point 36.87487352 -51.09796645 0 family PNTS name pnt1587
+prescribed_point 36.88349175 -51.13378554 0 family PNTS name pnt1588
+prescribed_point 36.89209645 -51.16953021 0 family PNTS name pnt1589
+prescribed_point 36.90068085 -51.20520047 0 family PNTS name pnt1590
+prescribed_point 36.90925173 -51.24079633 0 family PNTS name pnt1591
+prescribed_point 36.91780231 -51.276311 0 family PNTS name pnt1592
+prescribed_point 36.92632583 -51.31175803 0 family PNTS name pnt1593
+prescribed_point 36.93483582 -51.34712388 0 family PNTS name pnt1594
+prescribed_point 36.94333229 -51.38241532 0 family PNTS name pnt1595
+prescribed_point 36.95180846 -51.41763911 0 family PNTS name pnt1596
+prescribed_point 36.96026433 -51.45278173 0 family PNTS name pnt1597
+prescribed_point 36.96729285 -51.48818817 0 family PNTS name pnt1598
+prescribed_point 36.97234609 -51.52382461 0 family PNTS name pnt1599
+prescribed_point 36.97560667 -51.55963017 0 family PNTS name pnt1600
+prescribed_point 36.97708138 -51.59547631 0 family PNTS name pnt1601
+prescribed_point -100 29 0 family PNTS name pnt.00 dormant
+prescribed_point -100 -29 0 family PNTS name pnt.01 dormant
+prescribed_point -5 29 0 family PNTS name pnt.08 dormant
+prescribed_point -5 -29 0 family PNTS name pnt.09 dormant
+prescribed_point -5 40 0 family PNTS name pnt.10 dormant
+prescribed_point -5 -40 0 family PNTS name pnt.11 dormant
+prescribed_point -100 -40 0 family PNTS name pnt.12 dormant
+prescribed_point -100 40 0 family PNTS name pnt.14 dormant
+prescribed_point -100 29 0 family PNTS name pnt.16
+prescribed_point -100 -28.5 0 family PNTS name pnt.17
+prescribed_point -5 -28.5 0 family PNTS name pnt.18
+prescribed_point -5 29 0 family PNTS name pnt.19
+prescribed_point -5 29 0 family PNTS name pnt.20
+prescribed_point 90 -174 0 family PNTS name pnt.56 dormant
+prescribed_point 150 -175 0 family PNTS name pnt.57 dormant
+prescribed_point 150 -232.5 0 family PNTS name pnt.58 dormant
+prescribed_point -100 -28.5 0 family PNTS name pnt.16.0
+prescribed_point -5 -28.5 0 family PNTS name pnt.19.0
+prescribed_point -5 -28.5 0 family PNTS name pnt.20.0
+prescribed_point -100 -28.5 0 family PNTS name pnt.16.1
+prescribed_point -5 -28.5 0 family PNTS name pnt.19.1
+prescribed_point -5 -28.5 0 family PNTS name pnt.20.1
+prescribed_point 0 29.6 0 family PNTS name pnt.69
+prescribed_point 10 28.8 0 family PNTS name pnt.70
+prescribed_point 20 20.2 0 family PNTS name pnt.71
+prescribed_point 30 0 0 family PNTS name pnt.72
+prescribed_point 40 -30 0 family PNTS name pnt.73
+prescribed_point 45 -48.4 0 family PNTS name pnt.74
+prescribed_point 50 -67.7 0 family PNTS name pnt.75
+prescribed_point 55 -86.5 0 family PNTS name pnt.76
+prescribed_point 60 -103.5 0 family PNTS name pnt.77
+prescribed_point 65 -117.3 0 family PNTS name pnt.78
+prescribed_point 70 -126.6 0 family PNTS name pnt.79
+prescribed_point 75 -130 0 family PNTS name pnt.80
+prescribed_point 130 -130 0 family PNTS name pnt.84
+prescribed_point 130 -187.5 0 family PNTS name pnt.85
+prescribed_point 130 -187.5 0 family PNTS name pnt.86
+prescribed_point -100 -28.5 0 family PNTS name pnt.16.2
+prescribed_point -5 -28.5 0 family PNTS name pnt.19.2
+prescribed_point -5 -28.5 0 family PNTS name pnt.20.2
+prescribed_point 0 -27.9 0 family PNTS name pnt.69.0
+prescribed_point 10 -28.7 0 family PNTS name pnt.70.0
+prescribed_point 20 -37.3 0 family PNTS name pnt.71.0
+prescribed_point 30 -57.5 0 family PNTS name pnt.72.0
+prescribed_point 40 -87.5 0 family PNTS name pnt.73.0
+prescribed_point 45 -105.9 0 family PNTS name pnt.74.0
+prescribed_point 50 -125.2 0 family PNTS name pnt.75.0
+prescribed_point 55 -144 0 family PNTS name pnt.76.0
+prescribed_point 60 -161 0 family PNTS name pnt.77.0
+prescribed_point 65 -174.8 0 family PNTS name pnt.78.0
+prescribed_point 70 -184.1 0 family PNTS name pnt.79.0
+prescribed_point 75 -187.5 0 family PNTS name pnt.80.0
+prescribed_point 130 -187.5 0 family PNTS name pnt.84.0
+prescribed_point 130 -147.25 0 family PNTS name pnt.07
+prescribed_point 130 -170.25 0 family PNTS name pnt.13
+prescribed_point -100 -11.25 0 family PNTS name pnt.15
+prescribed_point -100 11.75 0 family PNTS name pnt.21
+prescribed_point 75 -170.25 0 family PNTS name pnt.24
+prescribed_point 75 -147.25 0 family PNTS name pnt.26
+prescribed_point -14.5 29 0 family PER_UPP name pnt.27
+prescribed_point -14.5 -28.5 0 family PER_LOW name pnt.28
+prescribed_point -14.5 -11.25 0 family PER_UPP name pnt.29
+prescribed_point -14.5 11.75 0 family PER_UPP name pnt.30
+prescribed_point 36.892097473145 -51.169528961182 0 family BLADE.1 name pnt.35
+prescribed_point 35.476718902588 -51.578948974609 0 family BLADE.1 name pnt.36
+prescribed_point 35.476718902588 -51.578948974609 0 family BLADE.1 name pnt.37
+prescribed_point 43.358689452396 -99.644944544597 0 family PER_LOW name pnt.38
+prescribed_point 35.232342566393 -72.27324992759 0 family PER_LOW name pnt.40
+prescribed_point 46.268534089721 -53.288057535227 0 family PER_UPP name pnt.02
+define_curve family BLADE.1 tetra_size 1e+10 name crv.03
+bspline
+88,4,0
+0,0,0,0,0.28881698406294
+0.42992931601224,0.57733365293073,0.71859614247761,0.86600047939609,1.007262968943
+1.1485254584899,1.2897879480367,1.4371922849552,1.5784547745021,1.719717264049
+1.8609797535959,2.0022422431427,2.1435047326896,2.2847672222365,2.4260297117834
+2.5672922013303,2.7085546908771,2.8436753330524,2.9849378225993,3.1262003121462
+3.2613209543215,3.4025834438683,3.5438459334152,3.6789665755905,3.8202290651374
+3.9553497073127,4.0966121968595,4.2317328390348,4.3668534812101,4.5019741233854
+4.6432366129322,4.7783572551075,4.9134778972828,5.0485985394581,5.1837191816334
+5.3188398238086,5.4539604659839,5.5890811081592,5.7242017503345,5.994443034685
+6.1295636768603,6.3998049612108,6.5349256033861,6.6700462455614,6.8051668877367
+7.0754081720872,7.2105288142625,7.4807700986131,7.6158907407883,7.8861320251389
+8.0212526673142,8.1563733094894,8.2914939516647,8.42661459384,8.5617352360153
+8.6968558781906,8.8258346729942,8.9609553151695,9.0960759573448,9.2311965995201
+9.3663172416953,9.5014378838706,9.6365585260459,9.7716791682212,9.9006579630248
+10.0357786052,10.170899247375,10.306019889551,10.441140531726,10.576261173901
+10.705239968705,10.84036061088,10.975481253055,11.110601895231,11.239580690034
+11.37470133221,11.509821974385,11.64494261656,11.780063258736,11.909042053539
+12.044162695714,12.17928333789,12.311834128565,12.578503417044,12.578503417044
+12.578503417044,12.578503417044
+2.97830861,-4.00836129,0
+2.9015567295709,-3.9471194587724,0
+2.7939166620031,-3.8613978575833,0
+2.6357868078661,-3.7358834220673,-0
+2.530687667445,-3.6525476346856,0
+2.4104317397139,-3.5571926840026,0
+2.3054695394373,-3.4738927179596,0
+2.1893196288556,-3.3815408627097,0
+2.0787650095771,-3.2933889634193,0
+1.9634588215789,-3.2010871665143,0
+1.8591198216139,-3.1171847979901,0
+1.7448037568721,-3.0247391520929,0
+1.6352620375367,-2.9356073457224,0
+1.5256306929812,-2.8455324850176,0
+1.4173589905387,-2.7545436742074,0
+1.3107560648642,-2.661894098153,0
+1.2064505100046,-2.5670336531806,0
+1.1051102151174,-2.4695361891244,0
+1.0068119495259,-2.3681276903217,0
+0.9164223062392,-2.2673883110488,0
+0.82239226494863,-2.1523172592956,0
+0.74143961621822,-2.0436768819773,0
+0.66470446811053,-1.9321549486194,0
+0.58605476621575,-1.8072369241949,0
+0.51872902753282,-1.6904544916391,0
+0.45546585996018,-1.5719596319998,0
+0.39067038286509,-1.4392081772082,0
+0.33816955306189,-1.3223024653521,0
+0.28185162996203,-1.1856048104951,0
+0.23667853948274,-1.0656620103552,0
+0.19016400624678,-0.93092160555578,0
+0.14962470229019,-0.80166261824097,0
+0.11128886797844,-0.66505861576656,0
+0.080634402612361,-0.54093159606449,0
+0.051439600546037,-0.40291184397347,0
+0.02855753760998,-0.26952540461247,0
+0.010870952407165,-0.13491721656399,0
+-0.0010154599031866,-0.00013247291115784,0
+-0.0068090655293484,0.13544712231442,0
+-0.006907194375153,0.27068483100992,0
+-0.0018415786521775,0.40585457011434,0
+0.011198569028256,0.58609623036514,0
+0.032551200549949,0.76504706198472,0
+0.067233426775246,0.98765214729048,0
+0.10045408016806,1.1648199888207,0
+0.13731764345318,1.341008543606,0
+0.16641905733362,1.4728746547574,0
+0.20649636724843,1.6483301156745,0
+0.24818439401973,1.8233877131502,0
+0.30327552043189,2.0412601230441,0
+0.35017334596079,2.2150971330004,0
+0.4131411102309,2.4309603838174,0
+0.46731097665779,2.6022384303731,0
+0.52607076500355,2.7719581189437,0
+0.57260775112019,2.8983459066313,0
+0.62186094670727,3.0238857952724,0
+0.67385144240581,3.1481284543928,0
+0.72907288605756,3.2715537579613,0
+0.78497678349595,3.3886739591801,0
+0.84989655450471,3.5164140054181,0
+0.91111172305786,3.6304511141545,0
+0.977275204894,3.748364634356,0
+1.0449974574181,3.8641708686001,0
+1.1146765054198,3.979274691196,0
+1.1856608809065,4.0931187466287,0
+1.2583884909533,4.2068904022858,0
+1.328924584609,4.3151344905634,0
+1.4077948295884,4.4342911237362,0
+1.4796127305417,4.5415745540379,0
+1.5550048790287,4.6535352344247,0
+1.6299913133435,4.7641316682632,0
+1.7060709275973,4.8755010925226,0
+1.7791770664391,4.9817064136294,0
+1.8605651467737,5.098901676778,0
+1.9344140000605,5.204255756187,0
+2.0126484691888,5.3148075904647,0
+2.087420031457,5.4194167896587,0
+2.1708861042625,5.5349023389323,0
+2.2468889513692,5.6388320007975,0
+2.3267610048314,5.7468208757523,0
+2.4071625893051,5.8541290161931,0
+2.4851593084233,5.9569549027589,0
+2.5719960353613,6.0697649481398,0
+2.6514485388833,6.1713415083749,0
+2.7338767753755,6.2750670757506,0
+2.8475343936338,6.4154912446011,0
+2.9317520846161,6.5165578268751,0
+2.98968636,6.58464472,0
+define_curve family BLADE.1 tetra_size 1e+10 name crv.04
+bspline
+136,4,0
+0,0,0,0,0.2664044159792
+0.39956965162504,0.53134262184181,0.66736633303331,0.79913930325008,0.93091227346685
+1.0669359846584,1.1987089548751,1.3304819250919,1.4622548953087,1.5982786065002
+1.7300515767169,1.8618245469337,1.9935975171505,2.1253704873672,2.2613941985587
+2.3931671687755,2.5249401389923,2.656713109209,2.7884860794258,2.9202590496426
+3.0520320198593,3.1838049900761,3.3155779602929,3.4516016714844,3.5833746417011
+3.7151476119179,3.8469205821346,3.9786935523514,4.1062157815935,4.2379887518102
+4.369761722027,4.5015346922438,4.6333076624606,4.7650806326773,4.8968536028941
+5.0286265731109,5.1603995433277,5.2921725135445,5.4196947427865,5.5514677130033
+5.68324068322,5.8150136534368,5.9467866236536,6.0743088528956,6.2060818231124
+6.3378547933292,6.469627763546,6.597149992788,6.7289229630048,6.8606959332216
+6.9882181624636,7.1199911326804,7.2475133619224,7.3792863321392,7.511059302356
+7.638581531598,7.7703545018148,7.8978767310569,8.0296497012736,8.1571719305157
+8.2889449007325,8.4164671299745,8.5482401001913,8.6757623294333,8.8075352996501
+8.9350575288921,9.0625797581342,9.194352728351,9.321874957593,9.4493971868351
+9.5811701570518,9.7086923862939,9.8362146155359,9.9679875857527,10.095509814995
+10.223032044237,10.350554273479,10.482327243696,10.609849472938,10.73737170218
+10.864893931422,10.992416160664,11.119938389906,11.247460619148,11.37498284839
+11.502505077632,11.630027306874,11.757549536116,11.885071765358,12.0125939946
+12.140116223842,12.267638453084,12.395160682326,12.522682911568,12.65020514081
+12.777727370052,12.905249599294,13.028521087562,13.156043316804,13.283565546046
+13.411087775288,13.534359263555,13.661881492797,13.789403722039,13.912675210307
+14.040197439549,14.167719668791,14.290991157058,14.4185133863,14.546035615542
+14.669307103809,14.796829333051,14.920100821319,15.047623050561,15.170894538828
+15.29841676807,15.421688256337,15.544959744605,15.672481973847,15.795753462114
+15.919024950381,16.046547179623,16.169818667891,16.293090156158,16.4206123854
+16.543883873667,16.667155361934,16.790426850202,16.917949079444,17.041220567711
+17.163824773722,17.411035032512,17.411035032512,17.411035032512,17.411035032512
+2.98968636,6.58464472,0
+3.0470547988272,6.6520677018325,0
+3.1350303047118,6.7531752794076,0
+3.2526797431226,6.8837352770776,0
+3.3459801536519,6.9846451266087,0
+3.4335558516887,7.0769292829745,0
+3.5285090775606,7.1743853040025,0
+3.6249062188714,7.2703961265638,0
+3.7166506933206,7.3591887346513,0
+3.8160917530872,7.4525328573927,0
+3.9135810907161,7.5411608531954,0
+4.0159864629015,7.6312230988217,0
+4.1124842299934,7.7134401436701,0
+4.2173104342655,7.800001223714,0
+4.3205697005588,7.8825298789204,0
+4.4250365834992,7.9634934406045,0
+4.533685505035,8.0450364171354,0
+4.6361654067991,8.1196156598741,0
+4.7471218736069,8.1979372938951,0
+4.8559562908285,8.2723391756728,0
+4.9662916030791,8.3454993234137,0
+5.0774710368549,8.4169311506723,0
+5.1896064095012,8.4867768738971,0
+5.3028349851405,8.5551165137394,0
+5.416435049937,8.6215688911453,0
+5.5343623811886,8.6883296020077,0
+5.6449682772164,8.7490085132808,0
+5.7644235399576,8.8124946861174,0
+5.8810674422855,8.8724343174323,0
+5.9996334909002,8.9313840841532,0
+6.1151353194555,8.9869412042149,0
+6.2399936886496,9.0449564155795,0
+6.3569333857763,9.0973843480788,0
+6.4782343719098,9.1499397809369,0
+6.5995438665846,9.2005887681734,0
+6.7215241217517,9.2496865263694,0
+6.8439640864085,9.2971139063491,0
+6.9670002926144,9.3429516682343,0
+7.090349563134,9.3871177207137,0
+7.2148944348498,9.429859668911,0
+7.3361511694819,9.4697944301504,0
+7.4669165506646,9.510952247415,0
+7.5892497906943,9.5476833824576,0
+7.7155479356889,9.5838842342225,0
+7.8422011265501,9.6183667206524,0
+7.9654883594916,9.6502800392697,0
+8.0982527589718,9.6827600287535,0
+8.2220438343839,9.7112925661859,0
+8.3506862986602,9.7392168427791,0
+8.4751608863268,9.7645293863543,0
+8.6091968330009,9.7899170717624,0
+8.7349813280149,9.8119471682807,0
+8.8606762090049,9.8323303562942,0
+8.9958047527256,9.8522814455024,0
+9.118130573536,9.868660182899,0
+9.2535551560287,9.8849307788414,0
+9.379892228809,9.8982586007557,0
+9.5063509860778,9.9099358194749,0
+9.6422874373508,9.9204646176374,0
+9.765170773619,9.9282578260434,0
+9.9019329015181,9.934934119464,0
+10.024503068024,9.9391602829792,0
+10.16116177662,9.9418402458368,0
+10.283588390295,9.9424335955437,0
+10.420087341341,9.9410465730659,0
+10.54242919966,9.9379422252154,0
+10.678592826401,9.9324198520255,0
+10.801461437239,9.9254591798151,0
+10.933560987043,9.9160070910815,0
+11.065006264786,9.9043470324534,0
+11.187753426613,9.8915153738084,0
+11.318563768158,9.8757359864608,0
+11.44898640021,9.857671671251,0
+11.570711266128,9.8387878421166,0
+11.700399754815,9.816461714208,0
+11.829767469623,9.7917395307707,0
+11.950223014559,9.7666018666022,0
+12.079043749757,9.7373630558523,0
+12.20282337394,9.7069628556011,0
+12.330268409379,9.6732871793671,0
+12.447996761728,9.640064639014,0
+12.573989519784,9.6022584736086,0
+12.695623243333,9.5634662589187,0
+12.817218906885,9.5225219107165,0
+12.938044849127,9.4796140582151,0
+13.057969476608,9.4348606164231,0
+13.177033244441,9.3882912960924,0
+13.295246425626,9.3399128792072,0
+13.412608773053,9.2897902070789,0
+13.529151442162,9.2379413524772,0
+13.644871918298,9.1843914830124,0
+13.759789724646,9.1291842154732,0
+13.873950903116,9.072322835095,0
+13.987151942888,9.0139535641469,0
+14.099389545333,8.9540970483175,0
+14.210718055781,8.8928085825832,0
+14.321167051544,8.8300898813496,0
+14.430563698043,8.7660817120183,0
+14.539691676282,8.7003410905773,0
+14.644572955488,8.6354313683938,0
+14.756637387827,8.5641149263581,0
+14.859717010129,8.4967623044098,0
+14.965751709659,8.4257218249696,0
+15.067058631216,8.3561702540369,0
+15.17521238282,8.2801260800013,0
+15.275274523694,8.20805181854,0
+15.374613250652,8.1349646270747,0
+15.479916027684,8.0557346251619,0
+15.57755284163,7.9806286256416,0
+15.67447990057,7.904594381981,0
+15.777404717941,7.8221669604245,0
+15.872723706449,7.7442484606266,0
+15.967092433359,7.6657302157776,0
+16.067752755997,7.580286436904,0
+16.1575143058,7.5027362777858,0
+16.256940341234,7.4152730536388,0
+16.345066583688,7.3363922891026,0
+16.442744124091,7.2474742885832,0
+16.529869268815,7.1668059098916,0
+16.623145737777,7.0791019456285,0
+16.715448211953,6.9908294065165,0
+16.801010407027,6.907771379127,0
+16.89193787242,6.8181893273692,0
+16.982116170022,6.727945288819,0
+17.065675953953,6.6431188383036,0
+17.154517403998,6.551699866753,0
+17.242686084953,6.4595946362878,0
+17.324217907477,6.3733236047717,0
+17.411348578233,6.2798717364608,0
+17.494779178332,6.1892055224339,0
+17.58052365752,6.0947962208308,0
+17.659408964899,6.0068462129398,0
+17.743408221146,5.9120762031993,0
+17.852763027593,5.7871320293432,0
+17.93248554866,5.6944367947401,0
+17.98607907,5.63139811,0
+define_curve family BLADE.1 tetra_size 1e+10 name crv.05
+bspline
+761,4,0
+0,0,0,0,0.24683601661787
+0.36960425856852,0.49280567809136,0.61600709761419,0.73920851713703,0.86240993665987
+0.98561135618271,1.1088127757056,1.2301753680713,1.3533767875942,1.476578207117
+1.5997796266398,1.7211422190056,1.8443436385285,1.9657062308943,2.08706882326
+2.2102702427829,2.3316328351487,2.4529954275144,2.5743580198802,2.695720612246
+2.8170832046118,2.9384457969776,3.0598083893433,3.1811709817091,3.3025335740749
+3.4220573392836,3.5434199316494,3.6647825240152,3.7843062892239,3.9056688815897
+4.0251926467984,4.1465552391642,4.2660790043729,4.3856027695816,4.5069653619473
+4.626489127156,4.7460128923647,4.8655366575734,4.9850604227821,5.1045841879908
+5.2241079531995,5.3436317184082,5.4631554836169,5.5826792488256,5.7003641868772
+5.8198879520859,5.9394117172946,6.0570966553462,6.1766204205549,6.2943053586066
+6.4119902966582,6.5315140618669,6.6491989999186,6.7668839379702,6.8845688760218
+7.0022538140735,7.1199387521251,7.2376236901767,7.3553086282284,7.47299356628
+7.5888396771746,7.7065246152262,7.8242095532779,7.9400556641725,8.0577406022241
+8.1735867131187,8.2894328240133,8.4071177620649,8.5229638729595,8.6388099838541
+8.7546560947487,8.8705022056432,9.1021944274324,9.218040538327,9.3338866492216
+9.4497327601161,9.5655788710107,9.6795861547483,9.7954322656428,9.9094395493804
+10.025285660275,10.139292944012,10.255139054907,10.369146338645,10.483153622382
+10.598999733277,10.713007017014,10.827014300752,10.941021584489,11.055028868227
+11.169036151964,11.281204608545,11.395211892282,11.50921917602,11.6213876326
+11.735394916338,11.847563372918,11.961570656656,12.073739113236,12.185907569817
+12.299914853554,12.412083310135,12.524251766715,12.636420223296,12.748588679876
+12.860757136457,12.972925593037,13.08325522246,13.195423679041,13.307592135621
+13.417921765045,13.530090221625,13.640419851049,13.752588307629,13.862917937053
+13.973247566476,14.083577195899,14.193906825323,14.304236454746,14.524895713593
+14.635225343016,14.74555497244,14.855884601863,14.96437540413,15.074705033553
+15.185034662976,15.293525465243,15.402016267509,15.512345896933,15.620836699199
+15.729327501465,15.837818303732,15.946309105998,16.163290710531,16.271781512797
+16.380272315064,16.48876311733,16.597253919597,16.703905894706,16.812396696973
+16.919048672082,17.027539474348,17.134191449458,17.240843424567,17.349334226834
+17.455986201943,17.562638177052,17.669290152162,17.775942127271,17.882594102381
+17.98924607749,18.095898052599,18.200711200552,18.307363175661,18.412176323614
+18.518828298723,18.623641446675,18.730293421785,18.835106569737,18.939919717689
+19.044732865642,19.359172309499,19.463985457451,19.568798605403,19.673611753356
+19.776586074151,19.881399222103,19.984373542899,20.089186690851,20.192161011646
+20.296974159599,20.399948480394,20.502922801189,20.605897121985,20.70887144278
+20.811845763575,20.91482008437,21.017794405166,21.120768725961,21.221904219599
+21.324878540394,21.42785286119,21.528988354828,21.630123848466,21.733098169261
+21.8342336629,21.935369156538,22.036504650176,22.139478970971,22.24061446461
+22.339911131091,22.441046624729,22.542182118367,22.643317612005,22.742614278487
+22.843749772125,22.944885265763,23.044181932244,23.143478598725,23.244614092364
+23.343910758845,23.443207425326,23.542504091807,23.641800758288,23.741097424769
+23.840394091251,23.939690757732,24.038987424213,24.136445263537,24.235741930018
+24.333199769342,24.432496435824,24.529954275148,24.629250941629,24.726708780953
+24.824166620277,24.921624459601,25.116540138249,25.213997977573,25.311455816898
+25.408913656222,25.506371495546,25.601990507713,25.699448347037,25.795067359204
+25.892525198528,25.988144210695,26.083763222862,26.179382235029,26.276840074353
+26.37245908652,26.468078098687,26.563697110854,26.657477295864,26.753096308032
+26.848715320199,26.944334332366,27.038114517376,27.133733529543,27.227513714553
+27.321293899563,27.41691291173,27.51069309674,27.60447328175,27.69825346676
+27.79203365177,27.88581383678,27.97959402179,28.0733742068,28.16715439181
+28.259095749663,28.352875934673,28.444817292525,28.538597477535,28.630538835388
+28.722480193241,28.816260378251,28.908201736104,29.000143093957,29.09208445181
+29.184025809663,29.275967167516,29.366069698212,29.458011056065,29.549952413918
+29.640054944614,29.731996302467,29.822098833162,29.914040191015,30.004142721711
+30.094245252407,30.184347783103,30.276289140956,30.366391671652,30.456494202348
+30.544757905886,30.634860436582,30.724962967278,30.815065497974,30.903329201513
+30.993431732209,31.081695435748,31.171797966443,31.260061669982,31.348325373521
+31.43658907706,31.524852780599,31.613116484137,31.701380187676,31.789643891215
+31.877907594754,31.966171298293,32.052596174675,32.140859878213,32.229123581752
+32.315548458134,32.401973334516,32.490237038054,32.576661914436,32.663086790818
+32.7495116672,32.835936543581,32.922361419963,33.008786296345,33.095211172727
+33.181636049109,33.26806092549,33.352646974715,33.439071851097,33.523657900321
+33.610082776703,33.694668825928,33.779254875153,33.863840924377,33.948426973602
+34.034851849984,34.119437899208,34.202185121276,34.286771170501,34.371357219725
+34.45594326895,34.538690491018,34.623276540242,34.70602376231,34.790609811535
+34.873357033602,34.957943082827,35.040690304895,35.123437526962,35.20618474903
+35.288931971098,35.371679193165,35.454426415233,35.537173637301,35.618082032211
+35.700829254279,35.781737649189,35.864484871257,35.945393266168,36.028140488235
+36.109048883146,36.189957278056,36.270865672967,36.353612895035,36.434521289945
+36.515429684856,36.594499252609,36.67540764752,36.75631604243,36.837224437341
+36.916294005095,36.997202400005,37.076271967759,37.157180362669,37.236249930423
+37.315319498176,37.39438906593,37.47529746084,37.554367028594,37.633436596347
+37.710667336944,37.789736904697,37.868806472451,37.947876040204,38.025106780801
+38.104176348554,38.181407089151,38.260476656904,38.337707397501,38.416776965254
+38.494007705851,38.571238446447,38.648469187044,38.72569992764,38.802930668237
+38.880161408833,38.95739214943,39.032784062869,39.110014803466,39.187245544062
+39.262637457501,39.339868198098,39.415260111537,39.490652024977,39.567882765573
+39.643274679013,39.718666592452,39.794058505891,39.869450419331,39.94484233277
+40.02023424621,40.095626159649,40.169179245931,40.244571159371,40.31996307281
+40.393516159092,40.468908072532,40.542461158814,40.616014245097,40.689567331379
+40.764959244818,40.838512331101,40.912065417383,40.985618503665,41.059171589948
+41.130885849073,41.204438935355,41.277992021638,41.35154510792,41.423259367045
+41.496812453328,41.568526712453,41.640240971578,41.713794057861,41.785508316986
+41.857222576111,41.928936835236,42.000651094362,42.072365353487,42.144079612612
+42.215793871738,42.287508130863,42.357383562831,42.429097821956,42.500812081082
+42.57068751305,42.642401772175,42.712277204143,42.782152636112,42.853866895237
+42.923742327205,42.993617759173,43.063493191142,43.13336862311,43.203244055078
+43.273119487046,43.341156091857,43.411031523826,43.480906955794,43.548943560605
+43.618818992573,43.686855597384,43.756731029353,43.824767634164,43.892804238975
+43.960840843786,44.030716275754,44.098752880566,44.166789485377,44.232987263031
+44.301023867842,44.369060472653,44.437097077464,44.505133682276,44.57133145993
+44.639368064741,44.705565842395,44.773602447206,44.83980022486,44.905998002514
+44.972195780168,45.04023238498,45.106430162634,45.172627940288,45.238825717942
+45.305023495596,45.369382446093,45.435580223747,45.501778001401,45.566136951898
+45.632334729552,45.698532507207,45.762891457704,45.827250408201,45.893448185855
+45.957807136352,46.022166086849,46.086525037346,46.150883987843,46.21524293834
+46.279601888837,46.343960839334,46.408319789831,46.472678740328,46.535198863668
+46.599557814165,46.663916764662,46.726436888002,46.790795838499,46.853315961839
+46.915836085179,46.978356208519,47.042715159016,47.105235282356,47.167755405696
+47.230275529036,47.292795652376,47.355315775716,47.415997071899,47.478517195239
+47.541037318579,47.603557441919,47.664238738102,47.726758861442,47.787440157625
+47.848121453808,47.910641577148,47.971322873331,48.032004169514,48.092685465697
+48.214048058063,48.274729354246,48.335410650429,48.396091946612,48.456773242795
+48.517454538977,48.576297008003,48.636978304186,48.695820773212,48.756502069395
+48.815344538421,48.876025834604,48.93486830363,48.993710772656,49.052553241682
+49.111395710707,49.170238179733,49.287923117785,49.346765586811,49.405608055837
+49.464450524863,49.523292993889,49.580296635757,49.639139104783,49.696142746652
+49.754985215678,49.811988857547,49.868992499416,49.927834968441,49.98483861031
+50.041842252179,50.098845894048,50.155849535917,50.212853177786,50.269856819654
+50.326860461523,50.383864103392,50.439028918104,50.496032559973,50.553036201841
+50.608201016553,50.665204658422,50.720369473134,50.777373115003,50.832537929714
+50.887702744426,50.944706386295,50.999871201007,51.055036015718,51.11020083043
+51.165365645142,51.220530459854,51.275695274565,51.32902126212,51.384186076832
+51.439350891544,51.494515706255,51.54784169381,51.603006508522,51.656332496077
+51.711497310788,51.764823298343,51.818149285898,51.873314100609,51.926640088164
+51.979966075719,52.033292063274,52.086618050828,52.139944038383,52.193270025938
+52.246596013492,52.299922001047,52.351409161445,52.404735148999,52.458061136554
+52.509548296952,52.562874284506,52.614361444904,52.667687432459,52.719174592856
+52.770661753254,52.822148913652,52.875474901206,52.926962061604,52.978449222002
+53.029936382399,53.081423542797,53.132910703195,53.184397863592,53.234046196833
+53.285533357231,53.337020517628,53.386668850869,53.438156011266,53.489643171664
+53.539291504905,53.590778665302,53.640426998543,53.690075331783,53.739723665024
+53.791210825422,53.840859158662,53.890507491903,53.940155825143,53.989804158384
+54.039452491625,54.089100824865,54.138749158106,54.186558664189,54.23620699743
+54.28585533067,54.333664836754,54.383313169995,54.432961503235,54.480771009319
+54.528580515402,54.578228848643,54.626038354726,54.67384786081,54.72349619405
+54.771305700134,54.819115206217,54.866924712301,54.914734218384,54.962543724468
+55.010353230552,55.056323909478,55.104133415562,55.151942921645,55.199752427729
+55.245723106655,55.293532612739,55.339503291665,55.387312797749,55.433283476675
+55.481092982759,55.527063661685,55.573034340611,55.619005019538,55.666814525621
+55.712785204548,55.758755883474,55.804726562401,55.850697241327,55.896667920254
+55.94263859918,55.98677045095,56.032741129876,56.078711808803,56.124682487729
+56.168814339498,56.214785018425,56.258916870194,56.304887549121,56.34901940089
+56.39315125266,56.439121931586,56.483253783355,56.527385635125,56.571517486894
+56.617488165821,56.66162001759,56.70575186936,56.749883721129,56.794015572898
+56.836308597511,56.88044044928,56.92457230105,56.968704152819,57.010997177431
+57.055129029201,57.09926088097,57.141553905582,57.185685757352,57.227978781964
+57.270271806577,57.314403658346,57.356696682958,57.398989707571,57.44312155934
+57.485414583952,57.527707608565,57.570000633177,57.612293657789,57.654586682402
+57.696879707014,57.739172731627,57.779626929082,57.821919953694,57.864212978307
+57.906506002919,57.946960200374,57.989253224986,58.029707422442,58.072000447054
+58.112454644509,58.154747669122,58.195201866577,58.235656064032,58.277949088645
+58.3184032861,58.358857483555,58.399311681011,58.439765878466,58.480220075921
+58.561128470832,58.601582668287,58.642036865742,58.682491063198,58.721106433496
+58.761560630951,58.802014828406,58.840630198705,58.88108439616,58.919699766458
+58.960153963913,58.998769334212,59.039223531667,59.077838901965,59.116454272263
+59.156908469719,59.195523840017,59.234139210315,59.272754580613,59.311369950912
+59.388600691508,59.427216061806,59.465831432105,59.504446802403,59.543062172701
+59.581677542999,59.61845408614,59.657069456439,59.695684826737,59.732461369878
+59.771076740176,59.807853283317,59.846468653616,59.883245196757,59.921860567055
+59.958637110196,59.995413653337,60.032190196479,60.070805566777,60.107582109918
+60.144358653059,60.254688282453,60.254688282453,60.254688282453,60.254688282453
+17.98607907,5.63139811,0
+18.039522238353,5.5685307401309,0
+18.118354356374,5.474765494904,0
+18.223776181567,5.3472683937768,0
+18.301561173312,5.2521812119551,0
+18.379050776455,5.1564393251061,0
+18.455991580867,5.0604067676204,0
+18.532348400076,4.9640993644121,0
+18.608383438828,4.8672557147311,0
+18.682873036621,4.7714422042161,0
+18.759307802462,4.672180372193,0
+18.832892969215,4.5756994409981,0
+18.907118226512,4.4774570791588,0
+18.979611836687,4.3806115500125,0
+19.054158934047,4.2800679609516,0
+19.12495857989,4.1836838078815,0
+19.197599200418,4.0838741245484,0
+19.269691724182,3.9838887510598,0
+19.339110630147,3.8867184424301,0
+19.410320207188,3.7861282399754,0
+19.480068864029,3.6866840160726,0
+19.549498596694,3.5868076957341,0
+19.618384749195,3.486789800991,0
+19.686801226528,3.386560820302,0
+19.754758244695,3.2861244778012,0
+19.822181534692,3.1855588484933,0
+19.889317516539,3.0845622482256,0
+19.955042768434,2.9847895390568,0
+20.022500459441,2.8815103209193,0
+20.08744387911,2.781181524493,0
+20.151910444696,2.6807530073054,0
+20.218099099389,2.5767266893375,0
+20.280810630784,2.4773585726533,0
+20.346215476807,2.3728129629207,0
+20.40816579781,2.272946485262,0
+20.471845058626,2.1694831724304,0
+20.535019311114,2.0659269710955,0
+20.595869089499,1.9653961071374,0
+20.65834267122,1.8613461424536,0
+20.719539002858,1.7585724102148,0
+20.780490277349,1.655418576687,0
+20.840985567746,1.552189103037,0
+20.901114571669,1.4488122511649,0
+20.96085122558,1.3452920523034,0
+21.020169406011,1.2417043396217,0
+21.079240290377,1.1377650292099,0
+21.137026306419,1.0353198514652,0
+21.19638950848,0.92930194692318,0
+21.253528704463,0.82648334418163,0
+21.310275635652,0.72364233186357,0
+21.368559692746,0.61726022316001,0
+21.423915944766,0.51550558096142,0
+21.48079439215,0.41021671482133,0
+21.53728356969,0.3049137064776,0
+21.591681668799,0.20283723068535,0
+21.647584464597,0.097229523350876,0
+21.702366101021,-0.0069615538954053,0
+21.756959091318,-0.11144762776926,0
+21.811189913707,-0.21590683502757,0
+21.865109793853,-0.32044323212047,0
+21.918687410879,-0.42494355649052,0
+21.97207794263,-0.52973790191758,0
+22.024418026746,-0.63305918670367,0
+22.078245400155,-0.73995704154802,0
+22.130096451768,-0.84353404698643,0
+22.181648398795,-0.94708176387434,0
+22.234681205492,-1.0541979807778,0
+22.28506210045,-1.1565319804996,0
+22.336933839872,-1.2624265059505,0
+22.388503817866,-1.3682817338091,0
+22.438195616044,-1.470793694821,0
+22.489353960198,-1.576857172074,0
+22.539549315726,-1.681425851251,0
+22.58961296558,-1.7862398017965,0
+22.656034318436,-1.9259052698941,0
+22.721980813548,-2.0655640626963,0
+22.787514722914,-2.2052091625957,0
+22.836414715696,-2.3098571932334,0
+22.885244323072,-2.4147652434179,0
+22.933126506227,-2.5180400817712,0
+22.982612867131,-2.6251996467365,0
+23.029500657652,-2.7270718776573,0
+23.078722250781,-2.8344543835848,0
+23.125235897208,-2.9362456129684,0
+23.174045999417,-3.0434730702988,0
+23.220287181323,-3.145436552126,0
+23.268013135894,-3.2510459722062,0
+23.315521833288,-3.3565324415515,0
+23.361311117721,-3.4585915133053,0
+23.408518331157,-3.564186613345,0
+23.454877472658,-3.6682401536354,0
+23.501124098212,-3.7724292721134,0
+23.547280014495,-3.876767237911,0
+23.592570510316,-3.9795301609826,0
+23.639278494605,-4.085880392978,0
+23.684300560184,-4.1887530001605,0
+23.729099848859,-4.2915023128369,0
+23.775347743233,-4.3979237726745,0
+23.819135214729,-4.4990498527947,0
+23.865091047364,-4.6055597785012,0
+23.908602555085,-4.7067753204308,0
+23.953540275218,-4.8116566405375,0
+23.998265489116,-4.9164093383853,0
+24.041351800125,-5.0176936396888,0
+24.085805481592,-5.1225467916226,0
+24.129430217411,-5.2258131397343,0
+24.173000128764,-5.3293002894402,0
+24.216321407533,-5.432591662505,0
+24.259596141105,-5.5361125205397,0
+24.302057662981,-5.6380156679334,0
+24.345852293835,-5.7435349251602,0
+24.388048103061,-5.8455390489739,0
+24.430047930703,-5.9474113631469,0
+24.473423236955,-6.0529818397682,0
+24.514448771192,-6.1532008688481,0
+24.557554866438,-6.2588591822601,0
+24.598309384348,-6.3591035694723,0
+24.640526387424,-6.4632998326742,0
+24.681910770176,-6.5658019972683,0
+24.723236292576,-6.6685244093385,0
+24.764379389369,-6.7711164536333,0
+24.819001949998,-6.9078286114818,0
+24.873314841043,-7.0444617226677,0
+24.927271302772,-7.1808750968355,0
+24.967656052569,-7.2833679024924,0
+25.007285979672,-7.3842524401099,0
+25.048190207575,-7.4887633226965,0
+25.087546875988,-7.5896632216329,0
+25.12685872948,-7.6907572259799,0
+25.16671121861,-7.7936736830722,0
+25.206536149516,-7.8967826061677,0
+25.244806307411,-7.9962750500439,0
+25.284351831487,-8.0994013111054,0
+25.323145487064,-8.2008991943105,0
+25.361868811506,-8.3026047483888,0
+25.413273030339,-8.4380135310652,0
+25.464352972174,-8.5733175007508,0
+25.515140458756,-8.708492103861,0
+25.553037889853,-8.8097325762844,0
+25.590900553162,-8.9111996077578,0
+25.627984757765,-9.0109263929415,0
+25.666423802607,-9.1146584827542,0
+25.702708857732,-9.2128874475304,0
+25.740888783198,-9.316629350672,0
+25.776953505701,-9.4149264965278,0
+25.814253729131,-9.5169643473409,0
+25.851372923202,-9.6188461624418,0
+25.887081122477,-9.7171638385422,0
+25.923967241082,-9.8191179956067,0
+25.960156815375,-9.9194321438488,0
+25.996275917417,-10.019944628997,0
+26.03222919496,-10.120315280166,0
+26.068023262736,-10.220567910327,0
+26.103767634118,-10.321028558571,0
+26.138774727565,-10.419758004778,0
+26.175059674655,-10.522417925227,0
+26.209240134272,-10.61948071255,0
+26.245293317744,-10.722186132102,0
+26.279178605368,-10.819049483416,0
+26.314915529972,-10.92154140443,0
+26.348599101895,-11.018475531545,0
+26.383570712748,-11.11947450902,0
+26.417832030404,-11.218709297889,0
+26.474810369776,-11.384389602265,0
+26.531322202671,-11.549718883663,0
+26.587337738838,-11.714723065617,0
+26.620896175631,-11.813869086542,0
+26.653757759033,-11.911275266595,0
+26.687871432352,-12.012705340973,0
+26.71999763275,-12.108530263388,0
+26.753904655773,-12.210000993754,0
+26.785758822806,-12.305601825191,0
+26.819392563441,-12.406841113591,0
+26.851054690157,-12.502486597202,0
+26.883969613156,-12.602150405365,0
+26.916182994282,-12.70003927445,0
+26.948377389738,-12.798141536893,0
+26.980423886759,-12.896047797964,0
+27.012350403228,-12.993915851255,0
+27.04413356033,-13.091605097016,0
+27.075879575452,-13.189479580681,0
+27.107000544753,-13.285647802644,0
+27.139207087929,-13.385528270115,0
+27.170138258682,-13.481654131149,0
+27.201040629795,-13.577985395331,0
+27.232423760929,-13.676106125607,0
+27.263801031181,-13.774430549311,0
+27.293876838145,-13.868989651862,0
+27.325093296149,-13.967306430348,0
+27.355588746305,-14.063689456995,0
+27.386548462947,-14.161759605699,0
+27.416261920299,-14.256121519339,0
+27.446558725099,-14.352580856265,0
+27.47746949512,-14.451248689222,0
+27.507116900205,-14.546123474711,0
+27.537229600921,-14.642738276723,0
+27.566658074199,-14.737372361296,0
+27.597195355222,-14.835792739877,0
+27.626471064585,-14.930423568194,0
+27.655760284059,-15.025255620373,0
+27.685515357349,-15.121887183922,0
+27.715272076644,-15.218708528239,0
+27.743800703343,-15.311767653876,0
+27.773404714615,-15.40851938612,0
+27.802408638497,-15.503577292736,0
+27.831418631397,-15.598791122935,0
+27.860295175914,-15.693832135525,0
+27.889090624947,-15.788799614964,0
+27.9177756443,-15.883584664617,0
+27.946455837853,-15.97856414657,0
+27.974523232652,-16.071720279569,0
+28.003762758782,-16.168947980446,0
+28.031236620112,-16.260495865822,0
+28.060360537792,-16.357725420636,0
+28.087647671574,-16.449017348545,0
+28.116589275546,-16.545982129618,0
+28.143767469798,-16.637278004716,0
+28.172107445028,-16.732617381003,0
+28.199863654052,-16.826162909285,0
+28.236863802791,-16.951110010161,0
+28.27368148074,-17.075737722619,0
+28.310338477136,-17.200211140586,0
+28.337740928405,-17.293360253716,0
+28.365143818261,-17.386711833334,0
+28.391976488672,-17.478233751998,0
+28.419946232751,-17.573839677623,0
+28.446215980151,-17.663736461019,0
+28.474083823909,-17.759281510627,0
+28.500250272632,-17.849108659802,0
+28.527576904484,-17.943074035304,0
+28.554253354422,-18.034950113458,0
+28.581419007475,-18.128623355707,0
+28.607371038742,-18.218272155562,0
+28.634361945999,-18.311587755656,0
+28.660882220655,-18.403468114935,0
+28.686960226184,-18.493870543133,0
+28.714051268935,-18.587982976335,0
+28.739950872068,-18.678008778658,0
+28.766335317006,-18.769859380661,0
+28.792087496811,-18.859617871661,0
+28.818962363836,-18.953428728976,0
+28.84428140761,-19.041883087465,0
+28.870621761301,-19.134050899617,0
+28.896890482035,-19.226041765061,0
+28.9220559008,-19.314332523053,0
+28.948244121681,-19.406296591369,0
+28.973922379093,-19.496552102198,0
+28.999588701947,-19.586949139841,0
+29.025196213121,-19.677160898438,0
+29.050726185571,-19.767282246407,0
+29.076178664596,-19.857219895935,0
+29.101653316047,-19.947333369854,0
+29.126587510466,-20.03561587867,0
+29.152621658755,-20.127965843231,0
+29.177023170005,-20.214624000051,0
+29.202991573489,-20.306878917484,0
+29.227325348987,-20.393519642197,0
+29.252701599714,-20.483942439996,0
+29.277989184971,-20.574173649021,0
+29.302221050141,-20.6606951966,0
+29.327437950083,-20.750902273625,0
+29.352156530191,-20.83940181104,0
+29.376866289152,-20.927986482214,0
+29.401577373201,-21.016650700103,0
+29.425764369212,-21.103597501792,0
+29.450973916081,-21.194247823045,0
+29.475102637388,-21.28117806849,0
+29.499155801463,-21.367906100134,0
+29.524229722382,-21.458436482529,0
+29.547720683991,-21.543337895449,0
+29.572719927245,-21.633845691242,0
+29.596128559162,-21.718637890372,0
+29.620644908103,-21.807563708014,0
+29.644555757418,-21.894402667452,0
+29.668936275454,-21.983030216971,0
+29.69215200389,-22.067544574928,0
+29.716452115593,-22.156102311187,0
+29.739792796118,-22.241256032573,0
+29.764224712755,-22.330522471664,0
+29.78749409847,-22.415579110593,0
+29.811226412718,-22.502507905683,0
+29.834362722781,-22.587289967622,0
+29.858601907246,-22.676244147232,0
+29.881247170622,-22.759456535171,0
+29.905414407481,-22.848303763054,0
+29.927980444723,-22.931449987957,0
+29.951652394193,-23.018668559349,0
+29.97477868368,-23.10404122726,0
+29.997941791086,-23.189617731613,0
+30.021015311976,-23.274973906288,0
+30.044045021011,-23.360236383234,0
+30.067014903982,-23.445403980776,0
+30.089902623061,-23.530354793664,0
+30.112813483773,-23.61549644457,0
+30.135232505472,-23.698859132198,0
+30.158626758899,-23.785977812564,0
+30.180961193396,-23.869268148772,0
+30.203324922659,-23.952736765629,0
+30.226152647786,-24.038009531499,0
+30.248990356505,-24.123446706185,0
+30.270795597354,-24.205087896606,0
+30.293557226576,-24.290431198742,0
+30.31583716318,-24.374056599255,0
+30.338138320705,-24.457822284239,0
+30.360351274,-24.541413103788,0
+30.382530543295,-24.624873160608,0
+30.404648652822,-24.708259893781,0
+30.426679745419,-24.791421304267,0
+30.448754785503,-24.874786149151,0
+30.470303036492,-24.956290405866,0
+30.492914444627,-25.041900476681,0
+30.513989568662,-25.12177531095,0
+30.536531643152,-25.207291738958,0
+30.557544564774,-25.287104076999,0
+30.579605943505,-25.370963072345,0
+30.60116694625,-25.453063871498,0
+30.622699531495,-25.535079221665,0
+30.644560682237,-25.61846056764,0
+30.665422447762,-25.698147443962,0
+30.686820608752,-25.779908876181,0
+30.708762075358,-25.863909655991,0
+30.729687166448,-25.944027124676,0
+30.751034596742,-26.025933024348,0
+30.77182171579,-26.105706807544,0
+30.793669905063,-26.189668772559,0
+30.813989807055,-26.267849038586,0
+30.835790908548,-26.351757911945,0
+30.855996305932,-26.429675375712,0
+30.877660691803,-26.51328407684,0
+30.897829616749,-26.591187773902,0
+30.919021622405,-26.67315352915,0
+30.93973499006,-26.753285100123,0
+30.960451117355,-26.833583530358,0
+30.98111374052,-26.913715458444,0
+31.001703460566,-26.993656595866,0
+31.022313637217,-27.073796718093,0
+31.042439914466,-27.152057714476,0
+31.063577513188,-27.234451280332,0
+31.083242704009,-27.311061229212,0
+31.104330966215,-27.393427471018,0
+31.12388585635,-27.469767111792,0
+31.144862970797,-27.551837513355,0
+31.164356553421,-27.628153032899,0
+31.184895873844,-27.708615513593,0
+31.204869260221,-27.786980671671,0
+31.225291334704,-27.86715850054,0
+31.244640220837,-27.943181152808,0
+31.265000418257,-28.023268124095,0
+31.284462754493,-28.09994852655,0
+31.304972649604,-28.180747607396,0
+31.324378068045,-28.257331520925,0
+31.344245671179,-28.335783498933,0
+31.363551296055,-28.412084810584,0
+31.383897148918,-28.492564610085,0
+31.402772530436,-28.567291744869,0
+31.423048215488,-28.647667140819,0
+31.441869121073,-28.722318025234,0
+31.461720619623,-28.801100139482,0
+31.4810097966,-28.877789260575,0
+31.50075369008,-28.956287732619,0
+31.51943200921,-29.030641397224,0
+31.539114566445,-29.109049670598,0
+31.557932624643,-29.184050714167,0
+31.577766419852,-29.263176037865,0
+31.596523820843,-29.338079555973,0
+31.615730578969,-29.414856061976,0
+31.634393677819,-29.489472753222,0
+31.654081736932,-29.56829571412,0
+31.672317315393,-29.641319007981,0
+31.691968996088,-29.720091587235,0
+31.710095146777,-29.792838548581,0
+31.729659370482,-29.871323117841,0
+31.747751451692,-29.944060921659,0
+31.766870143683,-30.020871807582,0
+31.785505812694,-30.095865717886,0
+31.804180765542,-30.171024760874,0
+31.822787525137,-30.246004878618,0
+31.841343673909,-30.320805004652,0
+31.859926919229,-30.395773402772,0
+31.878063814019,-30.468973106629,0
+31.89711658383,-30.545930605727,0
+31.915230038596,-30.619117580884,0
+31.933276120766,-30.692132467446,0
+31.952249251395,-30.768881903844,0
+31.969884192344,-30.84031223938,0
+31.988426395207,-30.915460527985,0
+32.006927132426,-30.990423433656,0
+32.024481367288,-31.061673418626,0
+32.04295083343,-31.136610989394,0
+32.060980931684,-31.209833508551,0
+32.079032259835,-31.283195056403,0
+32.097045608975,-31.356380705837,0
+32.114986664264,-31.429400300249,0
+32.132970773967,-31.502570013168,0
+32.150508230225,-31.573989283226,0
+32.168952056547,-31.649151385305,0
+32.186472918627,-31.720544909474,0
+32.203934098147,-31.791773052385,0
+32.222315505443,-31.866747245622,0
+32.2393576404,-31.936308369239,0
+32.257383813886,-32.009948279827,0
+32.274896907416,-32.081497597151,0
+32.292847932024,-32.154855535524,0
+32.309780960768,-32.22411186829,0
+32.327647544065,-32.2971893977,0
+32.345050185259,-32.368433954388,0
+32.362560014898,-32.440121224749,0
+32.379611168146,-32.509949196934,0
+32.397593989002,-32.583652516226,0
+32.414557763336,-32.653196399214,0
+32.431972530379,-32.724605329297,0
+32.448849293609,-32.793867191146,0
+32.466737456675,-32.867250077714,0
+32.483285098583,-32.935205543828,0
+32.500745813865,-33.006908176564,0
+32.518155190888,-33.07843395112,0
+32.534652140881,-33.146224180936,0
+32.552049039421,-33.217726929828,0
+32.56900559009,-33.287492964252,0
+32.586009240219,-33.357416953163,0
+32.602955109033,-33.427149883095,0
+32.619881963648,-33.496799094457,0
+32.636739796374,-33.566243679077,0
+32.653649130857,-33.635859869236,0
+32.670117213965,-33.70371932864,0
+32.687507975616,-33.775322746658,0
+32.703959916909,-33.843164853621,0
+32.720386654025,-33.910846740071,0
+32.737692827123,-33.982247329895,0
+32.753722292997,-34.048343738861,0
+32.770641219711,-34.118151503379,0
+32.787524498173,-34.187786626391,0
+32.803496845762,-34.253704835052,0
+32.820362170085,-34.323313751436,0
+32.836799498902,-34.39119812428,0
+32.853285554306,-34.459258451445,0
+32.869695683873,-34.527044149941,0
+32.886157870202,-34.595021848792,0
+32.902183574925,-34.661230259749,0
+32.919112739765,-34.731206143389,0
+32.935132843872,-34.797403701281,0
+32.951110877057,-34.863420273132,0
+32.968005280881,-34.933254641256,0
+32.983531821546,-34.997429054926,0
+33.000420811542,-35.067250768171,0
+33.015905793453,-35.131323123394,0
+33.03242011148,-35.199562390561,0
+33.048395171359,-35.26568673519,0
+33.064834159765,-35.333635130781,0
+33.080251937145,-35.397437898255,0
+33.096661334107,-35.465313759286,0
+33.112247124944,-35.529760728589,0
+33.128819954981,-35.59834722373,0
+33.144394965259,-35.662793621026,0
+33.160335934986,-35.728726308504,0
+33.176237694799,-35.794561804958,0
+33.191728183198,-35.858613305297,0
+33.208195552363,-35.926784496753,0
+33.223277924577,-35.989186932128,0
+33.239732817971,-36.057283109185,0
+33.25480068494,-36.119602221308,0
+33.270860635482,-36.186104040151,0
+33.286431754136,-36.250501509659,0
+33.302424248102,-36.316705820209,0
+33.317434286036,-36.37882350389,0
+33.333365262116,-36.4447532189,0
+33.348856369754,-36.508862720739,0
+33.364459978866,-36.573418378144,0
+33.379603407412,-36.636128629571,0
+33.395683947118,-36.702650296561,0
+33.410826603375,-36.76535480446,0
+33.42596709957,-36.827968335848,0
+33.441935061857,-36.894083820224,0
+33.456995238058,-36.956405031007,0
+33.472096085805,-37.018907422472,0
+33.487639096875,-37.083248012133,0
+33.503224950872,-37.147743833446,0
+33.517887505889,-37.208439409959,0
+33.533457118818,-37.272850079431,0
+33.548593355699,-37.335542264491,0
+33.563786798385,-37.398400202605,0
+33.57891611076,-37.461056525088,0
+33.594041818573,-37.523622937042,0
+33.609124274946,-37.586101226745,0
+33.624180421643,-37.648372535979,0
+33.639263318482,-37.710829269341,0
+33.653921599421,-37.771518298303,0
+33.669503127358,-37.835977177895,0
+33.684157579576,-37.896669582572,0
+33.698790402313,-37.957191352536,0
+33.714316783314,-38.021478720406,0
+33.72853817815,-38.080368220871,0
+33.743757860239,-38.143330040491,0
+33.758463596991,-38.204214297361,0
+33.773603925277,-38.266908027051,0
+33.787774284558,-38.325517137206,0
+33.802841803313,-38.387922501057,0
+33.817512335599,-38.448613781248,0
+33.832188294289,-38.50938353395,0
+33.846890327243,-38.570257662952,0
+33.861178806646,-38.629360576877,0
+33.876384889262,-38.69235665687,0
+33.890602430697,-38.751172276258,0
+33.905265235667,-38.8118631909,0
+33.919420772878,-38.87043779382,0
+33.934553504926,-38.933113101935,0
+33.948393066073,-38.990380200151,0
+33.963137229412,-39.051411102887,0
+33.977838624074,-39.112265188705,0
+33.991642566587,-39.169407282956,0
+34.006337328315,-39.230246767031,0
+34.020634687745,-39.28938298868,0
+34.039719460086,-39.36841723295,0
+34.058741406537,-39.447138724874,0
+34.077722578043,-39.52569663071,0
+34.091930574926,-39.584496750135,0
+34.106094116656,-39.643117880823,0
+34.120305834324,-39.701939123977,0
+34.134065245992,-39.758904066659,0
+34.148836045561,-39.820014052102,0
+34.162210061161,-39.875344016398,0
+34.176964088989,-39.936446981657,0
+34.190276224507,-39.991526361331,0
+34.204974837326,-40.05235976832,0
+34.218281852974,-40.107449123528,0
+34.232591993065,-40.166636301848,0
+34.246449343341,-40.224002342776,0
+34.260347099867,-40.281569836131,0
+34.274226936228,-40.338933005572,0
+34.292662851643,-40.41532169283,0
+34.311088082755,-40.49146021951,0
+34.329429619562,-40.56743168555,0
+34.343157092353,-40.624212991222,0
+34.3569280101,-40.681210482399,0
+34.370248319604,-40.73635363416,0
+34.384578379606,-40.795616714258,0
+34.397515526533,-40.849153124882,0
+34.411820411179,-40.908363204169,0
+34.424769097707,-40.961890129068,0
+34.438629392511,-41.019275407776,0
+34.452438426874,-41.076445470337,0
+34.465377449491,-41.129923260281,0
+34.479190379634,-41.187117608713,0
+34.49260358591,-41.242578274353,0
+34.506055336727,-41.298231153877,0
+34.519443267181,-41.353672210138,0
+34.53284501455,-41.409078345569,0
+34.546174134619,-41.464267787584,0
+34.559577026974,-41.519668864094,0
+34.57253542533,-41.573289067738,0
+34.586406591331,-41.630695905378,0
+34.599379040505,-41.684349325101,0
+34.612300797651,-41.73781776487,0
+34.626162745637,-41.795135630408,0
+34.638650565754,-41.84679750652,0
+34.652503804386,-41.904098279528,0
+34.664986689415,-41.955761475245,0
+34.678404614829,-42.011239827224,0
+34.691768638948,-42.066529704713,0
+34.704249921215,-42.118145044453,0
+34.717621973419,-42.173439952119,0
+34.730576459482,-42.227030410723,0
+34.743584528653,-42.280819824988,0
+34.756527085907,-42.334342029323,0
+34.76951580772,-42.38808473772,0
+34.782081772597,-42.440020215108,0
+34.79557971288,-42.495869497354,0
+34.808087389303,-42.547545843439,0
+34.821026725597,-42.601114581995,0
+34.833477056944,-42.652541043177,0
+34.846923337833,-42.708184999136,0
+34.858987977197,-42.758069612549,0
+34.872431544896,-42.813635727188,0
+34.884502468415,-42.863547320867,0
+34.897499944713,-42.917290102493,0
+34.910442104131,-42.970845034508,0
+34.922515735555,-43.020706696682,0
+34.93546280034,-43.074274947965,0
+34.948008937347,-43.126136541328,0
+34.96059973027,-43.178178606721,0
+34.973143841573,-43.230028451789,0
+34.985667723437,-43.281817326125,0
+34.998156844678,-43.333433483712,0
+35.01068349785,-43.385233219027,0
+35.022791572359,-43.435280653271,0
+35.035824417485,-43.489106065438,0
+35.047929741848,-43.539190585381,0
+35.06000237525,-43.589083738235,0
+35.073012714575,-43.642839147306,0
+35.084643887457,-43.690938514634,0
+35.097659635696,-43.744700324049,0
+35.109277255225,-43.792733266159,0
+35.121916281973,-43.844953246924,0
+35.13404276245,-43.895077133429,0
+35.146618498058,-43.947024444192,0
+35.15820225559,-43.99491821191,0
+35.170716327494,-44.046609583952,0
+35.182803470059,-44.096572598492,0
+35.194943892269,-44.146720542079,0
+35.207029100864,-44.19664017319,0
+35.219160144277,-44.246760545159,0
+35.23085974301,-44.295114804732,0
+35.243484906961,-44.347277659105,0
+35.255198908485,-44.395656880045,0
+35.26688760399,-44.443958258575,0
+35.279429257828,-44.495758250224,0
+35.29107392007,-44.543860567207,0
+35.302682536182,-44.59182927075,0
+35.315211611021,-44.643547871783,0
+35.326427660741,-44.689888517295,0
+35.338642687916,-44.740329482698,0
+35.350351163851,-44.788710858186,0
+35.362507079555,-44.838896585622,0
+35.373672053108,-44.885026316286,0
+35.385763352348,-44.934980032362,0
+35.397444202631,-44.983186402605,0
+35.409156897127,-45.031587337218,0
+35.420842848861,-45.079820468524,0
+35.43248218743,-45.127921488686,0
+35.44417236142,-45.17619105673,0
+35.455443122377,-45.222728071706,0
+35.467626577422,-45.273052503654,0
+35.478897904136,-45.319599645956,0
+35.490160910044,-45.366070486296,0
+35.502250642565,-45.416067321102,0
+35.513448714951,-45.462289234565,0
+35.524697957999,-45.508704958014,0
+35.536372183521,-45.556972881751,0
+35.548111653801,-45.60540973331,0
+35.558935788208,-45.650138868737,0
+35.570608507661,-45.698327302848,0
+35.582263192867,-45.746442553497,0
+35.593017145323,-45.790852187181,0
+35.604659032954,-45.838972890244,0
+35.615910057196,-45.885393249021,0
+35.627193738262,-45.932015273673,0
+35.638427929756,-45.978394216287,0
+35.649705682714,-46.024975621179,0
+35.660555354559,-46.069799253897,0
+35.672357211277,-46.118508356863,0
+35.683142946314,-46.163092783382,0
+35.69439433795,-46.209542788136,0
+35.705131656194,-46.253881516433,0
+35.716886730348,-46.302449472265,0
+35.727246234841,-46.345242016643,0
+35.739009353599,-46.393825373123,0
+35.74932272786,-46.436392986921,0
+35.761023563821,-46.484745893311,0
+35.771342757162,-46.527342839242,0
+35.782658953907,-46.574134033598,0
+35.793499349886,-46.618849432756,0
+35.804749616373,-46.665391490879,0
+35.815045478012,-46.707877173125,0
+35.826246753321,-46.754188999117,0
+35.837037883501,-46.798762324277,0
+35.847882392677,-46.843541663775,0
+35.858654345793,-46.888098380622,0
+35.86950078415,-46.932852553738,0
+35.879900125959,-46.975849603217,0
+35.891256165501,-47.022733582984,0
+35.901595127734,-47.065483005612,0
+35.91240099927,-47.110140049469,0
+35.922689185641,-47.15265122122,0
+35.934007764099,-47.199404775182,0
+35.943922989225,-47.240402034682,0
+35.955222693199,-47.287107146075,0
+35.965154546256,-47.328148802869,0
+35.976023349892,-47.373052948071,0
+35.986835335853,-47.417786954176,0
+35.996774332257,-47.458807093009,0
+36.0076020106,-47.503624788409,0
+36.017975540983,-47.546486112321,0
+36.028780640531,-47.591131949111,0
+36.03860227952,-47.631765135212,0
+36.049350146774,-47.676197872525,0
+36.059666522326,-47.718848927053,0
+36.070103243922,-47.761993319264,0
+36.080080635348,-47.803269008162,0
+36.091016302012,-47.8484918241,0
+36.10094551599,-47.889562295306,0
+36.111333142112,-47.932519972017,0
+36.121227695652,-47.973439051563,0
+36.132063181455,-48.018232720494,0
+36.141976993038,-48.059256060429,0
+36.151863629144,-48.100161596993,0
+36.162660712747,-48.144828608585,0
+36.172178410622,-48.184204560261,0
+36.182610295917,-48.227337658485,0
+36.192986693022,-48.270313905061,0
+36.202507448959,-48.309669107474,0
+36.212848364439,-48.352476041653,0
+36.223175861594,-48.395219417943,0
+36.232611787902,-48.434266001705,0
+36.242943914497,-48.477033426706,0
+36.252875272301,-48.518118788256,0
+36.262832896299,-48.559371200271,0
+36.272776322501,-48.600498930658,0
+36.282669033695,-48.641471257095,0
+36.292616502717,-48.682662240964,0
+36.302133893802,-48.722067490094,0
+36.312599853445,-48.765404873633,0
+36.322062510694,-48.804592105812,0
+36.331987420501,-48.845688965944,0
+36.341400401116,-48.884656459043,0
+36.351824874846,-48.927870697583,0
+36.360872457323,-48.965307835537,0
+36.371302182398,-49.008557052245,0
+36.380302485933,-49.045797606091,0
+36.39067784635,-49.088805676621,0
+36.399694145126,-49.126172108658,0
+36.409638671747,-49.167372852848,0
+36.41953817721,-49.208423015296,0
+36.428567168963,-49.245791277255,0
+36.43847748052,-49.286883913294,0
+36.44798714726,-49.32628653917,0
+36.457537519328,-49.365881961164,0
+36.467054566468,-49.405333059099,0
+36.479712453511,-49.457814206439,0
+36.49235025497,-49.510179193878,0
+36.504901064231,-49.562278317834,0
+36.514383733129,-49.601561831817,0
+36.523435672245,-49.639082178514,0
+36.533391882803,-49.68043178457,0
+36.542472567395,-49.718043679155,0
+36.551496321362,-49.755486145021,0
+36.561461775746,-49.79682056317,0
+36.570055479379,-49.832473493317,0
+36.580043253577,-49.873905816628,0
+36.588583833029,-49.909359741377,0
+36.598523349574,-49.950576561037,0
+36.607102852822,-49.986137555455,0
+36.616594281723,-50.025557228466,0
+36.626062724913,-50.064820083265,0
+36.634628981832,-50.100402104632,0
+36.644105155913,-50.139714182442,0
+36.653173892837,-50.177348705327,0
+36.662284626986,-50.215163873347,0
+36.674386002579,-50.265384578171,0
+36.686462823782,-50.31548620616,0
+36.698476415183,-50.365397711367,0
+36.707488637073,-50.402783172733,0
+36.716455890863,-50.440019534864,0
+36.725474842689,-50.477450658503,0
+36.734072735497,-50.513149306546,0
+36.743588782636,-50.55267661577,0
+36.752202690884,-50.588437074881,0
+36.760775259578,-50.624069666304,0
+36.770294381647,-50.663578516765,0
+36.778443311522,-50.697422134309,0
+36.787980053753,-50.737043034521,0
+36.796088621592,-50.770670633708,0
+36.805571036124,-50.810090496403,0
+36.813687990429,-50.843782095315,0
+36.822808407313,-50.881673247221,0
+36.831437805093,-50.917514278382,0
+36.840497785849,-50.955174352719,0
+36.848608281376,-50.988838277587,0
+36.857608384347,-51.026225171218,0
+36.872001823774,-51.086019708856,0
+36.883508047568,-51.133866754726,0
+36.89209645,-51.16953021,0
+define_curve family BLADE.1 tetra_size 1e+10 name crv.06
+bspline
+75,4,0
+0,0,0,0,0.073301865664848
+0.11018356158268,0.14646351478674,0.18274346799079,0.21902342119485,0.2553033743989
+0.29158332760296,0.32786328080701,0.36279953204055,0.3990794852446,0.43535943844866
+0.47163939165271,0.50657564288624,0.5428555960903,0.57779184732383,0.61407180052789
+0.64900805176143,0.68394430299496,0.7188805542285,0.75516050743255,0.79009675866609
+0.82503300989962,0.85996926113316,0.89490551236669,0.92984176360023,0.96477801483376
+0.99837056409678,1.0333068153303,1.0682430665638,1.1018356158269,1.1717081182939
+1.2053006675569,1.2388932168199,1.2738294680535,1.3074220173165,1.3410145665795
+1.3746071158425,1.409543367076,1.4431359163391,1.4767284656021,1.5116647168356
+1.5466009680691,1.5815372193027,1.6514097217697,1.6863459730033,1.7212822242368
+1.7575621774408,1.7938421306449,1.8287783818784,1.8650583350825,1.9013382882865
+1.9389619434611,1.9752418966652,2.0128655518397,2.0491455050438,2.0867691602184
+2.124392815393,2.1620164705675,2.1996401257421,2.2386074828872,2.2762311380618
+2.3151984952069,2.354165852352,2.3931332094971,2.4321005666422,2.4710679237873
+2.5100352809324,2.550346340048,2.5906573991636,2.6309684582793,2.6706761713177
+2.7519016356261,2.7519016356261,2.7519016356261,2.7519016356261
+36.89209645,-51.16953021,0
+36.897770056688,-51.193113540427,0
+36.906491995136,-51.229340064737,0
+36.917715703188,-51.275938818293,0
+36.926340732493,-51.311822544535,0
+36.934828923843,-51.34712188409,0
+36.943358492133,-51.382433199106,0
+36.951730847623,-51.417637239486,0
+36.960568877375,-51.45285250295,0
+36.967493070465,-51.487213614814,0
+36.972749338995,-51.524744788487,0
+36.975888457369,-51.559446961302,0
+36.977376090511,-51.595682163465,0
+36.977098925156,-51.630250145069,0
+36.974890607955,-51.668030262041,0
+36.971275773391,-51.701334026497,0
+36.965371901588,-51.738566383523,0
+36.958496750594,-51.771325032661,0
+36.949257791902,-51.806750961006,0
+36.938757990636,-51.840107673853,0
+36.926117519617,-51.874223813413,0
+36.913022080288,-51.904931490177,0
+36.897290351993,-51.937463383501,0
+36.88054844616,-51.968055141647,0
+36.862227548538,-51.998000802646,0
+36.842664880398,-52.026782714882,0
+36.821611941867,-52.054696176636,0
+36.800045664956,-52.080660043143,0
+36.775372881091,-52.107576605993,0
+36.751437239419,-52.131176080679,0
+36.726398260517,-52.153815792924,0
+36.688923479064,-52.184321256931,0
+36.653875880561,-52.208916244674,0
+36.61355912334,-52.233347086294,0
+36.582727757537,-52.249859624605,0
+36.553624527812,-52.263838412136,0
+36.521284064101,-52.277526374349,0
+36.489767610854,-52.289129990992,0
+36.456421972718,-52.299605537713,0
+36.425478087011,-52.30779952133,0
+36.391338757868,-52.315179701832,0
+36.356792645486,-52.320872427773,0
+36.323481727188,-52.32474901833,0
+36.28893078976,-52.327148942109,0
+36.242586982499,-52.328108094821,0
+36.195864060117,-52.325680961877,0
+36.149295944817,-52.319851131476,0
+36.113411970599,-52.313507180441,0
+36.079440435202,-52.305739815298,0
+36.045824744253,-52.296386320088,0
+36.009779727376,-52.284294795322,0
+35.977253703071,-52.271534029886,0
+35.942917743,-52.256027775379,0
+35.912122140701,-52.240237891582,0
+35.878446260522,-52.220702597127,0
+35.849281364637,-52.201752999256,0
+35.817436229183,-52.178655977768,0
+35.789328786035,-52.155881730365,0
+35.761206182781,-52.130657072249,0
+35.734554042843,-52.104103280638,0
+35.708451780407,-52.075122272156,0
+35.68566534051,-52.047075624413,0
+35.661892167481,-52.014383776467,0
+35.641611796219,-51.983015817204,0
+35.622167709373,-51.949233471005,0
+35.604662106291,-51.914534558774,0
+35.588883385464,-51.878692113898,0
+35.575258091852,-51.841927505636,0
+35.561034050293,-51.804085622157,0
+35.547451836532,-51.767820251374,0
+35.533381094434,-51.730256396271,0
+35.51949156923,-51.693201818981,0
+35.500142375234,-51.641510840551,0
+35.486309304539,-51.604586394906,0
+35.47671827,-51.57895015,0
+define_curve family BLADE.1 tetra_size 1e+10 name crv.07
+bspline
+393,4,0
+0,0,0,0,0.082051265477021
+0.12449315206014,0.16442491781528,0.20670561096778,0.24898630412028,0.29126699727278
+0.33354769042528,0.37582838357778,0.41810907673028,0.46273869728014,0.50501939043264
+0.54730008358514,0.591929704135,0.63655932468486,0.68118894523472,0.72346963838722
+0.76809925893708,0.81507780688431,0.85970742743417,0.90433704798403,0.94896666853389
+0.99594521648112,1.040574837031,1.0875533849782,1.1345319329254,1.1815104808726
+1.2261401014225,1.2754675767671,1.3224461247143,1.3694246726615,1.4164032206088
+1.4657306959533,1.5127092439006,1.5620367192452,1.6113641945897,1.658342742537
+1.7076702178815,1.7569976932261,1.8086740959681,1.8580015713127,1.9073290466572
+1.9590054493992,2.0083329247438,2.0600093274857,2.1116857302277,2.1633621329696
+2.2150385357115,2.2667149384535,2.3183913411954,2.3700677439374,2.4240930740767
+2.4757694768186,2.5297948069579,2.5814712096999,2.6354965398392,2.6895218699785
+2.7435472001178,2.7975725302571,2.8539467877938,2.9079721179331,2.9643463754698
+3.0183717056091,3.0747459631457,3.1311202206824,3.1874944782191,3.2438687357557
+3.3002429932924,3.3566172508291,3.4153404357631,3.4717146932998,3.5304378782338
+3.5891610631678,3.6478842481018,3.7066074330359,3.7653306179699,3.8240538029039
+3.882776987838,3.9438491001694,4.0025722851034,4.0636443974348,4.1247165097662
+4.1857886220975,4.2468607344289,4.3079328467603,4.3690049590917,4.4324259988205
+4.4934981111519,4.5569191508806,4.6203401906094,4.6837612303381,4.7471822700669
+4.8106033097956,4.8740243495244,4.9374453892531,5.0032153563792,5.0689853235053
+5.1324063632341,5.1981763303602,5.2639462974863,5.3297162646124,5.3978351591359
+5.463605126262,5.5317240207855,5.5974939879116,5.6656128824351,5.7337317769585
+5.801850671482,5.8699695660055,5.938088460529,6.0085562824498,6.0766751769733
+6.1471429988941,6.2176108208149,6.2880786427358,6.3585464646566,6.4290142865774
+6.4994821084983,6.5722988578165,6.6427666797373,6.7155834290555,6.7884001783737
+6.8612169276919,6.9340336770101,7.0068504263283,7.0820161030438,7.154832852362
+7.2299985290776,7.3051642057932,7.3803298825087,7.4554955592243,7.5306612359398
+7.6058269126554,7.6833415167683,7.7608561208812,7.8360217975968,7.9135364017097
+7.9910510058226,8.0685656099355,8.1484291414457,8.2259437455586,8.3058072770689
+8.3833218811818,8.463185412692,8.5430489442023,8.6229124757125,8.7051249346201
+8.7849884661304,8.867200925038,8.9470644565482,9.0292769154558,9.1114893743634
+9.1937018332711,9.278263219576,9.3604756784836,9.4450370647886,9.5272495236962
+9.6118109100012,9.6963722963062,9.7809336826111,9.8678439963135,9.9524053826184
+10.039315696321,10.123877082626,10.210787396328,10.29769771003,10.384608023733
+10.473867264832,10.560777578535,10.650036819634,10.736947133337,10.826206374436
+10.915465615536,11.004724856636,11.096333025133,11.185592266233,11.27720043473
+11.368808603227,11.458067844326,11.552024940221,11.643633108718,11.735241277215
+11.829198373109,11.920806541606,12.014763637501,12.108720733395,12.20267782929
+12.296634925184,12.392940948476,12.48689804437,12.583204067662,12.679510090954
+12.775816114245,12.872122137537,12.968428160829,13.064734184121,13.16338913481
+13.262044085499,13.360699036188,13.459353986877,13.558008937566,13.656663888256
+13.757667766342,13.856322717031,13.957326595118,14.058330473204,14.159334351291
+14.260338229377,14.363691034861,14.464694912947,14.568047718431,14.671400523915
+14.774753329399,14.878106134883,14.981458940367,15.087160673248,15.190513478732
+15.296215211613,15.401916944494,15.507618677375,15.613320410257,15.719022143138
+15.827072803416,15.932774536298,16.040825196576,16.148875856855,16.256926517133
+16.364977177412,16.475376765088,16.583427425366,16.693827013042,16.804226600718
+16.914626188394,17.02502577607,17.135425363746,17.245824951422,17.358573466495
+17.471321981569,17.584070496642,17.696819011715,17.809567526788,17.922316041862
+18.037413484332,18.150161999406,18.265259441876,18.380356884347,18.495454326818
+18.610551769288,18.725649211759,18.843095581627,18.960541951495,19.075639393966
+19.193085763834,19.310532133702,19.430327430967,19.547773800835,19.6675690981
+19.785015467968,19.904810765234,20.024606062499,20.144401359765,20.26419665703
+20.386340881693,20.506136178958,20.628280403621,20.750424628284,20.872568852946
+20.994713077609,21.116857302272,21.239001526934,21.363494678995,21.485638903657
+21.610132055717,21.734625207777,21.859118359838,21.983611511898,22.110453591355
+22.234946743415,22.361788822873,22.48863090233,22.61312405439,22.739966133848
+22.869157140702,22.99599922016,23.122841299617,23.252032306472,23.381223313327
+23.508065392784,23.637256399639,23.768796333891,23.897987340746,24.027178347601
+24.158718281853,24.287909288708,24.41944922296,24.550989157212,24.682529091465
+24.814069025717,24.947957887366,25.079497821618,25.211037755871,25.34492661752
+25.47881547917,25.612704340819,25.746593202469,25.880482064118,26.014370925768
+26.150608714815,26.284497576464,26.420735365511,26.556973154558,26.693210943605
+26.829448732652,26.965686521699,27.101924310746,27.24051102719,27.376748816237
+27.515335532681,27.651573321728,27.790160038172,27.928746754616,28.067333471061
+28.205920187505,28.346855831347,28.485442547791,28.626378191632,28.764964908077
+28.905900551918,29.04683619576,29.187771839602,29.328707483443,29.469643127285
+29.610578771126,29.753863342365,29.894798986207,30.038083557446,30.179019201288
+30.322303772527,30.465588343766,30.608872915005,30.752157486243,30.895442057482
+31.041075556119,31.184360127358,31.329993625994,31.473278197233,31.618911695869
+31.764545194506,31.907829765745,32.053463264381,32.201445690415,32.347079189052
+32.492712687688,32.638346186325,32.786328612359,32.931962110995,33.079944537029
+33.225578035666,33.3735604617,33.521542887734,33.669525313767,33.817507739801
+33.965490165835,34.113472591869,34.261455017903,34.411786371334,34.559768797368
+34.707751223402,34.858082576834,35.006065002867,35.156396356299,35.30672770973
+35.457059063161,35.605041489195,35.755372842627,35.905704196058,36.056035549489
+36.208715830318,36.359047183749,36.50937853718,36.659709890612,36.81239017144
+36.962721524872,37.1154018057,37.265733159131,37.41841343996,37.571093720789
+37.72142507422,37.874105355049,38.026785635877,38.484826478364,38.484826478364
+38.484826478364,38.484826478364
+35.47671827,-51.57895015,0
+35.467359627489,-51.553990309038,0
+35.452098589277,-51.513139450006,0
+35.434126999089,-51.465147958483,0
+35.41832987078,-51.422912806932,0
+35.404391260866,-51.385628404444,0
+35.389573873116,-51.346017855998,0
+35.374846826669,-51.306589911564,0
+35.359968360206,-51.266796017748,0
+35.345158772505,-51.227146797446,0
+35.329535123425,-51.185306459042,0
+35.315591230098,-51.147986882764,0
+35.29990380534,-51.105937791659,0
+35.28420864795,-51.063914601526,0
+35.269516572656,-51.024536627764,0
+35.25398750294,-50.982907129315,0
+35.239227192556,-50.943355160138,0
+35.222656404244,-50.898872548561,0
+35.207122211793,-50.857244819634,0
+35.192505630705,-50.817981391998,0
+35.176142046588,-50.774096945208,0
+35.160549493706,-50.732203115564,0
+35.143982663588,-50.687732680903,0
+35.129273251337,-50.648219957891,0
+35.112013250787,-50.601839776784,0
+35.096638265329,-50.560518280129,0
+35.080222894925,-50.516382918349,0
+35.064775986972,-50.474830740672,0
+35.046636328929,-50.426040853924,0
+35.032049640212,-50.386776417708,0
+35.014788262711,-50.34034601124,0
+34.998474042345,-50.296388071536,0
+34.981146571001,-50.249729081135,0
+34.965658910859,-50.208003859596,0
+34.947675409844,-50.159547484951,0
+34.931391132165,-50.11562178439,0
+34.915012837894,-50.071468193146,0
+34.896834554823,-50.022425958647,0
+34.880490750939,-49.97833393596,0
+34.862591272328,-49.929976064111,0
+34.846453188031,-49.886426480058,0
+34.82858333118,-49.838144264508,0
+34.810603569993,-49.789562928147,0
+34.794299073134,-49.745503910777,0
+34.775517300514,-49.694708711295,0
+34.758543526174,-49.64879084447,0
+34.740701979802,-49.600508302104,0
+34.722921394619,-49.552370707115,0
+34.705016581722,-49.503931509435,0
+34.687020018495,-49.455173775146,0
+34.6690682243,-49.406530669982,0
+34.650261385216,-49.35556630273,0
+34.633287564552,-49.309531180609,0
+34.613658540764,-49.256320672489,0
+34.596601338431,-49.210038724665,0
+34.57686305011,-49.156504821665,0
+34.559018616931,-49.108041003933,0
+34.540224484031,-49.057043999399,0
+34.521646746944,-49.006568218469,0
+34.502166011977,-48.953651513799,0
+34.484504117182,-48.905666097939,0
+34.464221309326,-48.850520863155,0
+34.446469256665,-48.802276283023,0
+34.426084797816,-48.746800498818,0
+34.407523685418,-48.696337040694,0
+34.388091876392,-48.643449465474,0
+34.368721769012,-48.59072247741,0
+34.349186427559,-48.537564764885,0
+34.329722740751,-48.48450818305,0
+34.309371748725,-48.429136304023,0
+34.290835839288,-48.378592611691,0
+34.269771596251,-48.321198650156,0
+34.250507837319,-48.268677288342,0
+34.230376873407,-48.213786468342,0
+34.210283749051,-48.158993518288,0
+34.190077890387,-48.103885818507,0
+34.169757489402,-48.048437507686,0
+34.149480352005,-47.99308347075,0
+34.128338885386,-47.935391484229,0
+34.108988734939,-47.882535385604,0
+34.087101509021,-47.822806858131,0
+34.067032020978,-47.767956900606,0
+34.046076144365,-47.710718682332,0
+34.025177541564,-47.653602970065,0
+34.00410732938,-47.596049617409,0
+33.983098080914,-47.5385820203,0
+33.961211906783,-47.478787994993,0
+33.941111296381,-47.423794207928,0
+33.918497076563,-47.361961915172,0
+33.897671469942,-47.304973202524,0
+33.875956923585,-47.245601415822,0
+33.854302895716,-47.186332854188,0
+33.832507773551,-47.126698627425,0
+33.810607750081,-47.066759676111,0
+33.788700106125,-47.006781808132,0
+33.76608383726,-46.944885963992,0
+33.744371174532,-46.885437233831,0
+33.722671112791,-46.825998618813,0
+33.699190722803,-46.761703339185,0
+33.677334890025,-46.701849691163,0
+33.654770713811,-46.640029007872,0
+33.631470211169,-46.576199987699,0
+33.609905227512,-46.517162466441,0
+33.585736948234,-46.450947754179,0
+33.564068231236,-46.391580163468,0
+33.53975913184,-46.324989334056,0
+33.517249918127,-46.263333668012,0
+33.493861640608,-46.199275327545,0
+33.470481099439,-46.135215741806,0
+33.447078181634,-46.071142165231,0
+33.42283200934,-46.004706749363,0
+33.400319112935,-45.943103491034,0
+33.375302583452,-45.874578670809,0
+33.352050551975,-45.810946192866,0
+33.327911689867,-45.744861426065,0
+33.303811168556,-45.678908862873,0
+33.279533415908,-45.612460082444,0
+33.255276807813,-45.54611868735,0
+33.230146758452,-45.477383981718,0
+33.206783328159,-45.413479891029,0
+33.180865757268,-45.342669241796,0
+33.15674271694,-45.276710585806,0
+33.131716388011,-45.208339353069,0
+33.106680051016,-45.139979681919,0
+33.081634767924,-45.071564619255,0
+33.055710102978,-45.000821130757,0
+33.031523971552,-44.934857632562,0
+33.004821131575,-44.862016078307,0
+32.979872911115,-44.794002497688,0
+32.954020791116,-44.723573678513,0
+32.928201964419,-44.653240628259,0
+32.902201311207,-44.582437908449,0
+32.876164050753,-44.511632197944,0
+32.849408091144,-44.438853099795,0
+32.823535426768,-44.368505530502,0
+32.797621740375,-44.298147504894,0
+32.769919101755,-44.222907825651,0
+32.743819340878,-44.152103647828,0
+32.716970490643,-44.079302951428,0
+32.689361345094,-44.004473916106,0
+32.66348406926,-43.934411931033,0
+32.634933170464,-43.857144101402,0
+32.608893595136,-43.786729136241,0
+32.580144863447,-43.709061681055,0
+32.553178702759,-43.636234738892,0
+32.525409373826,-43.561329484543,0
+32.496868768684,-43.48439961096,0
+32.470071272487,-43.412225937671,0
+32.440584705456,-43.332873159428,0
+32.413595099287,-43.26033714534,0
+32.383911969942,-43.180565612243,0
+32.355978179017,-43.105623873438,0
+32.327256139848,-43.028612240364,0
+32.29773061894,-42.949559847817,0
+32.269972930304,-42.875281242502,0
+32.239484437751,-42.7937995967,0
+32.211521132314,-42.719146723701,0
+32.180824894258,-42.637259374646,0
+32.151892121533,-42.560203922406,0
+32.122139639865,-42.481053351315,0
+32.091606336963,-42.399885816049,0
+32.062812283176,-42.323463917023,0
+32.031288123226,-42.239879015636,0
+32.002273984698,-42.163085159652,0
+31.970505710847,-42.07907285997,0
+31.94051628438,-41.999880864271,0
+31.909700460485,-41.918611715712,0
+31.878064086051,-41.835310996457,0
+31.848198929358,-41.756756842443,0
+31.815553928815,-41.671043490775,0
+31.785454270548,-41.592116133667,0
+31.75255737139,-41.505974838854,0
+31.721443476091,-41.424654938747,0
+31.689488460041,-41.341236721024,0
+31.656714694478,-41.255835134666,0
+31.625664258206,-41.17504834532,0
+31.591986237514,-41.087571559674,0
+31.559911490541,-41.004417825563,0
+31.527785343426,-40.921227652204,0
+31.492968155311,-40.83130202861,0
+31.461644753154,-40.750478839477,0
+31.427637589961,-40.662936706881,0
+31.393559748029,-40.575351810595,0
+31.361106279615,-40.492102621992,0
+31.325953262604,-40.402106553095,0
+31.292607041719,-40.316905967172,0
+31.258222730177,-40.229218526908,0
+31.223928957572,-40.141931785196,0
+31.188602485219,-40.052204504535,0
+31.155089752016,-39.967224569104,0
+31.118791946754,-39.875428850616,0
+31.084323054199,-39.788397525115,0
+31.048807024543,-39.698938897406,0
+31.013265107627,-39.609565665263,0
+30.977454824947,-39.519738261541,0
+30.941566932585,-39.429896868573,0
+30.904784068713,-39.338038914211,0
+30.869035576344,-39.248908578895,0
+30.832363617972,-39.157741307526,0
+30.795625551767,-39.066585991001,0
+30.75861231496,-38.974961468471,0
+30.721548228394,-38.883415975115,0
+30.68344504641,-38.789498160719,0
+30.647167030489,-38.700339686381,0
+30.608036311572,-38.604350122991,0
+30.570767958069,-38.513165513892,0
+30.532399417141,-38.419502761681,0
+30.494109793365,-38.326258259382,0
+30.454711586266,-38.230584730569,0
+30.41719369329,-38.139651120664,0
+30.376760215517,-38.041929743127,0
+30.338197731769,-37.948971079795,0
+30.298571487301,-37.853647769576,0
+30.258817039027,-37.7583044819,0
+30.21896485659,-37.662950802825,0
+30.178025117022,-37.565260110314,0
+30.138957013736,-37.47229207021,0
+30.09694453909,-37.372577672253,0
+30.056817401063,-37.277583656853,0
+30.015596640406,-37.18025252977,0
+29.974251797313,-37.082920504065,0
+29.932776830343,-36.985556113971,0
+29.890212911321,-36.885884480394,0
+29.84953753131,-36.790924038277,0
+29.805854631707,-36.689213325924,0
+29.764094820794,-36.59227935304,0
+29.721157728978,-36.492885514668,0
+29.678290963293,-36.393931748289,0
+29.634237244621,-36.292576679015,0
+29.592126193499,-36.195930726607,0
+29.54695154263,-36.092581878376,0
+29.503703010582,-35.993940138962,0
+29.459302976957,-35.892972261925,0
+29.41481080159,-35.792115913339,0
+29.369987416681,-35.690811464718,0
+29.325038651685,-35.58952378779,0
+29.279056438175,-35.486266419558,0
+29.234165874827,-35.3857364734,0
+29.188226542493,-35.283224780225,0
+29.1421627552,-35.1807297057,0
+29.095748596707,-35.077823416975,0
+29.049236957972,-34.975003006398,0
+29.00151287983,-34.869901922368,0
+28.955789698089,-34.769476123511,0
+28.906870619096,-34.662425018127,0
+28.859955049548,-34.56009325863,0
+28.811827863195,-34.455486024892,0
+28.763559657672,-34.350915241801,0
+28.715081646118,-34.246230867903,0
+28.665585403785,-34.139743094604,0
+28.617024641312,-34.035595387983,0
+28.568324705021,-33.931558191782,0
+28.517189674764,-33.82262687596,0
+28.468092795973,-33.718474868063,0
+28.416848787797,-33.610083823537,0
+28.367817564964,-33.50678487425,0
+28.315302904162,-33.396490299159,0
+28.265769013698,-33.292862273497,0
+28.212746055551,-33.182303965943,0
+28.161839764831,-33.076566903454,0
+28.10961657532,-32.968441401672,0
+28.057424313891,-32.860806089857,0
+28.00391647562,-32.750849374252,0
+27.952497962699,-32.645568143847,0
+27.897684898943,-32.533742806341,0
+27.844970538399,-32.426620851553,0
+27.790957594812,-32.317239378061,0
+27.736819402351,-32.208012416204,0
+27.682273615782,-32.098396437123,0
+27.627616434519,-31.988923755304,0
+27.571629300191,-31.877256887729,0
+27.5177731073,-31.770234280783,0
+27.460435694582,-31.656707743176,0
+27.405259401778,-31.54789116077,0
+27.348687421263,-31.436747861198,0
+27.292157613171,-31.326113354438,0
+27.234235935567,-31.213199006374,0
+27.178476923821,-31.104926798728,0
+27.119217456228,-30.99027987976,0
+27.061962015204,-30.879986611747,0
+27.004326225372,-30.769348256651,0
+26.944275470673,-30.654564776385,0
+26.88529567417,-30.54225384179,0
+26.827298301024,-30.432287999073,0
+26.766901889991,-30.318180700954,0
+26.706268344199,-30.204117769297,0
+26.646524805468,-30.092180515918,0
+26.586582823947,-29.980317414882,0
+26.52412671416,-29.864255594222,0
+26.462768084091,-29.750677872731,0
+26.402404368931,-29.639424939356,0
+26.339625519332,-29.524159703573,0
+26.276391049038,-29.408576148766,0
+26.215268048608,-29.29730083494,0
+26.150440663443,-29.179756542645,0
+26.087890716461,-29.066853910968,0
+26.023864040131,-28.951732429823,0
+25.959823803015,-28.837096469742,0
+25.894401694744,-28.720478242527,0
+25.831095737401,-28.60811895561,0
+25.765056152733,-28.491398759366,0
+25.69878206407,-28.374774414093,0
+25.633621451091,-28.260587312051,0
+25.567133913842,-28.144605428866,0
+25.50041715354,-28.028724712485,0
+25.433247371998,-27.912588321195,0
+25.365927158467,-27.796683402737,0
+25.297110356446,-27.678732567186,0
+25.230672669371,-27.565367185798,0
+25.160297874645,-27.4458426304,0
+25.092335981732,-27.330908598046,0
+25.022842075115,-27.213938978846,0
+24.953183977808,-27.097228806568,0
+24.883048893653,-26.980243254882,0
+24.812753587579,-26.863531513905,0
+24.740892541483,-26.744793768093,0
+24.671534229184,-26.630710801125,0
+24.597940066133,-26.51022047366,0
+24.527926083242,-26.396147459434,0
+24.453656605669,-26.275691246343,0
+24.381917536369,-26.159907123948,0
+24.308529000508,-26.042041793535,0
+24.2351872616,-25.924765701912,0
+24.160165241067,-25.805439165014,0
+24.087732504973,-25.690743102054,0
+24.010922931712,-25.569756067215,0
+23.937823174471,-25.455117755663,0
+23.86030613475,-25.33421099673,0
+23.785406340894,-25.217924532496,0
+23.708845987069,-25.099675548235,0
+23.632124250829,-24.981749374566,0
+23.554854889617,-24.863601293502,0
+23.477420950705,-24.745774551427,0
+23.398320649322,-24.626019752066,0
+23.321862718421,-24.510869693977,0
+23.240888330177,-24.389516126266,0
+23.163719598683,-24.274490719894,0
+23.082001641779,-24.153298803728,0
+23.002960082505,-24.036692336683,0
+22.922244913917,-23.918216934668,0
+22.841257141826,-23.799965124645,0
+22.76000145878,-23.681966066751,0
+22.677041513789,-23.562121579615,0
+22.596802195183,-23.446821688402,0
+22.511910654519,-23.325477840225,0
+22.430918113621,-23.21034132622,0
+22.345414258991,-23.089436675323,0
+22.26246089686,-22.972765983391,0
+22.179009306694,-22.85601231961,0
+22.092461242783,-22.735554168321,0
+22.007188284013,-22.617515047782,0
+21.923261493995,-22.501948427698,0
+21.836090428119,-22.382496608274,0
+21.749929008963,-22.265072998989,0
+21.661847873915,-22.145611122205,0
+21.576702928148,-22.030743334288,0
+21.486735726015,-21.909949960145,0
+21.400925929553,-21.795353840119,0
+21.310289278979,-21.674854554862,0
+21.22260193451,-21.558884958751,0
+21.133152320935,-21.441146870579,0
+21.043543221749,-21.323790378932,0
+20.953513812067,-21.206424473694,0
+20.863052209981,-21.089079906291,0
+20.772426148009,-20.972065301141,0
+20.680131436344,-20.853450500721,0
+20.590535661323,-20.7388680115,0
+20.497661925876,-20.620610258371,0
+20.404347958159,-20.502361623003,0
+20.313824873265,-20.388162777141,0
+20.218601956424,-20.26859184442,0
+20.126475270981,-20.153412838978,0
+20.032337260986,-20.036260948225,0
+19.939472647243,-19.921187785414,0
+19.842926103524,-19.802078946416,0
+19.74925731879,-19.687039325188,0
+19.654084728829,-19.570645811151,0
+19.557438729424,-19.452972684896,0
+19.463663751039,-19.339269036299,0
+19.366224344892,-19.221624483025,0
+19.270075056628,-19.106009968691,0
+19.171904473299,-18.988481688067,0
+19.077012078921,-18.875336377777,0
+18.977027393253,-18.756600919096,0
+18.881615263445,-18.643748640356,0
+18.781155094803,-18.525408601922,0
+18.683727014234,-18.411109549518,0
+18.585910506473,-18.296786139777,0
+18.484711395001,-18.178988480409,0
+18.386383973804,-18.06498463934,0
+18.220138017322,-17.872942880046,0
+18.086404000869,-17.719658769178,0
+17.98562583,-17.60482734,0
+define_curve family BLADE.1 tetra_size 1e+10 name crv.08
+bspline
+132,4,0
+0,0,0,0,0.30581692449727
+0.46044906292986,0.61393208390648,0.7674151048831,1.0743811468363,1.3813471887896
+1.5348302097662,1.6883132307428,1.8417962517194,1.9952792726961,2.1487622936727
+2.3022453146493,2.4557283356259,2.6092113566025,2.7626943775791,2.9211284637485
+3.0746114847252,3.2280945057018,3.3815775266784,3.535060547655,3.6934946338244
+3.846977654801,4.0004606757776,4.1539436967543,4.3123777829237,4.4658608039003
+4.6193438248769,4.7777779110463,4.931260932023,5.0847439529996,5.243178039169
+5.3966610601457,5.5501440811223,5.7085781672917,5.8620611882683,6.015544209245
+6.1739782954144,6.327461316391,6.4809443373676,6.6393784235371,6.7928614445137
+6.9463444654903,7.1047785516597,7.2582615726364,7.411744593613,7.5701786797824
+7.723661700759,7.8771447217357,8.0355788079051,8.1890618288817,8.3425448498583
+8.5009789360277,8.6544619570043,8.8079449779809,8.9614279989575,9.1198620851269
+9.2733451061035,9.4268281270801,9.5803111480567,9.738745234226,9.8922282552026
+10.045711276179,10.199194297156,10.357628383325,10.511111404302,10.664594425278
+10.818077446255,10.971560467232,11.125043488208,11.278526509185,11.432009530161
+11.590443616331,11.743926637307,11.897409658284,12.050892679261,12.204375700237
+12.357858721214,12.51134174219,12.659873697974,12.813356718951,12.966839739927
+13.120322760904,13.273805781881,13.427288802857,13.580771823834,13.729303779618
+13.882786800594,14.036269821571,14.189752842547,14.338284798331,14.491767819308
+14.640299775092,14.793782796068,14.947265817045,15.095797772829,15.249280793805
+15.397812749589,15.551295770566,15.699827726349,15.848359682133,16.00184270311
+16.150374658894,16.298906614678,16.452389635654,16.600921591438,16.749453547222
+16.897985503006,17.04651745879,17.195049414574,17.343581370357,17.492113326141
+17.640645281925,17.789177237709,17.937709193493,18.086241149277,18.234773105061
+18.383305060844,18.526885951435,18.675417907219,18.823949863003,18.967530753594
+19.116062709378,19.259643599969,19.408175555753,19.551756446344,19.700288402128
+19.843869292719,19.989858069545,20.279563029685,20.279563029685,20.279563029685
+20.279563029685
+17.98562583,-17.60482734,0
+17.918832968489,-17.528702317726,0
+17.816027210641,-17.412050173165,0
+17.68253287313,-17.261412406861,0
+17.580107157946,-17.146311520778,0
+17.444077094987,-16.994050332566,0
+17.27313131364,-16.803871276802,0
+17.101300099683,-16.61425745905,0
+16.963226287534,-16.462827562367,0
+16.859400569558,-16.34942525743,0
+16.755276471895,-16.23616186379,0
+16.650863425871,-16.123085752128,0
+16.546161294916,-16.010141812946,0
+16.441199190272,-15.897413970375,0
+16.335820870481,-15.784704683161,0
+16.230662686067,-15.672719632264,0
+16.122140413452,-15.557650307292,0
+16.020718712906,-15.450562746955,0
+15.911640174953,-15.33589301652,0
+15.805242117251,-15.224512117688,0
+15.698554756047,-15.113333792733,0
+15.588589475147,-14.999239482118,0
+15.485830925862,-14.893097466165,0
+15.37516280645,-14.77927532302,0
+15.267858488757,-14.669410295619,0
+15.156621364864,-14.556049791695,0
+15.05268309967,-14.450566937358,0
+14.941361803951,-14.338130710433,0
+14.829795599109,-14.225957013786,0
+14.724898739399,-14.12096193359,0
+14.612760815726,-14.009228353876,0
+14.50033042636,-13.897732297753,0
+14.394620648386,-13.793385001433,0
+14.281632210306,-13.682355538847,0
+14.168330295531,-13.571578852288,0
+14.061830392113,-13.467915974843,0
+13.947987877135,-13.357601382809,0
+13.833847429856,-13.247587876968,0
+13.726509764945,-13.144586466433,0
+13.611966316309,-13.035189083388,0
+13.497034518446,-12.925969309475,0
+13.389052799831,-12.823840948998,0
+13.273669632928,-12.715168853251,0
+13.158026037945,-12.606813002306,0
+13.049383411916,-12.50542468863,0
+12.933303359394,-12.397575036042,0
+12.817006322159,-12.289988001005,0
+12.70773634687,-12.189337199789,0
+12.591043744158,-12.082258619379,0
+12.474131823325,-11.975443970476,0
+12.364325025881,-11.875485059348,0
+12.2470580788,-11.769156489688,0
+12.129575909319,-11.663038663857,0
+12.019428148344,-11.563892856708,0
+11.901090078316,-11.457759991285,0
+11.786482454032,-11.355341771188,0
+11.66780791041,-11.249639774638,0
+11.557240679966,-11.151487040389,0
+11.438290795868,-11.046223208066,0
+11.323153660861,-10.94466173535,0
+11.203949693374,-10.839837013924,0
+11.092918574636,-10.742476967121,0
+10.97349341114,-10.638051338498,0
+10.857936301267,-10.537298989828,0
+10.738321061237,-10.433287699096,0
+10.626898308669,-10.336654615289,0
+10.507223502189,-10.233113994095,0
+10.390888338814,-10.1327239643,0
+10.273915982554,-10.031999648706,0
+10.157060610971,-9.9316186008755,0
+10.039968593561,-9.8312541077917,0
+9.923422014784,-9.7315354679578,0
+9.8034101250717,-9.6291011738438,0
+9.6915374586407,-9.533767115076,0
+9.5714738456227,-9.4316341899237,0
+9.4548079913473,-9.3325851857094,0
+9.3375136889882,-9.2331405072387,0
+9.2205314527001,-9.1341334253358,0
+9.1028888402115,-9.0347051714182,0
+8.9888557762793,-8.9384630984797,0
+8.8663963822123,-8.8352473768638,0
+8.7523905770636,-8.739285621183,0
+8.6348411759991,-8.6404738358424,0
+8.5179049389401,-8.5422892554475,0
+8.4009828682405,-8.4442551823676,0
+8.2835127080977,-8.345884795082,0
+8.1696210521506,-8.2506373753449,0
+8.0473086552084,-8.1484587717662,0
+7.9336133110186,-8.053619611865,0
+7.8157585217588,-7.9553911003401,0
+7.7022625339873,-7.8609347067054,0
+7.5796428594283,-7.7589940495754,0
+7.4689976939642,-7.6671100239217,0
+7.3466315615499,-7.565620350282,0
+7.2326866204519,-7.4712130274481,0
+7.1187942650588,-7.3769603984704,0
+6.9965897570426,-7.275925230254,0
+6.8862802148292,-7.1848404586969,0
+6.763754626413,-7.0837553083449,0
+6.6531533406489,-6.9926073969892,0
+6.5342001282766,-6.8946752417997,0
+6.4155330910261,-6.7970817170253,0
+6.3044960611552,-6.7058549836078,0
+6.1859481758518,-6.6085435684333,0
+6.0674393243809,-6.5113653260969,0
+5.9567708320456,-6.4206968717868,0
+5.8380095202485,-6.3234872187403,0
+5.7227741163208,-6.2292508111977,0
+5.6070573544683,-6.134704616469,0
+5.4915862058061,-6.0404418829262,0
+5.3761708223072,-5.9463044118263,0
+5.2608639649652,-5.8523351097687,0
+5.1456569178319,-5.758523669099,0
+5.0305502037073,-5.6648708738355,0
+4.9155620873388,-5.5713876155591,0
+4.8006376469375,-5.478029123928,0
+4.685989824911,-5.3849667687288,0
+4.5708402534183,-5.2915656011568,0
+4.4593600479936,-5.2012063788054,0
+4.3396434074307,-5.1042408929334,0
+4.2279122315269,-5.0138073590116,0
+4.1164714832301,-4.923668539621,0
+3.9966235339202,-4.826794531513,0
+3.888956431069,-4.7398308052449,0
+3.7687693547385,-4.6428435694863,0
+3.6614671994345,-4.5563427724879,0
+3.5415516921457,-4.4597891994666,0
+3.4341784689173,-4.3734493362283,0
+3.3162221675406,-4.2787357130547,0
+3.1683239186569,-4.1601739017437,0
+3.0532423207419,-4.0681526855168,0
+2.97830861,-4.00836129,0
+define_curve family INLET tetra_size 1e+10 name crv.17 vertex1 pnt.16 vertex2 pnt.17
+bspline
+2,2,0
+0,0,1,1
+-100,29,0
+-100,-28.5,0
+define_curve family PER_UPP tetra_size 1e+10 name crv.25 vertex1 pnt.16 vertex2 pnt.20
+bspline
+2,2,0
+0,0,1,1
+-100,29,0
+-5,29,0
+define_curve family PER_UPP tetra_size 1e+10 name crv.27 vertex1 pnt.20 vertex2 pnt.80
+bspline
+13,4,0
+0,0,0,0,15.067820287993
+28.18545396648,50.807989386945,82.331194481034,101.43054815569,121.45705492135
+140.9272698324,158.54317856145,173.27558393758,189.88095303734,189.88095303734
+189.88095303734,189.88095303734
+-5,29,0
+-0.21712350777515,29.610109042678,0
+10.240252462265,31.288584876273,0
+23.01182389499,17.885023403968,0
+31.221734032862,-2.5489149708898,0
+39.112869411672,-26.001324075121,0
+45.099823818238,-48.696909718681,0
+49.931798126656,-67.526406388206,0
+54.76703142047,-85.85014278964,0
+59.539232977764,-102.75381038006,0
+65.043769056517,-117.73073494492,0
+69.322378661507,-127.96201311071,0
+75,-130,0
+define_curve family PER_UPP tetra_size 1e+10 name crv.28 vertex1 pnt.80 vertex2 pnt.84
+bspline
+2,2,0
+0,0,1,1
+75,-130,0
+130,-130,0
+define_curve family OUTLET tetra_size 1e+10 name crv.29 vertex1 pnt.84 vertex2 pnt.86
+bspline
+2,2,0
+0,0,1,1
+130,-130,0
+130,-187.5,0
+define_curve family PER_LOW tetra_size 1e+10 name crv.25.0
+bspline
+2,2,0
+0,0,1,1
+-100,-28.5,0
+-5,-28.5,0
+define_curve family PER_LOW tetra_size 1e+10 name crv.27.0
+bspline
+13,4,0
+0,0,0,0,15.067820287993
+28.18545396648,50.807989386945,82.331194481034,101.43054815569,121.45705492135
+140.9272698324,158.54317856145,173.27558393758,189.88095303734,189.88095303734
+189.88095303734,189.88095303734
+-5,-28.5,0
+-0.21712350777515,-27.889890957322,0
+10.240252462265,-26.211415123727,0
+23.01182389499,-39.614976596032,0
+31.221734032862,-60.04891497089,0
+39.112869411672,-83.501324075121,0
+45.099823818238,-106.19690971868,0
+49.931798126656,-125.02640638821,0
+54.76703142047,-143.35014278964,0
+59.539232977764,-160.25381038006,0
+65.043769056517,-175.23073494492,0
+69.322378661507,-185.46201311071,0
+75,-187.5,0
+define_curve family PER_LOW tetra_size 1e+10 name crv.28.0
+bspline
+2,2,0
+0,0,1,1
+75,-187.5,0
+130,-187.5,0
+define_curve family PNTS tetra_size 1e+10 name crv.01 vertex1 pnt.80 vertex2 pnt.80.0
+bspline
+2,2,0
+0,0,1,1
+75,-130,0
+75,-187.5,0
+define_curve family PER_UPP tetra_size 1e+10 name crv.09 vertex1 pnt.27 vertex2 pnt.28
+bspline
+2,2,0
+0,0,1,1
+-14.5,29,0
+-14.5,-28.5,0
+affix 0
+periodic translational 0 -57.5 0
+define_model 1e+10 reference_size 1
+define_prism_meshing_parameters law 0 nlay 3 hratio 1.2 min_quality 0.01 fillet 0.1 tetra_smooth_limit 0.3
+return

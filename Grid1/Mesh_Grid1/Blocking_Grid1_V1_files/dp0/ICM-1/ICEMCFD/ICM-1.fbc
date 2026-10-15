@@ -1,0 +1,14 @@
+# family_boco file written by ICEM CFD by jvtco on Thu Oct 15 3:17:31 PM West-Europa (zomertijd) 2026
+## solver Ansys CFX
+"PNTS"
+"INLET"
+"BLADE.1"
+"BLADE.1" "color" 1174260
+"OUTLET"
+"PER_UPP"
+"PER_UPP" "color" 982788
+"PER_LOW"
+"PER_LOW" "color" 255
+"SOLID"
+"SOLID" "color" 3403389
+
