@@ -9,6 +9,7 @@
 // written by ICEM CFD - version 24.2 on Thu Oct 15 20:38:07 2026
 // written by ICEM CFD - version 24.2 on Thu Oct 15 21:26:44 2026
 // written by ICEM CFD - version 24.2 on Thu Oct 15 22:02:02 2026
+// written by ICEM CFD - version 24.2 on Sun Oct 18 18:48:24 2026
 
 set_triangulation_tolerance 9.9999997e-10
 define_family PNTS color 14693271
@@ -1690,6 +1691,9 @@ prescribed_point 35.476718902588 -51.578948974609 0 family BLADE.1 name pnt.37
 prescribed_point 43.358689452396 -99.644944544597 0 family PER_LOW name pnt.38
 prescribed_point 35.232342566393 -72.27324992759 0 family PER_LOW name pnt.40
 prescribed_point 46.268534089721 -53.288057535227 0 family PER_UPP name pnt.02
+prescribed_point 45.16107178 -49.01908493 0 family ORFN name pnt.03
+prescribed_point 28.74454117 -54.19791412 0 family ORFN name pnt.04
+prescribed_point 26.26249313 9.253554344 0 family ORFN name pnt.06
 define_curve family BLADE.1 tetra_size 1e+10 name crv.03
 bspline
 88,4,0

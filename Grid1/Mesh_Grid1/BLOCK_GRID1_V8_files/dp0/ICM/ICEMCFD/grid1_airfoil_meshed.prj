@@ -1,40 +1,39 @@
 # ICEM CFD Project Settings
-# Saved by jvtco on JosemariaPC on Thu Oct 15 3:17:32 PM West-Europa (zomertijd) 2026
+# Saved by jvtco on JosemariaPC on Sun Oct 18 6:48:25 PM W. Europe Daylight Time 2026
 # ICEM CFD - version 24.2 - Release date: May 30 2024
 
 array set file_name {
-    catia_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
-    parts_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
+    catia_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
+    parts_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
     domain_loaded 0
     cart_file_loaded 0
     cart_file {}
     domain_saved ICM-1.uns
     archive {}
     med_replay {}
-    topology_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
-    ugparts_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
+    topology_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
+    ugparts_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
     icons {{$env(ICEM_ACN)/lib/ai_env/icons} {$env(ICEM_ACN)/lib/va/EZCAD/icons} {$env(ICEM_ACN)/lib/icons} {$env(ICEM_ACN)/lib/va/CABIN/icons}}
     tetin ICM-1.tin
-    family_boco ICM-1.fbc
-    prism_params ICM-1.prism_params
-    iges_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
-    solver_params_loaded 1
-    attributes_loaded 1
+    family_boco {}
+    iges_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
+    solver_params_loaded 0
+    attributes_loaded 0
     project_lock {}
-    attributes ICM-1.atr
+    attributes {}
     domain ICM-1.uns
-    domains_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
+    domains_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
     settings_loaded 1
     settings ICM-1.prj
     blocking ICM-1.blk
     hexa_replay {}
-    transfer_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
-    mesh_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
+    transfer_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
+    mesh_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
     family_topo {}
-    gemsparts_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
-    family_boco_loaded 1
+    gemsparts_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
+    family_boco_loaded 0
     tetin_loaded 1
-    project_dir C:/Users/jvtco/OneDrive/Bureaublad/CFD_Group17/Grid1/Mesh_Grid1/Blocking_Grid1_V1_files/dp0/ICM-1/ICEMCFD
+    project_dir C:/temp/GRID_1_TEMP/BLOCK_GRID1_V8_files/dp0/ICM-1/ICEMCFD
     topo_mulcad_out {}
     solver_params {}
 }
@@ -152,8 +151,8 @@ array set prism_values {
     min_smoothing_steps 6
     first_layer_smoothing_steps 1
     new_volume {}
-    height 0
-    prism_height_limit 0
+    height {}
+    prism_height_limit {}
     interpolate_heights 0
     n_tetra_smoothing_steps 10
     do_checks {}
@@ -162,7 +161,7 @@ array set prism_values {
     max_aspect_ratio {}
     ratio_max {}
     incremental_write 0
-    total_height 0
+    total_height {}
     use_prism_v10 0
     intermediate_write 1
     delete_base_triangles {}
@@ -172,11 +171,11 @@ array set prism_values {
     max_size_ratio {}
     triangle_quality {}
     max_prism_angle 180
-    tetra_smooth_limit 0.30000001
+    tetra_smooth_limit 0.3
     max_jump_factor 5
     use_existing_quad_layers 0
     layers 3
-    fillet 0.1
+    fillet 0.10
     into_orphan 0
     init_dir_from_prev {}
     blayer_2d 0
@@ -185,12 +184,11 @@ array set prism_values {
     law exponential
     min_smoothing_val 0.1
     auto_reduction 0
-    max_prism_height_ratio 0
     stop_columns 1
     stair_step 1
     smoothing_steps 12
     side_family {}
-    min_prism_quality 0.0099999998
+    min_prism_quality 0.01
     ratio 1.2
 }
 set aie_current_flavor {}
@@ -243,8 +241,8 @@ array set vid_options {
     vid_mode 0
     DelBlkPerFlag 0
 }
-set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 meshNode 1 mesh_subsetNode 2 meshPointNode 0 meshShellNode 2 meshQuadNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 2 block_edgeNode 2 block_faceNode 0 block_blockNode 2 block_meshNode 0 topoNode 2 topo-root 2 partNode 2 part-BLADE.1 2 part-INLET 2 part-OUTLET 2 part-PER_LOW 2 part-PER_UPP 2 part-PNTS 2 part-SOLID 2 part-VORFN 0}
-set last_view {rot {0 0 0 1} scale {2.6950637395 2.6950637395 2.6950637395} center {23.203 -96.25 0.0} pos {-88.080602241 55.3360899347 0}}
+set savedTreeVisibility {geomNode 1 geom_subsetNode 2 geomPointNode 0 geomCurveNode 2 meshNode 1 mesh_subsetNode 2 meshPointNode 0 meshLineNode 0 meshShellNode 2 meshQuadNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 0 block_faceNode 0 block_blockNode 0 block_meshNode 0 topoNode 2 topo-root 2 partNode 2 part-BLADE.1 2 part-INLET 2 part-ORFN 2 part-OUTLET 2 part-PER_LOW 2 part-PER_UPP 2 part-PNTS 2 part-SOLID 2 part-VORFN 0}
+set last_view {rot {0 0 0 1} scale {2.44733731764 2.44733731764 2.44733731764} center {15.0 -78.85615 -1.375} pos {0 0 0}}
 array set cut_info {
     active 0
 }
@@ -279,211 +277,10 @@ array set saved_views {
 #------------- DEZ Data ------------------
 
 namespace eval ::AIEnv::GUIManagement::DEZ {
-    array set meshPrismDEZ_data {
-        this meshPrismDEZ
-        type DEZ
-        n_triangle_smoothing_steps 5
-        triangle_quality {}
-        __meshPrismTriQuality_Last_Index 0
-        n_tetra_smoothing_steps 10
-        smoothing_steps 12
-        first_layer_smoothing_steps 1
-        loadmesh 0
-    }
-    array set splitBlkDEZ_data {
-        this splitBlkDEZ
-        type DEZ
-        splitBlkVal 0
-        splitBlkBlkSelVal 0
-        markedBlock {}
-        splitBlkEdge {}
-        copy_from_parallel 0
-        project 0
-        move_ogrid_nodes 0
-        nearest_node_split 0
-        splitBlkEdgeMethodVal 0
-        splitPoint {}
-        splitPar 0.5
-        splitDist {}
-        splitCurve {}
-        splitCurvePar {}
-        around 0
-        offset 1
-        absolute 0
-        link_shape 0
-        splitExtendGGVal 0
-        splitBlkBlkSel2Val 0
-        markedBlock2 {}
-        ExtendEdge {}
-        SelectionMethodVal 1
-        splitFace {}
-        splitFaceEdge {}
-        splitVerts {}
-        sblock {}
-        iface {}
-        ImprintUnsBlkMethodVal 0
-        ImprintUnsBlkEGVal 0
-        vecImprintList {}
-        SplitUnsBlk3dFMVal 0
-        ublock {}
-        splitSheets1 {}
-        iFace {}
-        edgesProj {}
-        SplitUnsBlk3dMethodVal 0
-        SplitUnsBlk3dEGVal 0
-        split_along {}
-        SplitUnsBlk3dOutputVal 0
-        uFace1 {}
-        uFace2 {}
-        splitSheets2 {}
-        splitSheets {}
-        splitPlane {}
-    }
-    array set editBlockMenuDEZ_data {
-        this editBlockMenuDEZ
-        type DEZ
-        editBlkmainVal 3
-        joinBlockGGVal 0
-        joinBlocks {}
-        refDirEdge {}
-        joinBlockFaceFaceVal 0
-        joinFaceCorners {}
-        joinFaceBlocks {}
-        modOgridEGVal 0
-        rescaleOBlkSelVal 0
-        rescaleBlks {}
-        OEdge {}
-        absolute 0
-        distance {}
-        resetOgridEdge {}
-        periodicBlkMVal 0
-        perVerts {}
-        convBlockTypeVal 1
-        convBlocks {}
-        swept_face {}
-        merge_parallel 0
-        mapped_face {}
-        freeBlockFaceFreeTypeMappedMethodVal 0
-        vertsFree {}
-        vertsSide {}
-        sblock {}
-        sheet {}
-        ublock {}
-        meshTypeList {"Tetra-Delaunay" "Tetra-Adv.Front" "Hexa-Core" "Hexa-Dominant" "TGrid"}
-        mesh_type {}
-        __setUBlockMtype_Last_Index 0
-        sbmeshTypeList {{Tri (STL like)} {All Tri} {All Quad} {Quad Dominant} {Quad w/one Tri}}
-        sbmesh_type {Quad w/one Tri}
-        __setSBlockMtype_Last_Index 0
-        sblock_faces {}
-        editBlockIJKHowVal 0
-        blocks {}
-        vert {}
-        transferBlocks {}
-    }
-    array set editProjDEZ_data {
-        this editProjDEZ
-        type DEZ
-        editAssocEGVal 1
-        assocVertEGVal 1
-        verts {}
-        part_name {}
-        point {}
-        curves {}
-        assocEdgeMethodVal 0
-        edges {}
-        update 0
-        intersection 0
-        curve_intersection 0
-        curve_refmesh 0
-        projFacBlkseVal 2
-        faces {}
-        solids {}
-        projFaceSharedGGVal 0
-        surface {}
-        face_surface {}
-        unsetAssocFaceKeepMeshVal 0
-        FaceKeepMeshEGVal 0
-        updateVert 0
-        updateEdge 0
-        updateFace 0
-        updateDormant 0
-        updateAssocBlockGGVal 0
-        update_method parametric
-        resetVert 0
-        v_reset_method all
-        resetEdge 0
-        e_reset_method all
-        resetFace 0
-        f_reset_method all
-        projVUpdateGGVal 0
-        projVerts {}
-        move_ogrid 0
-        groupEGVal 0
-        groupTypeVal 0
-        groupCurvesList {}
-        tangential_angle 10.0
-        auto_proj 0
-    }
-    array set moveBVertexDEZ_data {
-        this moveBVertexDEZ
-        type DEZ
-        moveBVertexmainVal 0
-        MoveVertexOptions {Single Multiple}
-        MVHow Single
-        __MVtype_Last_Index 0
-        moveVerts {}
-        mv_fixx 0
-        mv_fixy 0
-        mv_fixz 0
-        moveVertsDirGGVal 0
-        dirEdge {}
-        mv_normal 0
-        mv_depend 0
-        SetPostitionOptions {"Set Position" "Increment Position"}
-        SLHow {Set Position}
-        __SLtype_Last_Index 0
-        refLocTypeVal 0
-        ref_vertex {}
-        ref_point {}
-        SetLocCsysVal 0
-        SetLocBVertexXVal 0
-        X {}
-        SetLocBVertexYVal 0
-        Y {}
-        SetLocBVertexZVal 0
-        Z {}
-        SetLocBVertexNVal 0
-        Normal {}
-        SetLocCylRVal 0
-        SetLocCylTVal 0
-        SetLocCylZVal 0
-        vertices {}
-        edge {}
-        vertex {}
-        AlignVertCsysVal 0
-        AlignVertexGGVal 0
-        AlignVertexPlaneMethod 1
-        Plane {}
-        AlignVertCylParVal 0
-        alignDir {}
-        vertList {}
-        edgeList {}
-        length {}
-        edgeLenGGVal 0
-        moveFacesEGVal 0
-        faceList {}
-        moveFaceGGVal 0
-        vector {}
-        vecList {}
-        center {}
-        angle {}
-        moveVertsGGVal 0
-    }
     array set editEdgeMenuDEZ_data {
         this editEdgeMenuDEZ
         type DEZ
-        editEdgemainVal 2
+        editEdgemainVal 0
         editEdgeSplitEdgeHowVal 0
         edgeSplits {}
         AutoedgeSplits {}
@@ -512,6 +309,76 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         edgeUnLink {}
         editEdgeOptionsEdgeVal 0
         edgesSplitType {}
+    }
+    array set mParamsDEZ_data {
+        this mParamsDEZ
+        type DEZ
+        blockParamVal 2
+        blockParamSelVal 0
+        reset_edge_bunch 0
+        check_blck 0
+        factor 1
+        scale_spacings 0
+        edge {52 47 -1}
+        length 60.2547
+        n 76
+        eparamMeshLawVal 18
+        curves {}
+        h1 0.187426
+        h1act 0.798196
+        link_sp1 0
+        r1 2
+        r1act 1
+        h2 0.187426
+        h2act 0.798196
+        link_sp2 0
+        r2 2
+        r2act 1
+        lmax 0
+        lmaxact 0.798196
+        eparam_rel 0
+        lockNodes 0
+        lockParams 0
+        copyFlag 1
+        eparamCopyVal 2
+        copyEdge {}
+        absolute 0
+        linkFlag 0
+        linkEdge {}
+        hlDependent 0
+        hlAttached 0
+        hlMaster 0
+        matchEdgeVal 0
+        ref_edge {}
+        target_edges {}
+        link_edge 0
+        verts {}
+        SpacingTypes {Minimum Maximum Average}
+        spacing Minimum
+        __matchEdgeAutoSpacing_Last_Index 0
+        matchEdgesDimGGVal 0
+        refEdges {}
+        ref_edge2 {}
+        edgeParamsCopyTo2Val 0
+        to_edge {}
+        copy_no_nodes 0
+        copy_absolute 0
+        blocks {}
+        edgeRefDimGGVal 0
+        ref_dim {}
+    }
+    array set hexQualityDEZ_data {
+        this hexQualityDEZ
+        type DEZ
+        qualityDDList {Angle {Aspect ratio} {Custom quality} {Determinant 2x2x2} {Determinant 3x3x3} Distortion {Eriksson Skewness} Ford {Max angle} {Max length} {Max ortho} {Max ortho 4.3v} {Max ratio} {Max side} {Max warp} {Max warp 4.3v} {Mid node} {Mid node Angle} {Min angle} {Min ortho} {Min side} Quality Taper Volume Warpage {X size} {Y size} {Z size}}
+        qualitydde Volume
+        __hexQualityDDE_Last_Index 23
+        minv 0
+        maxv 20
+        ylim 20
+        nbars 20
+        onlyVisible 0
+        activePartsOnly 0
     }
     array set hexMeshOptsDEZ_data {
         this hexMeshOptsDEZ

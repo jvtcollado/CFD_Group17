@@ -1,8 +1,5 @@
-﻿dp0/ICM-1/ICEMCFD/ICM-1.atr
-dp0/ICM-1/ICEMCFD/ICM-1.blk
-dp0/ICM-1/ICEMCFD/ICM-1.fbc
+﻿dp0/ICM-1/ICEMCFD/ICM-1.blk
 dp0/ICM-1/ICEMCFD/ICM-1.prj
-dp0/ICM-1/ICEMCFD/ICM-1.rpl
 dp0/ICM-1/ICEMCFD/ICM-1.tin
 dp0/ICM-1/ICEMCFD/ICM-1.uns
 dp0/act.dat
@@ -11,7 +8,9 @@ session_files/journal1.wbjn
 dp0/
 dpall/
 session_files/
+dp0/ICM/
 dp0/ICM-1/
+dp0/ICM/ICEMCFD-abouttodelete-89be2465-e5d6-4bb1-b4c6-2fbb678f79b4/
 dp0/ICM-1/ICEMCFD/
 dpall/global/
 dpall/global/ACT/

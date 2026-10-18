@@ -1,7 +1,0 @@
-# Replay file ICEM CFD 2024 R2 in Workbench 2.0 Framework
-# unloading mesh
-ic_unload_mesh
-# unloading blocking
-ic_hex_unload_blocking
-# delete empty parts
-ic_delete_empty_parts
