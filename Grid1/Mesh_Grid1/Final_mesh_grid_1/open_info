@@ -1,0 +1,2 @@
+he .prj stores absolute folder paths. better to load the files manually in this order: Open Geometry (.tin) → Open Blocking (.blk) → Open Mesh (.uns)
+copy locally and edit there to safe keep files

@@ -1,0 +1,51 @@
+# Written by ICEM CFD 24.2, user helen, Mon Oct 19 20:36:52 W. Europe Summer Time 2026
+
+begin family PNTS
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family PNTS
+
+begin family INLET
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family INLET
+
+begin family BLADE.1
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family BLADE.1
+
+begin family OUTLET
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family OUTLET
+
+begin family PER_UPP
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family PER_UPP
+
+begin family PER_LOW
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family PER_LOW
+
+begin family SOLID
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family SOLID
+
+begin family POINTS
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family POINTS
+
+begin family INLET_END
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family INLET_END
+
+begin family OUTLET_END
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family OUTLET_END
