@@ -1,4 +1,4 @@
-# Written by ICEM CFD 24.2, user helen, Mon Oct 19 20:36:52 W. Europe Summer Time 2026
+# Written by ICEM CFD 24.2, user helen, Wed Oct 21 13:53:18 W. Europe Summer Time 2026
 
 begin family PNTS
     begin solver "Ansys CFX"
@@ -49,3 +49,26 @@ begin family OUTLET_END
     begin solver "Ansys CFX"
     end solver "Ansys CFX"
 end family OUTLET_END
+
+begin family FLUID
+    begin solver "Ansys CFX"
+        begin bctype color
+            active 1
+            color 12109100 1
+        end bctype color
+    end solver "Ansys CFX"
+end family FLUID
+
+begin family SYMM2
+    begin solver "Ansys CFX"
+        begin bctype color
+            active 1
+            color 16593700 1
+        end bctype color
+    end solver "Ansys CFX"
+end family SYMM2
+
+begin family SYMM1
+    begin solver "Ansys CFX"
+    end solver "Ansys CFX"
+end family SYMM1

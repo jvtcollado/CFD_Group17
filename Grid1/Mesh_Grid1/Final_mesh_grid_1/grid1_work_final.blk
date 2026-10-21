@@ -1,5 +1,5 @@
 # blocking file written by ICEM CFD - version 24.2
-# written on Mon Oct 19 20:36:52 2026
+# written on Wed Oct 21 13:53:18 2026
 
 MATERIALS
 {
@@ -19,6 +19,9 @@ SOLID 1
 POINTS 1
 INLET_END 1
 OUTLET_END 1
+FLUID 1
+SYMM2 1
+SYMM1 1
 }
 SHARED_WALLS
 {

@@ -12,7 +12,8 @@
 // written by ICEM CFD - version 24.2 on Sun Oct 18 18:48:24 2026
 // written by ICEM CFD - version 24.2 on Mon Oct 19 17:44:15 2026
 // written by ICEM CFD - version 24.2 on Mon Oct 19 18:30:59 2026
-// written by ICEM CFD - version 24.2 on Mon Oct 19 20:36:52 2026
+// written by ICEM CFD - version 24.2 on Mon Oct 19 20:42:59 2026
+// written by ICEM CFD - version 24.2 on Wed Oct 21 13:53:17 2026
 
 set_triangulation_tolerance 9.9999997e-10
 define_family PNTS color 14693271
@@ -25,6 +26,9 @@ define_family SOLID color 3403389
 define_family POINTS color 11194675
 define_family INLET_END color 3391423
 define_family OUTLET_END color 8729578
+define_family FLUID color 12109107
+define_family SYMM2 color 16593744
+define_family SYMM1 color 9581539
 
 prescribed_point 36.97708138 -51.59547631 0 family PNTS name pnt0
 prescribed_point 36.97676343 -51.63123452 0 family PNTS name pnt1
