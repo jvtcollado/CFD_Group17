@@ -1,0 +1,18 @@
+# family_boco file written by ICEM CFD by helen on Fri Oct 30 12:39:38 W. Europe Standard Time 2026
+## solver Ansys CFX
+"PNTS"
+"INLET"
+"BLADE.1"
+"OUTLET"
+"PER_UPP"
+"PER_LOW"
+"SOLID"
+"POINTS"
+"INLET_END"
+"OUTLET_END"
+"FLUID"
+"FLUID" "color" 12109100
+"SYMM2"
+"SYMM2" "color" 16593700
+"SYMM1"
+
