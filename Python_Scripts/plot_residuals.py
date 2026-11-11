@@ -1,8 +1,8 @@
 import os
 import matplotlib.pyplot as plt
 
-folder = r"C:\Users\helen\Downloads\TU_DELFT\MSc_FPP\Q1\CFD\Assignment\cfd_repo\CFD_Group17\Grid2\RES_Grid2"
-filename = os.path.join(folder, "grid2_try3_001.out")
+folder = r"C:\Users\helen\Downloads\TU_DELFT\MSc_FPP\Q1\CFD\Assignment\cfd_repo\CFD_Group17\Grid2\ANISOTRPIC_TURB_Grid2"
+filename = os.path.join(folder, "grid2_anisotropic_001.out")
 
 equations = ["U-Mom", "V-Mom", "P-Mass", "H-Energy", "Eddy Viscosity"]
 res = {eq: [] for eq in equations}
